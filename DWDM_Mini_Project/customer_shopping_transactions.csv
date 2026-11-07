@@ -1,0 +1,2405 @@
+transaction_id,customer_id,transaction_date,age_group,gender,city,product,category,quantity,unit_price,payment_method,discount_applied
+T0001,C007,2025-11-01,50+,Male,Hubballi,Onion,Vegetables,2,35,Cash,Yes
+T0001,C007,2025-11-01,50+,Male,Hubballi,Eggs,Dairy,1,70,Cash,Yes
+T0001,C007,2025-11-01,50+,Male,Hubballi,Bread,Bakery,3,40,Cash,Yes
+T0001,C007,2025-11-01,50+,Male,Hubballi,Potato,Vegetables,1,28,Cash,Yes
+T0002,C075,2025-05-16,18-25,Male,Hubballi,Sugar,Grocery,3,45,UPI,Yes
+T0002,C075,2025-05-16,18-25,Male,Hubballi,Butter,Dairy,3,55,UPI,Yes
+T0002,C075,2025-05-16,18-25,Male,Hubballi,Milk,Dairy,2,30,UPI,Yes
+T0002,C075,2025-05-16,18-25,Male,Hubballi,Onion,Vegetables,2,35,UPI,Yes
+T0002,C075,2025-05-16,18-25,Male,Hubballi,Potato,Vegetables,2,28,UPI,Yes
+T0002,C075,2025-05-16,18-25,Male,Hubballi,Tomato,Vegetables,1,30,UPI,Yes
+T0003,C002,2025-05-06,26-35,Male,Raichur,Butter,Dairy,1,55,UPI,No
+T0003,C002,2025-05-06,26-35,Male,Raichur,Cooking Oil,Grocery,2,140,UPI,No
+T0003,C002,2025-05-06,26-35,Male,Raichur,Dal,Grocery,3,95,UPI,No
+T0004,C039,2025-02-24,36-50,Female,Raichur,Butter,Dairy,2,55,Card,Yes
+T0004,C039,2025-02-24,36-50,Female,Raichur,Milk,Dairy,2,30,Card,Yes
+T0004,C039,2025-02-24,36-50,Female,Raichur,Chips,Snacks,3,25,Card,Yes
+T0004,C039,2025-02-24,36-50,Female,Raichur,Bread,Bakery,1,40,Card,Yes
+T0005,C044,2025-02-17,36-50,Female,Ballari,Onion,Vegetables,2,35,Card,No
+T0005,C044,2025-02-17,36-50,Female,Ballari,Potato,Vegetables,1,28,Card,No
+T0005,C044,2025-02-17,36-50,Female,Ballari,Tomato,Vegetables,1,30,Card,No
+T0006,C043,2025-02-08,26-35,Male,Kalaburagi,Eggs,Dairy,3,70,Card,Yes
+T0006,C043,2025-02-08,26-35,Male,Kalaburagi,Onion,Vegetables,1,35,Card,Yes
+T0006,C043,2025-02-08,26-35,Male,Kalaburagi,Potato,Vegetables,2,28,Card,Yes
+T0006,C043,2025-02-08,26-35,Male,Kalaburagi,Bread,Bakery,3,40,Card,Yes
+T0006,C043,2025-02-08,26-35,Male,Kalaburagi,Tomato,Vegetables,3,30,Card,Yes
+T0007,C019,2025-07-03,36-50,Female,Bengaluru,Toothpaste,Personal Care,3,60,Cash,Yes
+T0007,C019,2025-07-03,36-50,Female,Bengaluru,Soap,Personal Care,1,35,Cash,Yes
+T0008,C046,2025-04-02,26-35,Male,Raichur,Sugar,Grocery,2,45,Card,No
+T0008,C046,2025-04-02,26-35,Male,Raichur,Coffee,Beverages,3,180,Card,No
+T0008,C046,2025-04-02,26-35,Male,Raichur,Milk,Dairy,3,30,Card,No
+T0008,C046,2025-04-02,26-35,Male,Raichur,Onion,Vegetables,1,35,Card,No
+T0008,C046,2025-04-02,26-35,Male,Raichur,Potato,Vegetables,2,28,Card,No
+T0008,C046,2025-04-02,26-35,Male,Raichur,Bread,Bakery,1,40,Card,No
+T0008,C046,2025-04-02,26-35,Male,Raichur,Tomato,Vegetables,3,30,Card,No
+T0009,C014,2025-06-06,18-25,Female,Ballari,Butter,Dairy,1,55,Cash,Yes
+T0009,C014,2025-06-06,18-25,Female,Ballari,Milk,Dairy,3,30,Cash,Yes
+T0009,C014,2025-06-06,18-25,Female,Ballari,Bread,Bakery,1,40,Cash,Yes
+T0009,C014,2025-06-06,18-25,Female,Ballari,Biscuits,Snacks,2,20,Cash,Yes
+T0010,C043,2025-06-19,26-35,Male,Kalaburagi,Cooking Oil,Grocery,2,140,Cash,Yes
+T0010,C043,2025-06-19,26-35,Male,Kalaburagi,Dal,Grocery,1,95,Cash,Yes
+T0010,C043,2025-06-19,26-35,Male,Kalaburagi,Rice,Grocery,3,60,Cash,Yes
+T0010,C043,2025-06-19,26-35,Male,Kalaburagi,Tomato,Vegetables,2,30,Cash,Yes
+T0011,C005,2025-10-23,18-25,Male,Raichur,Eggs,Dairy,1,70,Cash,No
+T0011,C005,2025-10-23,18-25,Male,Raichur,Sugar,Grocery,3,45,Cash,No
+T0011,C005,2025-10-23,18-25,Male,Raichur,Coffee,Beverages,2,180,Cash,No
+T0011,C005,2025-10-23,18-25,Male,Raichur,Milk,Dairy,1,30,Cash,No
+T0011,C005,2025-10-23,18-25,Male,Raichur,Chips,Snacks,3,25,Cash,No
+T0012,C069,2025-06-08,26-35,Female,Hubballi,Sugar,Grocery,2,45,Card,No
+T0012,C069,2025-06-08,26-35,Female,Hubballi,Biscuits,Snacks,2,20,Card,No
+T0012,C069,2025-06-08,26-35,Female,Hubballi,Tea,Beverages,3,120,Card,No
+T0012,C069,2025-06-08,26-35,Female,Hubballi,Shampoo,Personal Care,2,90,Card,No
+T0012,C069,2025-06-08,26-35,Female,Hubballi,Soap,Personal Care,3,35,Card,No
+T0012,C069,2025-06-08,26-35,Female,Hubballi,Detergent,Household,1,110,Card,No
+T0013,C025,2025-10-08,26-35,Male,Bengaluru,Coffee,Beverages,2,180,Cash,No
+T0013,C025,2025-10-08,26-35,Male,Bengaluru,Milk,Dairy,1,30,Cash,No
+T0013,C025,2025-10-08,26-35,Male,Bengaluru,Chips,Snacks,2,25,Cash,No
+T0013,C025,2025-10-08,26-35,Male,Bengaluru,Sugar,Grocery,3,45,Cash,No
+T0014,C078,2025-05-26,50+,Male,Raichur,Sugar,Grocery,1,45,Card,No
+T0014,C078,2025-05-26,50+,Male,Raichur,Biscuits,Snacks,1,20,Card,No
+T0014,C078,2025-05-26,50+,Male,Raichur,Tea,Beverages,3,120,Card,No
+T0014,C078,2025-05-26,50+,Male,Raichur,Cooking Oil,Grocery,2,140,Card,No
+T0014,C078,2025-05-26,50+,Male,Raichur,Butter,Dairy,1,55,Card,No
+T0014,C078,2025-05-26,50+,Male,Raichur,Chips,Snacks,1,25,Card,No
+T0014,C078,2025-05-26,50+,Male,Raichur,Juice,Beverages,1,85,Card,No
+T0015,C004,2025-11-19,50+,Male,Ballari,Tea,Beverages,3,120,Card,Yes
+T0015,C004,2025-11-19,50+,Male,Ballari,Sugar,Grocery,3,45,Card,Yes
+T0015,C004,2025-11-19,50+,Male,Ballari,Soap,Personal Care,2,35,Card,Yes
+T0015,C004,2025-11-19,50+,Male,Ballari,Biscuits,Snacks,2,20,Card,Yes
+T0016,C052,2025-08-06,36-50,Female,Kalaburagi,Toothpaste,Personal Care,3,60,Cash,Yes
+T0016,C052,2025-08-06,36-50,Female,Kalaburagi,Shampoo,Personal Care,3,90,Cash,Yes
+T0017,C060,2025-10-14,26-35,Male,Kalaburagi,Tea,Beverages,2,120,Card,No
+T0017,C060,2025-10-14,26-35,Male,Kalaburagi,Detergent,Household,3,110,Card,No
+T0018,C065,2025-05-13,18-25,Male,Ballari,Shampoo,Personal Care,3,90,Cash,No
+T0018,C065,2025-05-13,18-25,Male,Ballari,Eggs,Dairy,2,70,Cash,No
+T0018,C065,2025-05-13,18-25,Male,Ballari,Bread,Bakery,3,40,Cash,No
+T0019,C031,2025-06-13,50+,Female,Bengaluru,Bread,Bakery,1,40,Card,Yes
+T0019,C031,2025-06-13,50+,Female,Bengaluru,Juice,Beverages,1,85,Card,Yes
+T0020,C030,2025-02-01,26-35,Female,Kalaburagi,Toothpaste,Personal Care,2,60,Cash,No
+T0020,C030,2025-02-01,26-35,Female,Kalaburagi,Shampoo,Personal Care,3,90,Cash,No
+T0020,C030,2025-02-01,26-35,Female,Kalaburagi,Soap,Personal Care,3,35,Cash,No
+T0021,C003,2025-09-07,18-25,Male,Kalaburagi,Sugar,Grocery,2,45,Cash,No
+T0021,C003,2025-09-07,18-25,Male,Kalaburagi,Biscuits,Snacks,2,20,Cash,No
+T0021,C003,2025-09-07,18-25,Male,Kalaburagi,Tea,Beverages,1,120,Cash,No
+T0021,C003,2025-09-07,18-25,Male,Kalaburagi,Milk,Dairy,2,30,Cash,No
+T0021,C003,2025-09-07,18-25,Male,Kalaburagi,Tomato,Vegetables,2,30,Cash,No
+T0022,C052,2025-02-12,36-50,Female,Kalaburagi,Milk,Dairy,1,30,Card,No
+T0022,C052,2025-02-12,36-50,Female,Kalaburagi,Toothpaste,Personal Care,2,60,Card,No
+T0022,C052,2025-02-12,36-50,Female,Kalaburagi,Shampoo,Personal Care,1,90,Card,No
+T0022,C052,2025-02-12,36-50,Female,Kalaburagi,Sugar,Grocery,1,45,Card,No
+T0023,C034,2025-08-04,18-25,Male,Raichur,Tea,Beverages,2,120,UPI,Yes
+T0023,C034,2025-08-04,18-25,Male,Raichur,Chips,Snacks,1,25,UPI,Yes
+T0023,C034,2025-08-04,18-25,Male,Raichur,Juice,Beverages,3,85,UPI,Yes
+T0024,C070,2025-05-07,26-35,Male,Hubballi,Milk,Dairy,3,30,Cash,Yes
+T0024,C070,2025-05-07,26-35,Male,Hubballi,Chips,Snacks,1,25,Cash,Yes
+T0024,C070,2025-05-07,26-35,Male,Hubballi,Bread,Bakery,1,40,Cash,Yes
+T0025,C017,2025-11-07,26-35,Female,Ballari,Cooking Oil,Grocery,1,140,Card,Yes
+T0025,C017,2025-11-07,26-35,Female,Ballari,Dal,Grocery,2,95,Card,Yes
+T0025,C017,2025-11-07,26-35,Female,Ballari,Rice,Grocery,1,60,Card,Yes
+T0026,C075,2025-10-31,18-25,Male,Hubballi,Dal,Grocery,1,95,Card,Yes
+T0026,C075,2025-10-31,18-25,Male,Hubballi,Butter,Dairy,3,55,Card,Yes
+T0026,C075,2025-10-31,18-25,Male,Hubballi,Onion,Vegetables,2,35,Card,Yes
+T0026,C075,2025-10-31,18-25,Male,Hubballi,Potato,Vegetables,3,28,Card,Yes
+T0026,C075,2025-10-31,18-25,Male,Hubballi,Tomato,Vegetables,3,30,Card,Yes
+T0027,C016,2025-08-10,26-35,Male,Ballari,Eggs,Dairy,3,70,UPI,No
+T0027,C016,2025-08-10,26-35,Male,Ballari,Milk,Dairy,1,30,UPI,No
+T0027,C016,2025-08-10,26-35,Male,Ballari,Toothpaste,Personal Care,2,60,UPI,No
+T0027,C016,2025-08-10,26-35,Male,Ballari,Shampoo,Personal Care,1,90,UPI,No
+T0027,C016,2025-08-10,26-35,Male,Ballari,Bread,Bakery,3,40,UPI,No
+T0028,C067,2025-05-06,26-35,Male,Raichur,Eggs,Dairy,2,70,Cash,No
+T0028,C067,2025-05-06,26-35,Male,Raichur,Juice,Beverages,1,85,Cash,No
+T0028,C067,2025-05-06,26-35,Male,Raichur,Onion,Vegetables,2,35,Cash,No
+T0028,C067,2025-05-06,26-35,Male,Raichur,Potato,Vegetables,3,28,Cash,No
+T0028,C067,2025-05-06,26-35,Male,Raichur,Bread,Bakery,3,40,Cash,No
+T0028,C067,2025-05-06,26-35,Male,Raichur,Tomato,Vegetables,3,30,Cash,No
+T0029,C049,2025-06-24,50+,Male,Bengaluru,Butter,Dairy,3,55,UPI,No
+T0029,C049,2025-06-24,50+,Male,Bengaluru,Milk,Dairy,1,30,UPI,No
+T0029,C049,2025-06-24,50+,Male,Bengaluru,Bread,Bakery,3,40,UPI,No
+T0029,C049,2025-06-24,50+,Male,Bengaluru,Tea,Beverages,1,120,UPI,No
+T0030,C011,2025-01-09,18-25,Male,Hubballi,Sugar,Grocery,1,45,Cash,No
+T0030,C011,2025-01-09,18-25,Male,Hubballi,Coffee,Beverages,2,180,Cash,No
+T0030,C011,2025-01-09,18-25,Male,Hubballi,Milk,Dairy,3,30,Cash,No
+T0030,C011,2025-01-09,18-25,Male,Hubballi,Toothpaste,Personal Care,1,60,Cash,No
+T0030,C011,2025-01-09,18-25,Male,Hubballi,Shampoo,Personal Care,2,90,Cash,No
+T0031,C075,2025-06-30,18-25,Male,Hubballi,Tomato,Vegetables,2,30,Card,No
+T0031,C075,2025-06-30,18-25,Male,Hubballi,Eggs,Dairy,2,70,Card,No
+T0031,C075,2025-06-30,18-25,Male,Hubballi,Bread,Bakery,2,40,Card,No
+T0031,C075,2025-06-30,18-25,Male,Hubballi,Juice,Beverages,1,85,Card,No
+T0032,C016,2025-11-02,26-35,Male,Ballari,Onion,Vegetables,1,35,UPI,Yes
+T0032,C016,2025-11-02,26-35,Male,Ballari,Sugar,Grocery,2,45,UPI,Yes
+T0032,C016,2025-11-02,26-35,Male,Ballari,Biscuits,Snacks,1,20,UPI,Yes
+T0032,C016,2025-11-02,26-35,Male,Ballari,Toothpaste,Personal Care,2,60,UPI,Yes
+T0032,C016,2025-11-02,26-35,Male,Ballari,Shampoo,Personal Care,1,90,UPI,Yes
+T0032,C016,2025-11-02,26-35,Male,Ballari,Soap,Personal Care,2,35,UPI,Yes
+T0032,C016,2025-11-02,26-35,Male,Ballari,Detergent,Household,1,110,UPI,Yes
+T0033,C069,2025-11-23,26-35,Female,Hubballi,Potato,Vegetables,1,28,UPI,Yes
+T0034,C074,2025-05-10,50+,Male,Hubballi,Eggs,Dairy,1,70,UPI,Yes
+T0034,C074,2025-05-10,50+,Male,Hubballi,Bread,Bakery,2,40,UPI,Yes
+T0035,C063,2025-05-08,18-25,Female,Bengaluru,Butter,Dairy,3,55,Cash,No
+T0035,C063,2025-05-08,18-25,Female,Bengaluru,Milk,Dairy,3,30,Cash,No
+T0035,C063,2025-05-08,18-25,Female,Bengaluru,Bread,Bakery,3,40,Cash,No
+T0036,C029,2025-11-17,26-35,Female,Raichur,Eggs,Dairy,3,70,Cash,No
+T0036,C029,2025-11-17,26-35,Female,Raichur,Sugar,Grocery,1,45,Cash,No
+T0036,C029,2025-11-17,26-35,Female,Raichur,Dal,Grocery,1,95,Cash,No
+T0036,C029,2025-11-17,26-35,Female,Raichur,Coffee,Beverages,1,180,Cash,No
+T0036,C029,2025-11-17,26-35,Female,Raichur,Milk,Dairy,1,30,Cash,No
+T0036,C029,2025-11-17,26-35,Female,Raichur,Tea,Beverages,3,120,Cash,No
+T0037,C010,2025-04-29,26-35,Male,Bengaluru,Butter,Dairy,3,55,UPI,No
+T0037,C010,2025-04-29,26-35,Male,Bengaluru,Milk,Dairy,2,30,UPI,No
+T0037,C010,2025-04-29,26-35,Male,Bengaluru,Bread,Bakery,1,40,UPI,No
+T0038,C030,2025-02-06,26-35,Female,Kalaburagi,Tea,Beverages,2,120,Cash,Yes
+T0038,C030,2025-02-06,26-35,Female,Kalaburagi,Sugar,Grocery,3,45,Cash,Yes
+T0038,C030,2025-02-06,26-35,Female,Kalaburagi,Rice,Grocery,3,60,Cash,Yes
+T0038,C030,2025-02-06,26-35,Female,Kalaburagi,Biscuits,Snacks,3,20,Cash,Yes
+T0039,C037,2025-10-04,36-50,Male,Ballari,Cooking Oil,Grocery,1,140,UPI,No
+T0039,C037,2025-10-04,36-50,Male,Ballari,Dal,Grocery,3,95,UPI,No
+T0039,C037,2025-10-04,36-50,Male,Ballari,Rice,Grocery,1,60,UPI,No
+T0039,C037,2025-10-04,36-50,Male,Ballari,Detergent,Household,2,110,UPI,No
+T0040,C042,2025-01-21,26-35,Male,Bengaluru,Tea,Beverages,3,120,Cash,No
+T0040,C042,2025-01-21,26-35,Male,Bengaluru,Butter,Dairy,3,55,Cash,No
+T0040,C042,2025-01-21,26-35,Male,Bengaluru,Milk,Dairy,2,30,Cash,No
+T0040,C042,2025-01-21,26-35,Male,Bengaluru,Onion,Vegetables,2,35,Cash,No
+T0040,C042,2025-01-21,26-35,Male,Bengaluru,Potato,Vegetables,1,28,Cash,No
+T0040,C042,2025-01-21,26-35,Male,Bengaluru,Bread,Bakery,3,40,Cash,No
+T0041,C056,2025-05-28,26-35,Male,Ballari,Butter,Dairy,3,55,Card,No
+T0041,C056,2025-05-28,26-35,Male,Ballari,Toothpaste,Personal Care,1,60,Card,No
+T0041,C056,2025-05-28,26-35,Male,Ballari,Eggs,Dairy,2,70,Card,No
+T0041,C056,2025-05-28,26-35,Male,Ballari,Bread,Bakery,1,40,Card,No
+T0042,C041,2025-08-25,26-35,Male,Bengaluru,Tomato,Vegetables,1,30,UPI,Yes
+T0042,C041,2025-08-25,26-35,Male,Bengaluru,Bread,Bakery,3,40,UPI,Yes
+T0042,C041,2025-08-25,26-35,Male,Bengaluru,Juice,Beverages,2,85,UPI,Yes
+T0043,C080,2025-08-13,18-25,Female,Ballari,Coffee,Beverages,1,180,Card,No
+T0043,C080,2025-08-13,18-25,Female,Ballari,Eggs,Dairy,1,70,Card,No
+T0043,C080,2025-08-13,18-25,Female,Ballari,Bread,Bakery,3,40,Card,No
+T0043,C080,2025-08-13,18-25,Female,Ballari,Rice,Grocery,3,60,Card,No
+T0044,C031,2025-11-28,50+,Female,Bengaluru,Eggs,Dairy,3,70,Cash,No
+T0044,C031,2025-11-28,50+,Female,Bengaluru,Shampoo,Personal Care,2,90,Cash,No
+T0044,C031,2025-11-28,50+,Female,Bengaluru,Soap,Personal Care,3,35,Cash,No
+T0044,C031,2025-11-28,50+,Female,Bengaluru,Bread,Bakery,3,40,Cash,No
+T0045,C035,2025-04-08,50+,Male,Hubballi,Rice,Grocery,1,60,Card,Yes
+T0045,C035,2025-04-08,50+,Male,Hubballi,Eggs,Dairy,2,70,Card,Yes
+T0045,C035,2025-04-08,50+,Male,Hubballi,Bread,Bakery,2,40,Card,Yes
+T0045,C035,2025-04-08,50+,Male,Hubballi,Chips,Snacks,2,25,Card,Yes
+T0046,C065,2025-08-17,18-25,Male,Ballari,Rice,Grocery,2,60,Card,No
+T0046,C065,2025-08-17,18-25,Male,Ballari,Butter,Dairy,2,55,Card,No
+T0046,C065,2025-08-17,18-25,Male,Ballari,Milk,Dairy,3,30,Card,No
+T0046,C065,2025-08-17,18-25,Male,Ballari,Toothpaste,Personal Care,3,60,Card,No
+T0046,C065,2025-08-17,18-25,Male,Ballari,Bread,Bakery,2,40,Card,No
+T0047,C059,2025-06-12,26-35,Female,Hubballi,Tea,Beverages,3,120,Card,No
+T0047,C059,2025-06-12,26-35,Female,Hubballi,Milk,Dairy,2,30,Card,No
+T0047,C059,2025-06-12,26-35,Female,Hubballi,Sugar,Grocery,2,45,Card,No
+T0047,C059,2025-06-12,26-35,Female,Hubballi,Biscuits,Snacks,3,20,Card,No
+T0048,C020,2025-08-14,26-35,Female,Bengaluru,Butter,Dairy,1,55,Cash,No
+T0048,C020,2025-08-14,26-35,Female,Bengaluru,Milk,Dairy,3,30,Cash,No
+T0049,C019,2025-06-18,36-50,Female,Bengaluru,Butter,Dairy,2,55,Card,No
+T0049,C019,2025-06-18,36-50,Female,Bengaluru,Toothpaste,Personal Care,3,60,Card,No
+T0049,C019,2025-06-18,36-50,Female,Bengaluru,Chips,Snacks,3,25,Card,No
+T0049,C019,2025-06-18,36-50,Female,Bengaluru,Soap,Personal Care,2,35,Card,No
+T0050,C070,2025-02-16,26-35,Male,Hubballi,Cooking Oil,Grocery,3,140,UPI,Yes
+T0050,C070,2025-02-16,26-35,Male,Hubballi,Dal,Grocery,3,95,UPI,Yes
+T0050,C070,2025-02-16,26-35,Male,Hubballi,Rice,Grocery,1,60,UPI,Yes
+T0051,C057,2025-07-11,18-25,Male,Ballari,Potato,Vegetables,1,28,UPI,Yes
+T0051,C057,2025-07-11,18-25,Male,Ballari,Biscuits,Snacks,3,20,UPI,Yes
+T0051,C057,2025-07-11,18-25,Male,Ballari,Tomato,Vegetables,2,30,UPI,Yes
+T0052,C073,2025-08-25,26-35,Female,Hubballi,Dal,Grocery,2,95,Card,No
+T0052,C073,2025-08-25,26-35,Female,Hubballi,Rice,Grocery,2,60,Card,No
+T0052,C073,2025-08-25,26-35,Female,Hubballi,Cooking Oil,Grocery,3,140,Card,No
+T0052,C073,2025-08-25,26-35,Female,Hubballi,Toothpaste,Personal Care,1,60,Card,No
+T0052,C073,2025-08-25,26-35,Female,Hubballi,Shampoo,Personal Care,2,90,Card,No
+T0052,C073,2025-08-25,26-35,Female,Hubballi,Soap,Personal Care,2,35,Card,No
+T0053,C070,2025-08-22,26-35,Male,Hubballi,Dal,Grocery,2,95,UPI,Yes
+T0053,C070,2025-08-22,26-35,Male,Hubballi,Rice,Grocery,2,60,UPI,Yes
+T0053,C070,2025-08-22,26-35,Male,Hubballi,Tea,Beverages,1,120,UPI,Yes
+T0053,C070,2025-08-22,26-35,Male,Hubballi,Cooking Oil,Grocery,1,140,UPI,Yes
+T0053,C070,2025-08-22,26-35,Male,Hubballi,Soap,Personal Care,2,35,UPI,Yes
+T0054,C074,2025-01-05,50+,Male,Hubballi,Tea,Beverages,3,120,Card,Yes
+T0054,C074,2025-01-05,50+,Male,Hubballi,Onion,Vegetables,3,35,Card,Yes
+T0054,C074,2025-01-05,50+,Male,Hubballi,Chips,Snacks,2,25,Card,Yes
+T0054,C074,2025-01-05,50+,Male,Hubballi,Potato,Vegetables,2,28,Card,Yes
+T0054,C074,2025-01-05,50+,Male,Hubballi,Tomato,Vegetables,1,30,Card,Yes
+T0055,C078,2025-11-18,50+,Male,Raichur,Eggs,Dairy,2,70,Card,Yes
+T0055,C078,2025-11-18,50+,Male,Raichur,Sugar,Grocery,2,45,Card,Yes
+T0055,C078,2025-11-18,50+,Male,Raichur,Rice,Grocery,1,60,Card,Yes
+T0055,C078,2025-11-18,50+,Male,Raichur,Biscuits,Snacks,3,20,Card,Yes
+T0055,C078,2025-11-18,50+,Male,Raichur,Tea,Beverages,2,120,Card,Yes
+T0056,C017,2025-09-14,26-35,Female,Ballari,Biscuits,Snacks,2,20,UPI,Yes
+T0056,C017,2025-09-14,26-35,Female,Ballari,Onion,Vegetables,2,35,UPI,Yes
+T0056,C017,2025-09-14,26-35,Female,Ballari,Potato,Vegetables,2,28,UPI,Yes
+T0056,C017,2025-09-14,26-35,Female,Ballari,Detergent,Household,3,110,UPI,Yes
+T0056,C017,2025-09-14,26-35,Female,Ballari,Tomato,Vegetables,2,30,UPI,Yes
+T0057,C015,2025-07-07,36-50,Female,Kalaburagi,Cooking Oil,Grocery,1,140,Cash,No
+T0057,C015,2025-07-07,36-50,Female,Kalaburagi,Chips,Snacks,2,25,Cash,No
+T0057,C015,2025-07-07,36-50,Female,Kalaburagi,Dal,Grocery,3,95,Cash,No
+T0057,C015,2025-07-07,36-50,Female,Kalaburagi,Tomato,Vegetables,1,30,Cash,No
+T0058,C059,2025-12-12,26-35,Female,Hubballi,Onion,Vegetables,1,35,Cash,No
+T0058,C059,2025-12-12,26-35,Female,Hubballi,Potato,Vegetables,3,28,Cash,No
+T0058,C059,2025-12-12,26-35,Female,Hubballi,Tomato,Vegetables,3,30,Cash,No
+T0059,C042,2025-01-24,26-35,Male,Bengaluru,Juice,Beverages,2,85,Cash,No
+T0059,C042,2025-01-24,26-35,Male,Bengaluru,Chips,Snacks,1,25,Cash,No
+T0059,C042,2025-01-24,26-35,Male,Bengaluru,Sugar,Grocery,1,45,Cash,No
+T0059,C042,2025-01-24,26-35,Male,Bengaluru,Biscuits,Snacks,1,20,Cash,No
+T0060,C069,2025-03-21,26-35,Female,Hubballi,Sugar,Grocery,2,45,UPI,Yes
+T0060,C069,2025-03-21,26-35,Female,Hubballi,Coffee,Beverages,3,180,UPI,Yes
+T0060,C069,2025-03-21,26-35,Female,Hubballi,Milk,Dairy,2,30,UPI,Yes
+T0060,C069,2025-03-21,26-35,Female,Hubballi,Onion,Vegetables,2,35,UPI,Yes
+T0060,C069,2025-03-21,26-35,Female,Hubballi,Soap,Personal Care,1,35,UPI,Yes
+T0061,C048,2025-12-18,18-25,Male,Raichur,Eggs,Dairy,1,70,UPI,No
+T0061,C048,2025-12-18,18-25,Male,Raichur,Bread,Bakery,2,40,UPI,No
+T0062,C036,2025-11-25,50+,Female,Kalaburagi,Cooking Oil,Grocery,1,140,Card,Yes
+T0062,C036,2025-11-25,50+,Female,Kalaburagi,Rice,Grocery,2,60,Card,Yes
+T0063,C032,2025-04-30,26-35,Male,Kalaburagi,Sugar,Grocery,3,45,UPI,Yes
+T0063,C032,2025-04-30,26-35,Male,Kalaburagi,Biscuits,Snacks,1,20,UPI,Yes
+T0064,C036,2025-03-09,50+,Female,Kalaburagi,Shampoo,Personal Care,1,90,Cash,No
+T0064,C036,2025-03-09,50+,Female,Kalaburagi,Soap,Personal Care,3,35,Cash,No
+T0065,C042,2025-02-02,26-35,Male,Bengaluru,Toothpaste,Personal Care,2,60,UPI,No
+T0065,C042,2025-02-02,26-35,Male,Bengaluru,Shampoo,Personal Care,3,90,UPI,No
+T0066,C076,2025-12-04,18-25,Female,Bengaluru,Eggs,Dairy,2,70,Card,No
+T0066,C076,2025-12-04,18-25,Female,Bengaluru,Bread,Bakery,3,40,Card,No
+T0067,C004,2025-09-09,50+,Male,Ballari,Eggs,Dairy,1,70,Card,No
+T0067,C004,2025-09-09,50+,Male,Ballari,Bread,Bakery,1,40,Card,No
+T0068,C042,2025-09-16,26-35,Male,Bengaluru,Shampoo,Personal Care,1,90,Card,No
+T0068,C042,2025-09-16,26-35,Male,Bengaluru,Butter,Dairy,3,55,Card,No
+T0068,C042,2025-09-16,26-35,Male,Bengaluru,Milk,Dairy,1,30,Card,No
+T0068,C042,2025-09-16,26-35,Male,Bengaluru,Toothpaste,Personal Care,3,60,Card,No
+T0068,C042,2025-09-16,26-35,Male,Bengaluru,Bread,Bakery,3,40,Card,No
+T0068,C042,2025-09-16,26-35,Male,Bengaluru,Soap,Personal Care,3,35,Card,No
+T0069,C028,2025-08-01,50+,Female,Hubballi,Eggs,Dairy,2,70,Card,Yes
+T0069,C028,2025-08-01,50+,Female,Hubballi,Bread,Bakery,2,40,Card,Yes
+T0069,C028,2025-08-01,50+,Female,Hubballi,Chips,Snacks,2,25,Card,Yes
+T0070,C033,2025-02-17,50+,Male,Ballari,Shampoo,Personal Care,3,90,UPI,Yes
+T0070,C033,2025-02-17,50+,Male,Ballari,Soap,Personal Care,3,35,UPI,Yes
+T0071,C048,2025-07-30,18-25,Male,Raichur,Butter,Dairy,3,55,UPI,No
+T0071,C048,2025-07-30,18-25,Male,Raichur,Milk,Dairy,1,30,UPI,No
+T0071,C048,2025-07-30,18-25,Male,Raichur,Bread,Bakery,2,40,UPI,No
+T0072,C077,2025-12-03,50+,Female,Hubballi,Juice,Beverages,1,85,UPI,Yes
+T0073,C045,2025-01-14,18-25,Female,Bengaluru,Butter,Dairy,1,55,Card,No
+T0073,C045,2025-01-14,18-25,Female,Bengaluru,Milk,Dairy,1,30,Card,No
+T0073,C045,2025-01-14,18-25,Female,Bengaluru,Tomato,Vegetables,2,30,Card,No
+T0073,C045,2025-01-14,18-25,Female,Bengaluru,Chips,Snacks,3,25,Card,No
+T0073,C045,2025-01-14,18-25,Female,Bengaluru,Bread,Bakery,2,40,Card,No
+T0073,C045,2025-01-14,18-25,Female,Bengaluru,Potato,Vegetables,2,28,Card,No
+T0073,C045,2025-01-14,18-25,Female,Bengaluru,Juice,Beverages,2,85,Card,No
+T0074,C001,2025-09-29,18-25,Male,Bengaluru,Butter,Dairy,2,55,Cash,No
+T0074,C001,2025-09-29,18-25,Male,Bengaluru,Shampoo,Personal Care,2,90,Cash,No
+T0074,C001,2025-09-29,18-25,Male,Bengaluru,Soap,Personal Care,2,35,Cash,No
+T0074,C001,2025-09-29,18-25,Male,Bengaluru,Bread,Bakery,1,40,Cash,No
+T0075,C048,2025-01-27,18-25,Male,Raichur,Chips,Snacks,3,25,Cash,Yes
+T0075,C048,2025-01-27,18-25,Male,Raichur,Juice,Beverages,1,85,Cash,Yes
+T0076,C011,2025-05-20,18-25,Male,Hubballi,Eggs,Dairy,2,70,Cash,Yes
+T0076,C011,2025-05-20,18-25,Male,Hubballi,Bread,Bakery,2,40,Cash,Yes
+T0076,C011,2025-05-20,18-25,Male,Hubballi,Soap,Personal Care,1,35,Cash,Yes
+T0077,C037,2025-03-12,36-50,Male,Ballari,Onion,Vegetables,2,35,UPI,No
+T0077,C037,2025-03-12,36-50,Male,Ballari,Eggs,Dairy,1,70,UPI,No
+T0077,C037,2025-03-12,36-50,Male,Ballari,Dal,Grocery,1,95,UPI,No
+T0077,C037,2025-03-12,36-50,Male,Ballari,Tomato,Vegetables,2,30,UPI,No
+T0078,C056,2025-07-23,26-35,Male,Ballari,Biscuits,Snacks,2,20,Card,Yes
+T0078,C056,2025-07-23,26-35,Male,Ballari,Butter,Dairy,1,55,Card,Yes
+T0078,C056,2025-07-23,26-35,Male,Ballari,Toothpaste,Personal Care,2,60,Card,Yes
+T0078,C056,2025-07-23,26-35,Male,Ballari,Shampoo,Personal Care,1,90,Card,Yes
+T0078,C056,2025-07-23,26-35,Male,Ballari,Soap,Personal Care,2,35,Card,Yes
+T0079,C074,2025-06-16,50+,Male,Hubballi,Coffee,Beverages,3,180,Cash,No
+T0079,C074,2025-06-16,50+,Male,Hubballi,Milk,Dairy,2,30,Cash,No
+T0080,C012,2025-06-23,18-25,Female,Bengaluru,Coffee,Beverages,1,180,Cash,No
+T0080,C012,2025-06-23,18-25,Female,Bengaluru,Cooking Oil,Grocery,1,140,Cash,No
+T0080,C012,2025-06-23,18-25,Female,Bengaluru,Dal,Grocery,3,95,Cash,No
+T0080,C012,2025-06-23,18-25,Female,Bengaluru,Rice,Grocery,3,60,Cash,No
+T0081,C015,2025-03-30,36-50,Female,Kalaburagi,Sugar,Grocery,3,45,Card,Yes
+T0081,C015,2025-03-30,36-50,Female,Kalaburagi,Biscuits,Snacks,1,20,Card,Yes
+T0081,C015,2025-03-30,36-50,Female,Kalaburagi,Tea,Beverages,1,120,Card,Yes
+T0081,C015,2025-03-30,36-50,Female,Kalaburagi,Milk,Dairy,3,30,Card,Yes
+T0081,C015,2025-03-30,36-50,Female,Kalaburagi,Coffee,Beverages,2,180,Card,Yes
+T0082,C060,2025-08-14,26-35,Male,Kalaburagi,Eggs,Dairy,2,70,Cash,No
+T0082,C060,2025-08-14,26-35,Male,Kalaburagi,Rice,Grocery,3,60,Cash,No
+T0082,C060,2025-08-14,26-35,Male,Kalaburagi,Chips,Snacks,2,25,Cash,No
+T0082,C060,2025-08-14,26-35,Male,Kalaburagi,Bread,Bakery,2,40,Cash,No
+T0082,C060,2025-08-14,26-35,Male,Kalaburagi,Juice,Beverages,3,85,Cash,No
+T0083,C008,2025-11-27,36-50,Male,Raichur,Butter,Dairy,2,55,Cash,No
+T0083,C008,2025-11-27,36-50,Male,Raichur,Cooking Oil,Grocery,3,140,Cash,No
+T0083,C008,2025-11-27,36-50,Male,Raichur,Rice,Grocery,3,60,Cash,No
+T0084,C006,2025-08-19,18-25,Male,Kalaburagi,Tea,Beverages,3,120,Cash,No
+T0084,C006,2025-08-19,18-25,Male,Kalaburagi,Sugar,Grocery,1,45,Cash,No
+T0084,C006,2025-08-19,18-25,Male,Kalaburagi,Biscuits,Snacks,3,20,Cash,No
+T0085,C023,2025-07-10,50+,Female,Bengaluru,Sugar,Grocery,2,45,UPI,No
+T0085,C023,2025-07-10,50+,Female,Bengaluru,Biscuits,Snacks,2,20,UPI,No
+T0085,C023,2025-07-10,50+,Female,Bengaluru,Tea,Beverages,3,120,UPI,No
+T0085,C023,2025-07-10,50+,Female,Bengaluru,Cooking Oil,Grocery,3,140,UPI,No
+T0086,C007,2025-02-11,50+,Male,Hubballi,Rice,Grocery,2,60,Card,Yes
+T0086,C007,2025-02-11,50+,Male,Hubballi,Butter,Dairy,2,55,Card,Yes
+T0086,C007,2025-02-11,50+,Male,Hubballi,Milk,Dairy,3,30,Card,Yes
+T0086,C007,2025-02-11,50+,Male,Hubballi,Chips,Snacks,3,25,Card,Yes
+T0086,C007,2025-02-11,50+,Male,Hubballi,Bread,Bakery,3,40,Card,Yes
+T0086,C007,2025-02-11,50+,Male,Hubballi,Juice,Beverages,2,85,Card,Yes
+T0087,C017,2025-11-27,26-35,Female,Ballari,Dal,Grocery,3,95,Card,No
+T0087,C017,2025-11-27,26-35,Female,Ballari,Rice,Grocery,2,60,Card,No
+T0087,C017,2025-11-27,26-35,Female,Ballari,Butter,Dairy,1,55,Card,No
+T0087,C017,2025-11-27,26-35,Female,Ballari,Cooking Oil,Grocery,2,140,Card,No
+T0087,C017,2025-11-27,26-35,Female,Ballari,Toothpaste,Personal Care,2,60,Card,No
+T0087,C017,2025-11-27,26-35,Female,Ballari,Soap,Personal Care,1,35,Card,No
+T0087,C017,2025-11-27,26-35,Female,Ballari,Detergent,Household,1,110,Card,No
+T0088,C044,2025-09-17,36-50,Female,Ballari,Tea,Beverages,3,120,Card,Yes
+T0089,C044,2025-07-30,36-50,Female,Ballari,Onion,Vegetables,2,35,UPI,Yes
+T0089,C044,2025-07-30,36-50,Female,Ballari,Milk,Dairy,3,30,UPI,Yes
+T0089,C044,2025-07-30,36-50,Female,Ballari,Potato,Vegetables,2,28,UPI,Yes
+T0089,C044,2025-07-30,36-50,Female,Ballari,Toothpaste,Personal Care,3,60,UPI,Yes
+T0089,C044,2025-07-30,36-50,Female,Ballari,Shampoo,Personal Care,2,90,UPI,Yes
+T0089,C044,2025-07-30,36-50,Female,Ballari,Soap,Personal Care,1,35,UPI,Yes
+T0089,C044,2025-07-30,36-50,Female,Ballari,Tomato,Vegetables,3,30,UPI,Yes
+T0090,C031,2025-08-25,50+,Female,Bengaluru,Shampoo,Personal Care,3,90,UPI,No
+T0090,C031,2025-08-25,50+,Female,Bengaluru,Onion,Vegetables,3,35,UPI,No
+T0090,C031,2025-08-25,50+,Female,Bengaluru,Eggs,Dairy,2,70,UPI,No
+T0090,C031,2025-08-25,50+,Female,Bengaluru,Bread,Bakery,1,40,UPI,No
+T0091,C026,2025-05-26,50+,Female,Ballari,Sugar,Grocery,2,45,Cash,Yes
+T0091,C026,2025-05-26,50+,Female,Ballari,Coffee,Beverages,2,180,Cash,Yes
+T0091,C026,2025-05-26,50+,Female,Ballari,Toothpaste,Personal Care,3,60,Cash,Yes
+T0091,C026,2025-05-26,50+,Female,Ballari,Shampoo,Personal Care,1,90,Cash,Yes
+T0091,C026,2025-05-26,50+,Female,Ballari,Soap,Personal Care,2,35,Cash,Yes
+T0092,C012,2025-07-22,18-25,Female,Bengaluru,Milk,Dairy,1,30,Card,No
+T0092,C012,2025-07-22,18-25,Female,Bengaluru,Eggs,Dairy,2,70,Card,No
+T0092,C012,2025-07-22,18-25,Female,Bengaluru,Bread,Bakery,1,40,Card,No
+T0093,C048,2025-03-12,18-25,Male,Raichur,Butter,Dairy,2,55,Cash,No
+T0093,C048,2025-03-12,18-25,Male,Raichur,Bread,Bakery,3,40,Cash,No
+T0093,C048,2025-03-12,18-25,Male,Raichur,Rice,Grocery,1,60,Cash,No
+T0094,C061,2025-10-08,50+,Male,Hubballi,Butter,Dairy,1,55,Card,No
+T0094,C061,2025-10-08,50+,Male,Hubballi,Bread,Bakery,2,40,Card,No
+T0095,C031,2025-02-26,50+,Female,Bengaluru,Butter,Dairy,3,55,UPI,Yes
+T0095,C031,2025-02-26,50+,Female,Bengaluru,Cooking Oil,Grocery,3,140,UPI,Yes
+T0095,C031,2025-02-26,50+,Female,Bengaluru,Dal,Grocery,3,95,UPI,Yes
+T0096,C031,2025-09-26,50+,Female,Bengaluru,Eggs,Dairy,3,70,UPI,Yes
+T0096,C031,2025-09-26,50+,Female,Bengaluru,Toothpaste,Personal Care,3,60,UPI,Yes
+T0096,C031,2025-09-26,50+,Female,Bengaluru,Shampoo,Personal Care,3,90,UPI,Yes
+T0096,C031,2025-09-26,50+,Female,Bengaluru,Soap,Personal Care,3,35,UPI,Yes
+T0096,C031,2025-09-26,50+,Female,Bengaluru,Bread,Bakery,3,40,UPI,Yes
+T0097,C003,2025-01-09,18-25,Male,Kalaburagi,Tea,Beverages,2,120,UPI,Yes
+T0097,C003,2025-01-09,18-25,Male,Kalaburagi,Bread,Bakery,1,40,UPI,Yes
+T0098,C014,2025-11-20,18-25,Female,Ballari,Dal,Grocery,1,95,Cash,Yes
+T0098,C014,2025-11-20,18-25,Female,Ballari,Rice,Grocery,3,60,Cash,Yes
+T0098,C014,2025-11-20,18-25,Female,Ballari,Cooking Oil,Grocery,2,140,Cash,Yes
+T0098,C014,2025-11-20,18-25,Female,Ballari,Toothpaste,Personal Care,1,60,Cash,Yes
+T0098,C014,2025-11-20,18-25,Female,Ballari,Juice,Beverages,2,85,Cash,Yes
+T0099,C026,2025-08-31,50+,Female,Ballari,Tea,Beverages,3,120,UPI,Yes
+T0099,C026,2025-08-31,50+,Female,Ballari,Tomato,Vegetables,1,30,UPI,Yes
+T0099,C026,2025-08-31,50+,Female,Ballari,Sugar,Grocery,2,45,UPI,Yes
+T0099,C026,2025-08-31,50+,Female,Ballari,Biscuits,Snacks,2,20,UPI,Yes
+T0100,C007,2025-04-06,50+,Male,Hubballi,Toothpaste,Personal Care,2,60,UPI,No
+T0100,C007,2025-04-06,50+,Male,Hubballi,Shampoo,Personal Care,3,90,UPI,No
+T0100,C007,2025-04-06,50+,Male,Hubballi,Soap,Personal Care,2,35,UPI,No
+T0100,C007,2025-04-06,50+,Male,Hubballi,Juice,Beverages,1,85,UPI,No
+T0101,C055,2025-02-10,18-25,Male,Kalaburagi,Coffee,Beverages,2,180,UPI,No
+T0101,C055,2025-02-10,18-25,Male,Kalaburagi,Milk,Dairy,2,30,UPI,No
+T0101,C055,2025-02-10,18-25,Male,Kalaburagi,Eggs,Dairy,3,70,UPI,No
+T0101,C055,2025-02-10,18-25,Male,Kalaburagi,Sugar,Grocery,3,45,UPI,No
+T0102,C055,2025-08-11,18-25,Male,Kalaburagi,Eggs,Dairy,1,70,UPI,Yes
+T0102,C055,2025-08-11,18-25,Male,Kalaburagi,Potato,Vegetables,3,28,UPI,Yes
+T0103,C052,2025-03-06,36-50,Female,Kalaburagi,Milk,Dairy,3,30,Cash,Yes
+T0103,C052,2025-03-06,36-50,Female,Kalaburagi,Toothpaste,Personal Care,2,60,Cash,Yes
+T0103,C052,2025-03-06,36-50,Female,Kalaburagi,Shampoo,Personal Care,2,90,Cash,Yes
+T0104,C050,2025-06-10,50+,Male,Kalaburagi,Butter,Dairy,1,55,Card,No
+T0104,C050,2025-06-10,50+,Male,Kalaburagi,Milk,Dairy,1,30,Card,No
+T0104,C050,2025-06-10,50+,Male,Kalaburagi,Chips,Snacks,1,25,Card,No
+T0104,C050,2025-06-10,50+,Male,Kalaburagi,Bread,Bakery,3,40,Card,No
+T0104,C050,2025-06-10,50+,Male,Kalaburagi,Tomato,Vegetables,1,30,Card,No
+T0105,C064,2025-03-04,50+,Female,Hubballi,Sugar,Grocery,2,45,Cash,Yes
+T0105,C064,2025-03-04,50+,Female,Hubballi,Dal,Grocery,1,95,Cash,Yes
+T0105,C064,2025-03-04,50+,Female,Hubballi,Milk,Dairy,3,30,Cash,Yes
+T0105,C064,2025-03-04,50+,Female,Hubballi,Onion,Vegetables,2,35,Cash,Yes
+T0105,C064,2025-03-04,50+,Female,Hubballi,Potato,Vegetables,1,28,Cash,Yes
+T0105,C064,2025-03-04,50+,Female,Hubballi,Tomato,Vegetables,3,30,Cash,Yes
+T0106,C041,2025-09-18,26-35,Male,Bengaluru,Eggs,Dairy,1,70,Cash,Yes
+T0106,C041,2025-09-18,26-35,Male,Bengaluru,Biscuits,Snacks,1,20,Cash,Yes
+T0106,C041,2025-09-18,26-35,Male,Bengaluru,Cooking Oil,Grocery,1,140,Cash,Yes
+T0106,C041,2025-09-18,26-35,Male,Bengaluru,Bread,Bakery,2,40,Cash,Yes
+T0106,C041,2025-09-18,26-35,Male,Bengaluru,Juice,Beverages,1,85,Cash,Yes
+T0107,C047,2025-07-30,18-25,Male,Hubballi,Biscuits,Snacks,1,20,UPI,Yes
+T0107,C047,2025-07-30,18-25,Male,Hubballi,Tea,Beverages,2,120,UPI,Yes
+T0107,C047,2025-07-30,18-25,Male,Hubballi,Toothpaste,Personal Care,3,60,UPI,Yes
+T0107,C047,2025-07-30,18-25,Male,Hubballi,Chips,Snacks,1,25,UPI,Yes
+T0107,C047,2025-07-30,18-25,Male,Hubballi,Detergent,Household,2,110,UPI,Yes
+T0107,C047,2025-07-30,18-25,Male,Hubballi,Juice,Beverages,2,85,UPI,Yes
+T0108,C067,2025-03-08,26-35,Male,Raichur,Toothpaste,Personal Care,1,60,UPI,Yes
+T0108,C067,2025-03-08,26-35,Male,Raichur,Shampoo,Personal Care,3,90,UPI,Yes
+T0108,C067,2025-03-08,26-35,Male,Raichur,Soap,Personal Care,1,35,UPI,Yes
+T0109,C039,2025-05-09,36-50,Female,Raichur,Butter,Dairy,1,55,Cash,No
+T0109,C039,2025-05-09,36-50,Female,Raichur,Coffee,Beverages,3,180,Cash,No
+T0109,C039,2025-05-09,36-50,Female,Raichur,Toothpaste,Personal Care,2,60,Cash,No
+T0109,C039,2025-05-09,36-50,Female,Raichur,Shampoo,Personal Care,3,90,Cash,No
+T0109,C039,2025-05-09,36-50,Female,Raichur,Soap,Personal Care,3,35,Cash,No
+T0110,C012,2025-02-11,18-25,Female,Bengaluru,Onion,Vegetables,3,35,Cash,No
+T0110,C012,2025-02-11,18-25,Female,Bengaluru,Bread,Bakery,1,40,Cash,No
+T0110,C012,2025-02-11,18-25,Female,Bengaluru,Milk,Dairy,3,30,Cash,No
+T0110,C012,2025-02-11,18-25,Female,Bengaluru,Potato,Vegetables,2,28,Cash,No
+T0110,C012,2025-02-11,18-25,Female,Bengaluru,Toothpaste,Personal Care,3,60,Cash,No
+T0110,C012,2025-02-11,18-25,Female,Bengaluru,Shampoo,Personal Care,3,90,Cash,No
+T0110,C012,2025-02-11,18-25,Female,Bengaluru,Soap,Personal Care,1,35,Cash,No
+T0110,C012,2025-02-11,18-25,Female,Bengaluru,Tomato,Vegetables,2,30,Cash,No
+T0111,C070,2025-02-07,26-35,Male,Hubballi,Shampoo,Personal Care,1,90,Card,Yes
+T0111,C070,2025-02-07,26-35,Male,Hubballi,Onion,Vegetables,2,35,Card,Yes
+T0111,C070,2025-02-07,26-35,Male,Hubballi,Potato,Vegetables,2,28,Card,Yes
+T0111,C070,2025-02-07,26-35,Male,Hubballi,Tomato,Vegetables,2,30,Card,Yes
+T0112,C060,2025-07-24,26-35,Male,Kalaburagi,Chips,Snacks,3,25,Cash,No
+T0112,C060,2025-07-24,26-35,Male,Kalaburagi,Biscuits,Snacks,3,20,Cash,No
+T0112,C060,2025-07-24,26-35,Male,Kalaburagi,Juice,Beverages,1,85,Cash,No
+T0113,C041,2025-02-19,26-35,Male,Bengaluru,Bread,Bakery,2,40,Cash,No
+T0114,C079,2025-03-23,36-50,Male,Ballari,Sugar,Grocery,2,45,UPI,No
+T0114,C079,2025-03-23,36-50,Male,Ballari,Dal,Grocery,2,95,UPI,No
+T0114,C079,2025-03-23,36-50,Male,Ballari,Biscuits,Snacks,2,20,UPI,No
+T0114,C079,2025-03-23,36-50,Male,Ballari,Tea,Beverages,1,120,UPI,No
+T0114,C079,2025-03-23,36-50,Male,Ballari,Juice,Beverages,1,85,UPI,No
+T0115,C051,2025-10-02,26-35,Female,Hubballi,Eggs,Dairy,2,70,Cash,Yes
+T0115,C051,2025-10-02,26-35,Female,Hubballi,Dal,Grocery,1,95,Cash,Yes
+T0115,C051,2025-10-02,26-35,Female,Hubballi,Coffee,Beverages,2,180,Cash,Yes
+T0115,C051,2025-10-02,26-35,Female,Hubballi,Cooking Oil,Grocery,3,140,Cash,Yes
+T0115,C051,2025-10-02,26-35,Female,Hubballi,Toothpaste,Personal Care,2,60,Cash,Yes
+T0115,C051,2025-10-02,26-35,Female,Hubballi,Bread,Bakery,2,40,Cash,Yes
+T0116,C047,2025-07-17,18-25,Male,Hubballi,Butter,Dairy,3,55,Card,No
+T0116,C047,2025-07-17,18-25,Male,Hubballi,Milk,Dairy,2,30,Card,No
+T0116,C047,2025-07-17,18-25,Male,Hubballi,Sugar,Grocery,3,45,Card,No
+T0117,C079,2025-07-07,36-50,Male,Ballari,Toothpaste,Personal Care,3,60,Cash,Yes
+T0117,C079,2025-07-07,36-50,Male,Ballari,Shampoo,Personal Care,3,90,Cash,Yes
+T0117,C079,2025-07-07,36-50,Male,Ballari,Soap,Personal Care,2,35,Cash,Yes
+T0117,C079,2025-07-07,36-50,Male,Ballari,Tomato,Vegetables,3,30,Cash,Yes
+T0118,C006,2025-11-07,18-25,Male,Kalaburagi,Butter,Dairy,2,55,Card,Yes
+T0118,C006,2025-11-07,18-25,Male,Kalaburagi,Milk,Dairy,3,30,Card,Yes
+T0118,C006,2025-11-07,18-25,Male,Kalaburagi,Rice,Grocery,2,60,Card,Yes
+T0119,C021,2025-06-03,26-35,Female,Ballari,Onion,Vegetables,2,35,UPI,Yes
+T0119,C021,2025-06-03,26-35,Female,Ballari,Potato,Vegetables,2,28,UPI,Yes
+T0119,C021,2025-06-03,26-35,Female,Ballari,Tomato,Vegetables,3,30,UPI,Yes
+T0120,C015,2025-11-02,36-50,Female,Kalaburagi,Onion,Vegetables,3,35,UPI,No
+T0120,C015,2025-11-02,36-50,Female,Kalaburagi,Potato,Vegetables,3,28,UPI,No
+T0120,C015,2025-11-02,36-50,Female,Kalaburagi,Tomato,Vegetables,3,30,UPI,No
+T0121,C030,2025-01-17,26-35,Female,Kalaburagi,Butter,Dairy,1,55,Card,Yes
+T0121,C030,2025-01-17,26-35,Female,Kalaburagi,Milk,Dairy,1,30,Card,Yes
+T0121,C030,2025-01-17,26-35,Female,Kalaburagi,Onion,Vegetables,2,35,Card,Yes
+T0121,C030,2025-01-17,26-35,Female,Kalaburagi,Bread,Bakery,2,40,Card,Yes
+T0121,C030,2025-01-17,26-35,Female,Kalaburagi,Potato,Vegetables,2,28,Card,Yes
+T0121,C030,2025-01-17,26-35,Female,Kalaburagi,Tomato,Vegetables,1,30,Card,Yes
+T0122,C053,2025-04-17,50+,Male,Raichur,Eggs,Dairy,3,70,Card,No
+T0122,C053,2025-04-17,50+,Male,Raichur,Sugar,Grocery,2,45,Card,No
+T0122,C053,2025-04-17,50+,Male,Raichur,Rice,Grocery,3,60,Card,No
+T0122,C053,2025-04-17,50+,Male,Raichur,Biscuits,Snacks,2,20,Card,No
+T0122,C053,2025-04-17,50+,Male,Raichur,Tea,Beverages,2,120,Card,No
+T0122,C053,2025-04-17,50+,Male,Raichur,Bread,Bakery,1,40,Card,No
+T0122,C053,2025-04-17,50+,Male,Raichur,Detergent,Household,2,110,Card,No
+T0123,C069,2025-04-09,26-35,Female,Hubballi,Tea,Beverages,3,120,Cash,No
+T0123,C069,2025-04-09,26-35,Female,Hubballi,Toothpaste,Personal Care,2,60,Cash,No
+T0123,C069,2025-04-09,26-35,Female,Hubballi,Chips,Snacks,1,25,Cash,No
+T0123,C069,2025-04-09,26-35,Female,Hubballi,Juice,Beverages,2,85,Cash,No
+T0124,C037,2025-03-04,36-50,Male,Ballari,Sugar,Grocery,2,45,Card,No
+T0124,C037,2025-03-04,36-50,Male,Ballari,Coffee,Beverages,2,180,Card,No
+T0124,C037,2025-03-04,36-50,Male,Ballari,Biscuits,Snacks,1,20,Card,No
+T0124,C037,2025-03-04,36-50,Male,Ballari,Tea,Beverages,2,120,Card,No
+T0124,C037,2025-03-04,36-50,Male,Ballari,Chips,Snacks,1,25,Card,No
+T0124,C037,2025-03-04,36-50,Male,Ballari,Juice,Beverages,2,85,Card,No
+T0125,C011,2025-04-14,18-25,Male,Hubballi,Eggs,Dairy,3,70,Card,No
+T0125,C011,2025-04-14,18-25,Male,Hubballi,Bread,Bakery,3,40,Card,No
+T0126,C035,2025-11-23,50+,Male,Hubballi,Dal,Grocery,1,95,Cash,Yes
+T0126,C035,2025-11-23,50+,Male,Hubballi,Rice,Grocery,2,60,Cash,Yes
+T0126,C035,2025-11-23,50+,Male,Hubballi,Sugar,Grocery,2,45,Cash,Yes
+T0126,C035,2025-11-23,50+,Male,Hubballi,Cooking Oil,Grocery,3,140,Cash,Yes
+T0126,C035,2025-11-23,50+,Male,Hubballi,Detergent,Household,2,110,Cash,Yes
+T0127,C013,2025-06-14,36-50,Male,Hubballi,Dal,Grocery,1,95,UPI,Yes
+T0127,C013,2025-06-14,36-50,Male,Hubballi,Butter,Dairy,3,55,UPI,Yes
+T0127,C013,2025-06-14,36-50,Male,Hubballi,Milk,Dairy,3,30,UPI,Yes
+T0127,C013,2025-06-14,36-50,Male,Hubballi,Toothpaste,Personal Care,1,60,UPI,Yes
+T0127,C013,2025-06-14,36-50,Male,Hubballi,Coffee,Beverages,3,180,UPI,Yes
+T0127,C013,2025-06-14,36-50,Male,Hubballi,Shampoo,Personal Care,3,90,UPI,Yes
+T0127,C013,2025-06-14,36-50,Male,Hubballi,Soap,Personal Care,3,35,UPI,Yes
+T0127,C013,2025-06-14,36-50,Male,Hubballi,Bread,Bakery,1,40,UPI,Yes
+T0128,C023,2025-05-29,50+,Female,Bengaluru,Cooking Oil,Grocery,2,140,Cash,Yes
+T0128,C023,2025-05-29,50+,Female,Bengaluru,Toothpaste,Personal Care,3,60,Cash,Yes
+T0128,C023,2025-05-29,50+,Female,Bengaluru,Shampoo,Personal Care,3,90,Cash,Yes
+T0129,C014,2025-09-16,18-25,Female,Ballari,Onion,Vegetables,1,35,UPI,No
+T0129,C014,2025-09-16,18-25,Female,Ballari,Potato,Vegetables,1,28,UPI,No
+T0129,C014,2025-09-16,18-25,Female,Ballari,Tomato,Vegetables,2,30,UPI,No
+T0130,C021,2025-11-09,26-35,Female,Ballari,Eggs,Dairy,2,70,Card,No
+T0130,C021,2025-11-09,26-35,Female,Ballari,Dal,Grocery,3,95,Card,No
+T0130,C021,2025-11-09,26-35,Female,Ballari,Cooking Oil,Grocery,2,140,Card,No
+T0130,C021,2025-11-09,26-35,Female,Ballari,Chips,Snacks,1,25,Card,No
+T0130,C021,2025-11-09,26-35,Female,Ballari,Bread,Bakery,2,40,Card,No
+T0130,C021,2025-11-09,26-35,Female,Ballari,Juice,Beverages,3,85,Card,No
+T0131,C013,2025-08-17,36-50,Male,Hubballi,Sugar,Grocery,2,45,UPI,No
+T0131,C013,2025-08-17,36-50,Male,Hubballi,Shampoo,Personal Care,3,90,UPI,No
+T0131,C013,2025-08-17,36-50,Male,Hubballi,Soap,Personal Care,3,35,UPI,No
+T0132,C074,2025-08-27,50+,Male,Hubballi,Onion,Vegetables,2,35,UPI,Yes
+T0132,C074,2025-08-27,50+,Male,Hubballi,Tomato,Vegetables,3,30,UPI,Yes
+T0133,C065,2025-09-02,18-25,Male,Ballari,Onion,Vegetables,3,35,Cash,No
+T0133,C065,2025-09-02,18-25,Male,Ballari,Chips,Snacks,3,25,Cash,No
+T0133,C065,2025-09-02,18-25,Male,Ballari,Potato,Vegetables,2,28,Cash,No
+T0133,C065,2025-09-02,18-25,Male,Ballari,Juice,Beverages,2,85,Cash,No
+T0134,C071,2025-09-27,18-25,Male,Kalaburagi,Tea,Beverages,1,120,UPI,No
+T0134,C071,2025-09-27,18-25,Male,Kalaburagi,Sugar,Grocery,3,45,UPI,No
+T0134,C071,2025-09-27,18-25,Male,Kalaburagi,Biscuits,Snacks,1,20,UPI,No
+T0135,C008,2025-09-19,36-50,Male,Raichur,Sugar,Grocery,2,45,UPI,Yes
+T0135,C008,2025-09-19,36-50,Male,Raichur,Butter,Dairy,1,55,UPI,Yes
+T0135,C008,2025-09-19,36-50,Male,Raichur,Biscuits,Snacks,3,20,UPI,Yes
+T0135,C008,2025-09-19,36-50,Male,Raichur,Tea,Beverages,2,120,UPI,Yes
+T0135,C008,2025-09-19,36-50,Male,Raichur,Onion,Vegetables,2,35,UPI,Yes
+T0135,C008,2025-09-19,36-50,Male,Raichur,Potato,Vegetables,3,28,UPI,Yes
+T0135,C008,2025-09-19,36-50,Male,Raichur,Tomato,Vegetables,1,30,UPI,Yes
+T0136,C072,2025-02-07,18-25,Male,Raichur,Dal,Grocery,2,95,Cash,No
+T0136,C072,2025-02-07,18-25,Male,Raichur,Onion,Vegetables,3,35,Cash,No
+T0136,C072,2025-02-07,18-25,Male,Raichur,Potato,Vegetables,1,28,Cash,No
+T0136,C072,2025-02-07,18-25,Male,Raichur,Tomato,Vegetables,3,30,Cash,No
+T0137,C008,2025-11-25,36-50,Male,Raichur,Bread,Bakery,2,40,Card,No
+T0138,C049,2025-03-02,50+,Male,Bengaluru,Sugar,Grocery,3,45,Cash,No
+T0138,C049,2025-03-02,50+,Male,Bengaluru,Rice,Grocery,1,60,Cash,No
+T0138,C049,2025-03-02,50+,Male,Bengaluru,Biscuits,Snacks,3,20,Cash,No
+T0138,C049,2025-03-02,50+,Male,Bengaluru,Coffee,Beverages,1,180,Cash,No
+T0138,C049,2025-03-02,50+,Male,Bengaluru,Milk,Dairy,1,30,Cash,No
+T0139,C003,2025-05-07,18-25,Male,Kalaburagi,Sugar,Grocery,1,45,UPI,No
+T0139,C003,2025-05-07,18-25,Male,Kalaburagi,Eggs,Dairy,2,70,UPI,No
+T0139,C003,2025-05-07,18-25,Male,Kalaburagi,Bread,Bakery,1,40,UPI,No
+T0139,C003,2025-05-07,18-25,Male,Kalaburagi,Chips,Snacks,3,25,UPI,No
+T0140,C015,2025-04-16,36-50,Female,Kalaburagi,Coffee,Beverages,3,180,Cash,Yes
+T0140,C015,2025-04-16,36-50,Female,Kalaburagi,Milk,Dairy,1,30,Cash,Yes
+T0140,C015,2025-04-16,36-50,Female,Kalaburagi,Sugar,Grocery,2,45,Cash,Yes
+T0141,C077,2025-10-22,50+,Female,Hubballi,Cooking Oil,Grocery,1,140,UPI,No
+T0141,C077,2025-10-22,50+,Female,Hubballi,Rice,Grocery,2,60,UPI,No
+T0141,C077,2025-10-22,50+,Female,Hubballi,Sugar,Grocery,1,45,UPI,No
+T0141,C077,2025-10-22,50+,Female,Hubballi,Butter,Dairy,3,55,UPI,No
+T0141,C077,2025-10-22,50+,Female,Hubballi,Milk,Dairy,3,30,UPI,No
+T0141,C077,2025-10-22,50+,Female,Hubballi,Bread,Bakery,1,40,UPI,No
+T0141,C077,2025-10-22,50+,Female,Hubballi,Coffee,Beverages,2,180,UPI,No
+T0142,C039,2025-11-17,36-50,Female,Raichur,Butter,Dairy,3,55,Card,No
+T0142,C039,2025-11-17,36-50,Female,Raichur,Milk,Dairy,2,30,Card,No
+T0142,C039,2025-11-17,36-50,Female,Raichur,Bread,Bakery,1,40,Card,No
+T0143,C045,2025-04-26,18-25,Female,Bengaluru,Eggs,Dairy,2,70,UPI,Yes
+T0143,C045,2025-04-26,18-25,Female,Bengaluru,Sugar,Grocery,1,45,UPI,Yes
+T0143,C045,2025-04-26,18-25,Female,Bengaluru,Coffee,Beverages,3,180,UPI,Yes
+T0143,C045,2025-04-26,18-25,Female,Bengaluru,Milk,Dairy,2,30,UPI,Yes
+T0143,C045,2025-04-26,18-25,Female,Bengaluru,Toothpaste,Personal Care,2,60,UPI,Yes
+T0143,C045,2025-04-26,18-25,Female,Bengaluru,Bread,Bakery,3,40,UPI,Yes
+T0144,C068,2025-02-17,50+,Male,Hubballi,Coffee,Beverages,1,180,Card,Yes
+T0144,C068,2025-02-17,50+,Male,Hubballi,Milk,Dairy,2,30,Card,Yes
+T0144,C068,2025-02-17,50+,Male,Hubballi,Sugar,Grocery,2,45,Card,Yes
+T0144,C068,2025-02-17,50+,Male,Hubballi,Biscuits,Snacks,3,20,Card,Yes
+T0145,C078,2025-01-08,50+,Male,Raichur,Sugar,Grocery,3,45,Cash,Yes
+T0145,C078,2025-01-08,50+,Male,Raichur,Butter,Dairy,1,55,Cash,Yes
+T0145,C078,2025-01-08,50+,Male,Raichur,Milk,Dairy,3,30,Cash,Yes
+T0145,C078,2025-01-08,50+,Male,Raichur,Coffee,Beverages,2,180,Cash,Yes
+T0146,C032,2025-05-14,26-35,Male,Kalaburagi,Eggs,Dairy,2,70,UPI,No
+T0146,C032,2025-05-14,26-35,Male,Kalaburagi,Sugar,Grocery,1,45,UPI,No
+T0146,C032,2025-05-14,26-35,Male,Kalaburagi,Biscuits,Snacks,3,20,UPI,No
+T0146,C032,2025-05-14,26-35,Male,Kalaburagi,Tea,Beverages,2,120,UPI,No
+T0146,C032,2025-05-14,26-35,Male,Kalaburagi,Bread,Bakery,2,40,UPI,No
+T0146,C032,2025-05-14,26-35,Male,Kalaburagi,Coffee,Beverages,1,180,UPI,No
+T0147,C048,2025-05-14,18-25,Male,Raichur,Milk,Dairy,2,30,Card,No
+T0147,C048,2025-05-14,18-25,Male,Raichur,Sugar,Grocery,1,45,Card,No
+T0148,C026,2025-09-08,50+,Female,Ballari,Sugar,Grocery,2,45,Card,No
+T0148,C026,2025-09-08,50+,Female,Ballari,Biscuits,Snacks,1,20,Card,No
+T0148,C026,2025-09-08,50+,Female,Ballari,Tea,Beverages,3,120,Card,No
+T0148,C026,2025-09-08,50+,Female,Ballari,Juice,Beverages,2,85,Card,No
+T0149,C022,2025-01-18,26-35,Male,Raichur,Milk,Dairy,1,30,Cash,Yes
+T0149,C022,2025-01-18,26-35,Male,Raichur,Eggs,Dairy,2,70,Cash,Yes
+T0149,C022,2025-01-18,26-35,Male,Raichur,Bread,Bakery,1,40,Cash,Yes
+T0149,C022,2025-01-18,26-35,Male,Raichur,Detergent,Household,3,110,Cash,Yes
+T0150,C030,2025-12-04,26-35,Female,Kalaburagi,Toothpaste,Personal Care,1,60,UPI,Yes
+T0150,C030,2025-12-04,26-35,Female,Kalaburagi,Potato,Vegetables,3,28,UPI,Yes
+T0150,C030,2025-12-04,26-35,Female,Kalaburagi,Soap,Personal Care,3,35,UPI,Yes
+T0151,C053,2025-09-15,50+,Male,Raichur,Butter,Dairy,1,55,Card,No
+T0151,C053,2025-09-15,50+,Male,Raichur,Milk,Dairy,1,30,Card,No
+T0151,C053,2025-09-15,50+,Male,Raichur,Bread,Bakery,1,40,Card,No
+T0152,C068,2025-02-10,50+,Male,Hubballi,Tea,Beverages,2,120,UPI,No
+T0152,C068,2025-02-10,50+,Male,Hubballi,Chips,Snacks,3,25,UPI,No
+T0152,C068,2025-02-10,50+,Male,Hubballi,Sugar,Grocery,1,45,UPI,No
+T0152,C068,2025-02-10,50+,Male,Hubballi,Biscuits,Snacks,3,20,UPI,No
+T0153,C029,2025-07-27,26-35,Female,Raichur,Cooking Oil,Grocery,3,140,UPI,No
+T0153,C029,2025-07-27,26-35,Female,Raichur,Dal,Grocery,2,95,UPI,No
+T0153,C029,2025-07-27,26-35,Female,Raichur,Rice,Grocery,1,60,UPI,No
+T0154,C002,2025-04-19,26-35,Male,Raichur,Sugar,Grocery,2,45,Card,No
+T0154,C002,2025-04-19,26-35,Male,Raichur,Milk,Dairy,1,30,Card,No
+T0154,C002,2025-04-19,26-35,Male,Raichur,Toothpaste,Personal Care,1,60,Card,No
+T0154,C002,2025-04-19,26-35,Male,Raichur,Shampoo,Personal Care,3,90,Card,No
+T0154,C002,2025-04-19,26-35,Male,Raichur,Soap,Personal Care,2,35,Card,No
+T0154,C002,2025-04-19,26-35,Male,Raichur,Bread,Bakery,3,40,Card,No
+T0155,C073,2025-06-03,26-35,Female,Hubballi,Cooking Oil,Grocery,3,140,Cash,Yes
+T0155,C073,2025-06-03,26-35,Female,Hubballi,Dal,Grocery,2,95,Cash,Yes
+T0155,C073,2025-06-03,26-35,Female,Hubballi,Rice,Grocery,3,60,Cash,Yes
+T0155,C073,2025-06-03,26-35,Female,Hubballi,Butter,Dairy,3,55,Cash,Yes
+T0155,C073,2025-06-03,26-35,Female,Hubballi,Milk,Dairy,2,30,Cash,Yes
+T0155,C073,2025-06-03,26-35,Female,Hubballi,Bread,Bakery,2,40,Cash,Yes
+T0156,C018,2025-06-17,26-35,Male,Hubballi,Rice,Grocery,2,60,Cash,No
+T0156,C018,2025-06-17,26-35,Male,Hubballi,Cooking Oil,Grocery,2,140,Cash,No
+T0156,C018,2025-06-17,26-35,Male,Hubballi,Chips,Snacks,1,25,Cash,No
+T0156,C018,2025-06-17,26-35,Male,Hubballi,Potato,Vegetables,2,28,Cash,No
+T0156,C018,2025-06-17,26-35,Male,Hubballi,Tomato,Vegetables,3,30,Cash,No
+T0157,C049,2025-02-07,50+,Male,Bengaluru,Coffee,Beverages,1,180,Cash,No
+T0157,C049,2025-02-07,50+,Male,Bengaluru,Sugar,Grocery,2,45,Cash,No
+T0157,C049,2025-02-07,50+,Male,Bengaluru,Shampoo,Personal Care,3,90,Cash,No
+T0157,C049,2025-02-07,50+,Male,Bengaluru,Soap,Personal Care,3,35,Cash,No
+T0158,C020,2025-04-06,26-35,Female,Bengaluru,Coffee,Beverages,3,180,UPI,No
+T0158,C020,2025-04-06,26-35,Female,Bengaluru,Soap,Personal Care,3,35,UPI,No
+T0158,C020,2025-04-06,26-35,Female,Bengaluru,Sugar,Grocery,3,45,UPI,No
+T0158,C020,2025-04-06,26-35,Female,Bengaluru,Shampoo,Personal Care,2,90,UPI,No
+T0159,C014,2025-01-07,18-25,Female,Ballari,Chips,Snacks,2,25,UPI,No
+T0159,C014,2025-01-07,18-25,Female,Ballari,Dal,Grocery,1,95,UPI,No
+T0159,C014,2025-01-07,18-25,Female,Ballari,Rice,Grocery,3,60,UPI,No
+T0160,C072,2025-03-16,18-25,Male,Raichur,Toothpaste,Personal Care,2,60,Cash,Yes
+T0160,C072,2025-03-16,18-25,Male,Raichur,Shampoo,Personal Care,2,90,Cash,Yes
+T0160,C072,2025-03-16,18-25,Male,Raichur,Soap,Personal Care,2,35,Cash,Yes
+T0161,C039,2025-11-12,36-50,Female,Raichur,Potato,Vegetables,1,28,Cash,No
+T0161,C039,2025-11-12,36-50,Female,Raichur,Cooking Oil,Grocery,1,140,Cash,No
+T0161,C039,2025-11-12,36-50,Female,Raichur,Dal,Grocery,2,95,Cash,No
+T0161,C039,2025-11-12,36-50,Female,Raichur,Rice,Grocery,1,60,Cash,No
+T0162,C051,2025-06-03,26-35,Female,Hubballi,Sugar,Grocery,2,45,UPI,Yes
+T0162,C051,2025-06-03,26-35,Female,Hubballi,Rice,Grocery,2,60,UPI,Yes
+T0162,C051,2025-06-03,26-35,Female,Hubballi,Coffee,Beverages,1,180,UPI,Yes
+T0162,C051,2025-06-03,26-35,Female,Hubballi,Milk,Dairy,2,30,UPI,Yes
+T0162,C051,2025-06-03,26-35,Female,Hubballi,Potato,Vegetables,2,28,UPI,Yes
+T0163,C038,2025-10-07,36-50,Female,Ballari,Eggs,Dairy,3,70,Cash,Yes
+T0163,C038,2025-10-07,36-50,Female,Ballari,Dal,Grocery,2,95,Cash,Yes
+T0163,C038,2025-10-07,36-50,Female,Ballari,Onion,Vegetables,3,35,Cash,Yes
+T0163,C038,2025-10-07,36-50,Female,Ballari,Bread,Bakery,1,40,Cash,Yes
+T0163,C038,2025-10-07,36-50,Female,Ballari,Potato,Vegetables,2,28,Cash,Yes
+T0163,C038,2025-10-07,36-50,Female,Ballari,Tomato,Vegetables,2,30,Cash,Yes
+T0164,C009,2025-08-05,50+,Female,Bengaluru,Bread,Bakery,2,40,UPI,Yes
+T0164,C009,2025-08-05,50+,Female,Bengaluru,Rice,Grocery,3,60,UPI,Yes
+T0165,C062,2025-02-25,50+,Male,Ballari,Sugar,Grocery,1,45,Cash,No
+T0165,C062,2025-02-25,50+,Male,Ballari,Butter,Dairy,3,55,Cash,No
+T0165,C062,2025-02-25,50+,Male,Ballari,Coffee,Beverages,3,180,Cash,No
+T0165,C062,2025-02-25,50+,Male,Ballari,Milk,Dairy,1,30,Cash,No
+T0165,C062,2025-02-25,50+,Male,Ballari,Onion,Vegetables,3,35,Cash,No
+T0165,C062,2025-02-25,50+,Male,Ballari,Potato,Vegetables,3,28,Cash,No
+T0165,C062,2025-02-25,50+,Male,Ballari,Tomato,Vegetables,3,30,Cash,No
+T0166,C052,2025-10-25,36-50,Female,Kalaburagi,Sugar,Grocery,2,45,Card,Yes
+T0166,C052,2025-10-25,36-50,Female,Kalaburagi,Detergent,Household,2,110,Card,Yes
+T0166,C052,2025-10-25,36-50,Female,Kalaburagi,Tomato,Vegetables,2,30,Card,Yes
+T0167,C060,2025-06-09,26-35,Male,Kalaburagi,Eggs,Dairy,1,70,UPI,No
+T0167,C060,2025-06-09,26-35,Male,Kalaburagi,Rice,Grocery,3,60,UPI,No
+T0167,C060,2025-06-09,26-35,Male,Kalaburagi,Biscuits,Snacks,2,20,UPI,No
+T0167,C060,2025-06-09,26-35,Male,Kalaburagi,Toothpaste,Personal Care,2,60,UPI,No
+T0167,C060,2025-06-09,26-35,Male,Kalaburagi,Shampoo,Personal Care,2,90,UPI,No
+T0167,C060,2025-06-09,26-35,Male,Kalaburagi,Soap,Personal Care,1,35,UPI,No
+T0168,C057,2025-12-13,18-25,Male,Ballari,Toothpaste,Personal Care,3,60,Cash,Yes
+T0168,C057,2025-12-13,18-25,Male,Ballari,Shampoo,Personal Care,1,90,Cash,Yes
+T0169,C071,2025-07-27,18-25,Male,Kalaburagi,Chips,Snacks,1,25,Card,Yes
+T0169,C071,2025-07-27,18-25,Male,Kalaburagi,Juice,Beverages,3,85,Card,Yes
+T0170,C056,2025-01-03,26-35,Male,Ballari,Butter,Dairy,1,55,Card,Yes
+T0170,C056,2025-01-03,26-35,Male,Ballari,Milk,Dairy,2,30,Card,Yes
+T0170,C056,2025-01-03,26-35,Male,Ballari,Chips,Snacks,3,25,Card,Yes
+T0170,C056,2025-01-03,26-35,Male,Ballari,Bread,Bakery,1,40,Card,Yes
+T0171,C074,2025-11-24,50+,Male,Hubballi,Toothpaste,Personal Care,3,60,UPI,No
+T0171,C074,2025-11-24,50+,Male,Hubballi,Shampoo,Personal Care,2,90,UPI,No
+T0171,C074,2025-11-24,50+,Male,Hubballi,Soap,Personal Care,3,35,UPI,No
+T0171,C074,2025-11-24,50+,Male,Hubballi,Detergent,Household,1,110,UPI,No
+T0172,C045,2025-02-13,18-25,Female,Bengaluru,Coffee,Beverages,2,180,Card,Yes
+T0172,C045,2025-02-13,18-25,Female,Bengaluru,Onion,Vegetables,1,35,Card,Yes
+T0172,C045,2025-02-13,18-25,Female,Bengaluru,Eggs,Dairy,1,70,Card,Yes
+T0172,C045,2025-02-13,18-25,Female,Bengaluru,Bread,Bakery,2,40,Card,Yes
+T0173,C015,2025-03-12,36-50,Female,Kalaburagi,Chips,Snacks,2,25,Card,No
+T0173,C015,2025-03-12,36-50,Female,Kalaburagi,Potato,Vegetables,1,28,Card,No
+T0173,C015,2025-03-12,36-50,Female,Kalaburagi,Juice,Beverages,2,85,Card,No
+T0174,C069,2025-09-06,26-35,Female,Hubballi,Onion,Vegetables,2,35,Cash,Yes
+T0174,C069,2025-09-06,26-35,Female,Hubballi,Potato,Vegetables,3,28,Cash,Yes
+T0174,C069,2025-09-06,26-35,Female,Hubballi,Toothpaste,Personal Care,3,60,Cash,Yes
+T0174,C069,2025-09-06,26-35,Female,Hubballi,Shampoo,Personal Care,3,90,Cash,Yes
+T0174,C069,2025-09-06,26-35,Female,Hubballi,Soap,Personal Care,2,35,Cash,Yes
+T0174,C069,2025-09-06,26-35,Female,Hubballi,Tomato,Vegetables,2,30,Cash,Yes
+T0175,C063,2025-04-23,18-25,Female,Bengaluru,Eggs,Dairy,2,70,UPI,Yes
+T0176,C029,2025-07-07,26-35,Female,Raichur,Dal,Grocery,3,95,Card,Yes
+T0176,C029,2025-07-07,26-35,Female,Raichur,Rice,Grocery,2,60,Card,Yes
+T0176,C029,2025-07-07,26-35,Female,Raichur,Cooking Oil,Grocery,3,140,Card,Yes
+T0176,C029,2025-07-07,26-35,Female,Raichur,Onion,Vegetables,1,35,Card,Yes
+T0176,C029,2025-07-07,26-35,Female,Raichur,Potato,Vegetables,2,28,Card,Yes
+T0176,C029,2025-07-07,26-35,Female,Raichur,Tomato,Vegetables,1,30,Card,Yes
+T0177,C032,2025-05-02,26-35,Male,Kalaburagi,Butter,Dairy,3,55,Cash,No
+T0177,C032,2025-05-02,26-35,Male,Kalaburagi,Milk,Dairy,3,30,Cash,No
+T0177,C032,2025-05-02,26-35,Male,Kalaburagi,Eggs,Dairy,3,70,Cash,No
+T0177,C032,2025-05-02,26-35,Male,Kalaburagi,Bread,Bakery,2,40,Cash,No
+T0178,C022,2025-05-29,26-35,Male,Raichur,Sugar,Grocery,3,45,Card,No
+T0178,C022,2025-05-29,26-35,Male,Raichur,Coffee,Beverages,3,180,Card,No
+T0178,C022,2025-05-29,26-35,Male,Raichur,Milk,Dairy,1,30,Card,No
+T0178,C022,2025-05-29,26-35,Male,Raichur,Shampoo,Personal Care,1,90,Card,No
+T0178,C022,2025-05-29,26-35,Male,Raichur,Soap,Personal Care,2,35,Card,No
+T0179,C008,2025-12-13,36-50,Male,Raichur,Sugar,Grocery,1,45,UPI,No
+T0179,C008,2025-12-13,36-50,Male,Raichur,Shampoo,Personal Care,3,90,UPI,No
+T0180,C035,2025-09-07,50+,Male,Hubballi,Sugar,Grocery,3,45,UPI,Yes
+T0180,C035,2025-09-07,50+,Male,Hubballi,Biscuits,Snacks,1,20,UPI,Yes
+T0180,C035,2025-09-07,50+,Male,Hubballi,Coffee,Beverages,3,180,UPI,Yes
+T0180,C035,2025-09-07,50+,Male,Hubballi,Milk,Dairy,2,30,UPI,Yes
+T0180,C035,2025-09-07,50+,Male,Hubballi,Shampoo,Personal Care,3,90,UPI,Yes
+T0181,C046,2025-05-26,26-35,Male,Raichur,Coffee,Beverages,3,180,UPI,Yes
+T0181,C046,2025-05-26,26-35,Male,Raichur,Milk,Dairy,2,30,UPI,Yes
+T0181,C046,2025-05-26,26-35,Male,Raichur,Sugar,Grocery,2,45,UPI,Yes
+T0181,C046,2025-05-26,26-35,Male,Raichur,Juice,Beverages,3,85,UPI,Yes
+T0182,C007,2025-08-14,50+,Male,Hubballi,Cooking Oil,Grocery,2,140,UPI,Yes
+T0182,C007,2025-08-14,50+,Male,Hubballi,Rice,Grocery,1,60,UPI,Yes
+T0183,C017,2025-07-22,26-35,Female,Ballari,Dal,Grocery,3,95,Card,No
+T0183,C017,2025-07-22,26-35,Female,Ballari,Rice,Grocery,3,60,Card,No
+T0183,C017,2025-07-22,26-35,Female,Ballari,Cooking Oil,Grocery,1,140,Card,No
+T0183,C017,2025-07-22,26-35,Female,Ballari,Onion,Vegetables,2,35,Card,No
+T0183,C017,2025-07-22,26-35,Female,Ballari,Milk,Dairy,3,30,Card,No
+T0183,C017,2025-07-22,26-35,Female,Ballari,Tomato,Vegetables,1,30,Card,No
+T0184,C013,2025-01-05,36-50,Male,Hubballi,Tea,Beverages,1,120,Card,No
+T0184,C013,2025-01-05,36-50,Male,Hubballi,Shampoo,Personal Care,2,90,Card,No
+T0184,C013,2025-01-05,36-50,Male,Hubballi,Bread,Bakery,3,40,Card,No
+T0184,C013,2025-01-05,36-50,Male,Hubballi,Biscuits,Snacks,1,20,Card,No
+T0185,C062,2025-06-03,50+,Male,Ballari,Tea,Beverages,1,120,Cash,No
+T0185,C062,2025-06-03,50+,Male,Ballari,Sugar,Grocery,3,45,Cash,No
+T0185,C062,2025-06-03,50+,Male,Ballari,Biscuits,Snacks,3,20,Cash,No
+T0186,C019,2025-11-18,36-50,Female,Bengaluru,Butter,Dairy,2,55,Card,Yes
+T0186,C019,2025-11-18,36-50,Female,Bengaluru,Milk,Dairy,3,30,Card,Yes
+T0186,C019,2025-11-18,36-50,Female,Bengaluru,Bread,Bakery,3,40,Card,Yes
+T0187,C057,2025-08-08,18-25,Male,Ballari,Chips,Snacks,1,25,UPI,Yes
+T0187,C057,2025-08-08,18-25,Male,Ballari,Rice,Grocery,2,60,UPI,Yes
+T0187,C057,2025-08-08,18-25,Male,Ballari,Biscuits,Snacks,3,20,UPI,Yes
+T0188,C011,2025-09-23,18-25,Male,Hubballi,Dal,Grocery,3,95,Card,Yes
+T0188,C011,2025-09-23,18-25,Male,Hubballi,Coffee,Beverages,2,180,Card,Yes
+T0188,C011,2025-09-23,18-25,Male,Hubballi,Onion,Vegetables,2,35,Card,Yes
+T0188,C011,2025-09-23,18-25,Male,Hubballi,Potato,Vegetables,3,28,Card,Yes
+T0188,C011,2025-09-23,18-25,Male,Hubballi,Tomato,Vegetables,1,30,Card,Yes
+T0189,C031,2025-06-12,50+,Female,Bengaluru,Milk,Dairy,3,30,Cash,No
+T0189,C031,2025-06-12,50+,Female,Bengaluru,Sugar,Grocery,2,45,Cash,No
+T0189,C031,2025-06-12,50+,Female,Bengaluru,Bread,Bakery,2,40,Cash,No
+T0189,C031,2025-06-12,50+,Female,Bengaluru,Biscuits,Snacks,3,20,Cash,No
+T0190,C023,2025-01-31,50+,Female,Bengaluru,Dal,Grocery,3,95,UPI,No
+T0191,C065,2025-02-12,18-25,Male,Ballari,Coffee,Beverages,3,180,UPI,Yes
+T0191,C065,2025-02-12,18-25,Male,Ballari,Rice,Grocery,1,60,UPI,Yes
+T0191,C065,2025-02-12,18-25,Male,Ballari,Sugar,Grocery,1,45,UPI,Yes
+T0191,C065,2025-02-12,18-25,Male,Ballari,Tea,Beverages,3,120,UPI,Yes
+T0192,C042,2025-01-30,26-35,Male,Bengaluru,Cooking Oil,Grocery,2,140,Cash,Yes
+T0192,C042,2025-01-30,26-35,Male,Bengaluru,Dal,Grocery,1,95,Cash,Yes
+T0192,C042,2025-01-30,26-35,Male,Bengaluru,Rice,Grocery,2,60,Cash,Yes
+T0193,C079,2025-09-25,36-50,Male,Ballari,Butter,Dairy,1,55,Card,No
+T0193,C079,2025-09-25,36-50,Male,Ballari,Milk,Dairy,2,30,Card,No
+T0193,C079,2025-09-25,36-50,Male,Ballari,Bread,Bakery,1,40,Card,No
+T0193,C079,2025-09-25,36-50,Male,Ballari,Biscuits,Snacks,3,20,Card,No
+T0194,C035,2025-08-22,50+,Male,Hubballi,Toothpaste,Personal Care,1,60,Card,No
+T0194,C035,2025-08-22,50+,Male,Hubballi,Dal,Grocery,2,95,Card,No
+T0194,C035,2025-08-22,50+,Male,Hubballi,Rice,Grocery,3,60,Card,No
+T0194,C035,2025-08-22,50+,Male,Hubballi,Sugar,Grocery,1,45,Card,No
+T0194,C035,2025-08-22,50+,Male,Hubballi,Coffee,Beverages,2,180,Card,No
+T0194,C035,2025-08-22,50+,Male,Hubballi,Cooking Oil,Grocery,1,140,Card,No
+T0194,C035,2025-08-22,50+,Male,Hubballi,Butter,Dairy,2,55,Card,No
+T0194,C035,2025-08-22,50+,Male,Hubballi,Milk,Dairy,1,30,Card,No
+T0195,C074,2025-03-18,50+,Male,Hubballi,Chips,Snacks,3,25,Cash,Yes
+T0195,C074,2025-03-18,50+,Male,Hubballi,Dal,Grocery,3,95,Cash,Yes
+T0195,C074,2025-03-18,50+,Male,Hubballi,Rice,Grocery,3,60,Cash,Yes
+T0196,C054,2025-02-09,26-35,Male,Bengaluru,Tea,Beverages,1,120,Card,No
+T0196,C054,2025-02-09,26-35,Male,Bengaluru,Chips,Snacks,3,25,Card,No
+T0196,C054,2025-02-09,26-35,Male,Bengaluru,Juice,Beverages,3,85,Card,No
+T0197,C007,2025-08-27,50+,Male,Hubballi,Tea,Beverages,2,120,UPI,No
+T0197,C007,2025-08-27,50+,Male,Hubballi,Sugar,Grocery,1,45,UPI,No
+T0197,C007,2025-08-27,50+,Male,Hubballi,Biscuits,Snacks,3,20,UPI,No
+T0198,C059,2025-05-05,26-35,Female,Hubballi,Chips,Snacks,3,25,UPI,No
+T0198,C059,2025-05-05,26-35,Female,Hubballi,Potato,Vegetables,2,28,UPI,No
+T0198,C059,2025-05-05,26-35,Female,Hubballi,Juice,Beverages,1,85,UPI,No
+T0199,C070,2025-06-21,26-35,Male,Hubballi,Toothpaste,Personal Care,3,60,Cash,No
+T0199,C070,2025-06-21,26-35,Male,Hubballi,Bread,Bakery,3,40,Cash,No
+T0199,C070,2025-06-21,26-35,Male,Hubballi,Soap,Personal Care,2,35,Cash,No
+T0200,C014,2025-12-31,18-25,Female,Ballari,Tea,Beverages,1,120,UPI,Yes
+T0200,C014,2025-12-31,18-25,Female,Ballari,Sugar,Grocery,1,45,UPI,Yes
+T0200,C014,2025-12-31,18-25,Female,Ballari,Biscuits,Snacks,3,20,UPI,Yes
+T0201,C053,2025-10-31,50+,Male,Raichur,Chips,Snacks,2,25,Card,Yes
+T0201,C053,2025-10-31,50+,Male,Raichur,Biscuits,Snacks,3,20,Card,Yes
+T0202,C017,2025-08-20,26-35,Female,Ballari,Juice,Beverages,1,85,UPI,Yes
+T0202,C017,2025-08-20,26-35,Female,Ballari,Onion,Vegetables,1,35,UPI,Yes
+T0202,C017,2025-08-20,26-35,Female,Ballari,Potato,Vegetables,1,28,UPI,Yes
+T0202,C017,2025-08-20,26-35,Female,Ballari,Tomato,Vegetables,3,30,UPI,Yes
+T0203,C014,2025-08-20,18-25,Female,Ballari,Dal,Grocery,2,95,UPI,No
+T0203,C014,2025-08-20,18-25,Female,Ballari,Rice,Grocery,1,60,UPI,No
+T0203,C014,2025-08-20,18-25,Female,Ballari,Biscuits,Snacks,1,20,UPI,No
+T0203,C014,2025-08-20,18-25,Female,Ballari,Cooking Oil,Grocery,1,140,UPI,No
+T0204,C039,2025-03-31,36-50,Female,Raichur,Cooking Oil,Grocery,2,140,Cash,No
+T0204,C039,2025-03-31,36-50,Female,Raichur,Dal,Grocery,3,95,Cash,No
+T0204,C039,2025-03-31,36-50,Female,Raichur,Rice,Grocery,3,60,Cash,No
+T0204,C039,2025-03-31,36-50,Female,Raichur,Coffee,Beverages,3,180,Cash,No
+T0204,C039,2025-03-31,36-50,Female,Raichur,Milk,Dairy,1,30,Cash,No
+T0204,C039,2025-03-31,36-50,Female,Raichur,Bread,Bakery,1,40,Cash,No
+T0204,C039,2025-03-31,36-50,Female,Raichur,Tea,Beverages,2,120,Cash,No
+T0205,C014,2025-04-12,18-25,Female,Ballari,Cooking Oil,Grocery,3,140,UPI,No
+T0205,C014,2025-04-12,18-25,Female,Ballari,Dal,Grocery,3,95,UPI,No
+T0206,C011,2025-01-22,18-25,Male,Hubballi,Eggs,Dairy,1,70,UPI,Yes
+T0206,C011,2025-01-22,18-25,Male,Hubballi,Coffee,Beverages,3,180,UPI,Yes
+T0206,C011,2025-01-22,18-25,Male,Hubballi,Milk,Dairy,2,30,UPI,Yes
+T0206,C011,2025-01-22,18-25,Male,Hubballi,Onion,Vegetables,3,35,UPI,Yes
+T0206,C011,2025-01-22,18-25,Male,Hubballi,Potato,Vegetables,2,28,UPI,Yes
+T0207,C064,2025-05-21,50+,Female,Hubballi,Coffee,Beverages,1,180,UPI,No
+T0207,C064,2025-05-21,50+,Female,Hubballi,Milk,Dairy,1,30,UPI,No
+T0207,C064,2025-05-21,50+,Female,Hubballi,Sugar,Grocery,3,45,UPI,No
+T0208,C080,2025-08-03,18-25,Female,Ballari,Tea,Beverages,3,120,Cash,Yes
+T0208,C080,2025-08-03,18-25,Female,Ballari,Juice,Beverages,3,85,Cash,Yes
+T0208,C080,2025-08-03,18-25,Female,Ballari,Sugar,Grocery,1,45,Cash,Yes
+T0208,C080,2025-08-03,18-25,Female,Ballari,Biscuits,Snacks,2,20,Cash,Yes
+T0209,C046,2025-05-19,26-35,Male,Raichur,Eggs,Dairy,2,70,Cash,Yes
+T0209,C046,2025-05-19,26-35,Male,Raichur,Bread,Bakery,3,40,Cash,Yes
+T0209,C046,2025-05-19,26-35,Male,Raichur,Chips,Snacks,1,25,Cash,Yes
+T0210,C004,2025-02-21,50+,Male,Ballari,Cooking Oil,Grocery,2,140,Cash,Yes
+T0210,C004,2025-02-21,50+,Male,Ballari,Sugar,Grocery,3,45,Cash,Yes
+T0210,C004,2025-02-21,50+,Male,Ballari,Butter,Dairy,3,55,Cash,Yes
+T0210,C004,2025-02-21,50+,Male,Ballari,Milk,Dairy,1,30,Cash,Yes
+T0210,C004,2025-02-21,50+,Male,Ballari,Bread,Bakery,1,40,Cash,Yes
+T0211,C074,2025-04-01,50+,Male,Hubballi,Chips,Snacks,3,25,Cash,No
+T0211,C074,2025-04-01,50+,Male,Hubballi,Juice,Beverages,3,85,Cash,No
+T0212,C046,2025-06-08,26-35,Male,Raichur,Butter,Dairy,1,55,Cash,No
+T0212,C046,2025-06-08,26-35,Male,Raichur,Milk,Dairy,1,30,Cash,No
+T0212,C046,2025-06-08,26-35,Male,Raichur,Tomato,Vegetables,1,30,Cash,No
+T0212,C046,2025-06-08,26-35,Male,Raichur,Chips,Snacks,1,25,Cash,No
+T0212,C046,2025-06-08,26-35,Male,Raichur,Bread,Bakery,3,40,Cash,No
+T0212,C046,2025-06-08,26-35,Male,Raichur,Juice,Beverages,1,85,Cash,No
+T0213,C003,2025-01-12,18-25,Male,Kalaburagi,Eggs,Dairy,1,70,Cash,Yes
+T0213,C003,2025-01-12,18-25,Male,Kalaburagi,Butter,Dairy,3,55,Cash,Yes
+T0213,C003,2025-01-12,18-25,Male,Kalaburagi,Milk,Dairy,2,30,Cash,Yes
+T0213,C003,2025-01-12,18-25,Male,Kalaburagi,Bread,Bakery,1,40,Cash,Yes
+T0214,C048,2025-03-31,18-25,Male,Raichur,Milk,Dairy,1,30,Card,No
+T0214,C048,2025-03-31,18-25,Male,Raichur,Onion,Vegetables,3,35,Card,No
+T0214,C048,2025-03-31,18-25,Male,Raichur,Potato,Vegetables,3,28,Card,No
+T0214,C048,2025-03-31,18-25,Male,Raichur,Juice,Beverages,1,85,Card,No
+T0214,C048,2025-03-31,18-25,Male,Raichur,Tomato,Vegetables,2,30,Card,No
+T0215,C040,2025-11-05,50+,Male,Bengaluru,Dal,Grocery,3,95,UPI,Yes
+T0215,C040,2025-11-05,50+,Male,Bengaluru,Rice,Grocery,3,60,UPI,Yes
+T0215,C040,2025-11-05,50+,Male,Bengaluru,Cooking Oil,Grocery,1,140,UPI,Yes
+T0215,C040,2025-11-05,50+,Male,Bengaluru,Potato,Vegetables,2,28,UPI,Yes
+T0215,C040,2025-11-05,50+,Male,Bengaluru,Milk,Dairy,1,30,UPI,Yes
+T0215,C040,2025-11-05,50+,Male,Bengaluru,Tomato,Vegetables,2,30,UPI,Yes
+T0216,C010,2025-12-29,26-35,Male,Bengaluru,Chips,Snacks,2,25,Card,No
+T0216,C010,2025-12-29,26-35,Male,Bengaluru,Juice,Beverages,1,85,Card,No
+T0217,C034,2025-07-17,18-25,Male,Raichur,Sugar,Grocery,1,45,UPI,No
+T0217,C034,2025-07-17,18-25,Male,Raichur,Biscuits,Snacks,2,20,UPI,No
+T0217,C034,2025-07-17,18-25,Male,Raichur,Tea,Beverages,2,120,UPI,No
+T0217,C034,2025-07-17,18-25,Male,Raichur,Milk,Dairy,2,30,UPI,No
+T0217,C034,2025-07-17,18-25,Male,Raichur,Bread,Bakery,2,40,UPI,No
+T0218,C070,2025-08-20,26-35,Male,Hubballi,Dal,Grocery,2,95,Cash,Yes
+T0218,C070,2025-08-20,26-35,Male,Hubballi,Rice,Grocery,1,60,Cash,Yes
+T0218,C070,2025-08-20,26-35,Male,Hubballi,Sugar,Grocery,2,45,Cash,Yes
+T0218,C070,2025-08-20,26-35,Male,Hubballi,Cooking Oil,Grocery,2,140,Cash,Yes
+T0219,C014,2025-02-17,18-25,Female,Ballari,Butter,Dairy,3,55,UPI,No
+T0219,C014,2025-02-17,18-25,Female,Ballari,Tomato,Vegetables,1,30,UPI,No
+T0219,C014,2025-02-17,18-25,Female,Ballari,Chips,Snacks,2,25,UPI,No
+T0219,C014,2025-02-17,18-25,Female,Ballari,Juice,Beverages,3,85,UPI,No
+T0220,C022,2025-06-02,26-35,Male,Raichur,Sugar,Grocery,1,45,Cash,Yes
+T0220,C022,2025-06-02,26-35,Male,Raichur,Cooking Oil,Grocery,2,140,Cash,Yes
+T0220,C022,2025-06-02,26-35,Male,Raichur,Dal,Grocery,3,95,Cash,Yes
+T0220,C022,2025-06-02,26-35,Male,Raichur,Rice,Grocery,3,60,Cash,Yes
+T0220,C022,2025-06-02,26-35,Male,Raichur,Tea,Beverages,2,120,Cash,Yes
+T0220,C022,2025-06-02,26-35,Male,Raichur,Milk,Dairy,1,30,Cash,Yes
+T0220,C022,2025-06-02,26-35,Male,Raichur,Coffee,Beverages,1,180,Cash,Yes
+T0221,C047,2025-02-19,18-25,Male,Hubballi,Milk,Dairy,1,30,Cash,Yes
+T0221,C047,2025-02-19,18-25,Male,Hubballi,Sugar,Grocery,3,45,Cash,Yes
+T0221,C047,2025-02-19,18-25,Male,Hubballi,Dal,Grocery,2,95,Cash,Yes
+T0222,C011,2025-11-25,18-25,Male,Hubballi,Dal,Grocery,1,95,Card,No
+T0222,C011,2025-11-25,18-25,Male,Hubballi,Rice,Grocery,2,60,Card,No
+T0222,C011,2025-11-25,18-25,Male,Hubballi,Tea,Beverages,2,120,Card,No
+T0222,C011,2025-11-25,18-25,Male,Hubballi,Cooking Oil,Grocery,2,140,Card,No
+T0222,C011,2025-11-25,18-25,Male,Hubballi,Butter,Dairy,1,55,Card,No
+T0223,C058,2025-12-23,18-25,Female,Ballari,Rice,Grocery,1,60,Card,Yes
+T0223,C058,2025-12-23,18-25,Female,Ballari,Milk,Dairy,3,30,Card,Yes
+T0223,C058,2025-12-23,18-25,Female,Ballari,Onion,Vegetables,2,35,Card,Yes
+T0223,C058,2025-12-23,18-25,Female,Ballari,Potato,Vegetables,3,28,Card,Yes
+T0223,C058,2025-12-23,18-25,Female,Ballari,Tomato,Vegetables,2,30,Card,Yes
+T0224,C076,2025-05-01,18-25,Female,Bengaluru,Toothpaste,Personal Care,1,60,UPI,No
+T0224,C076,2025-05-01,18-25,Female,Bengaluru,Butter,Dairy,2,55,UPI,No
+T0224,C076,2025-05-01,18-25,Female,Bengaluru,Milk,Dairy,3,30,UPI,No
+T0224,C076,2025-05-01,18-25,Female,Bengaluru,Onion,Vegetables,1,35,UPI,No
+T0224,C076,2025-05-01,18-25,Female,Bengaluru,Bread,Bakery,3,40,UPI,No
+T0225,C074,2025-08-05,50+,Male,Hubballi,Butter,Dairy,1,55,Cash,No
+T0225,C074,2025-08-05,50+,Male,Hubballi,Milk,Dairy,3,30,Cash,No
+T0225,C074,2025-08-05,50+,Male,Hubballi,Toothpaste,Personal Care,1,60,Cash,No
+T0225,C074,2025-08-05,50+,Male,Hubballi,Shampoo,Personal Care,3,90,Cash,No
+T0225,C074,2025-08-05,50+,Male,Hubballi,Soap,Personal Care,2,35,Cash,No
+T0225,C074,2025-08-05,50+,Male,Hubballi,Bread,Bakery,2,40,Cash,No
+T0226,C009,2025-12-25,50+,Female,Bengaluru,Sugar,Grocery,1,45,Card,No
+T0226,C009,2025-12-25,50+,Female,Bengaluru,Coffee,Beverages,2,180,Card,No
+T0226,C009,2025-12-25,50+,Female,Bengaluru,Milk,Dairy,1,30,Card,No
+T0226,C009,2025-12-25,50+,Female,Bengaluru,Shampoo,Personal Care,1,90,Card,No
+T0226,C009,2025-12-25,50+,Female,Bengaluru,Bread,Bakery,3,40,Card,No
+T0227,C076,2025-10-20,18-25,Female,Bengaluru,Dal,Grocery,1,95,Card,No
+T0227,C076,2025-10-20,18-25,Female,Bengaluru,Rice,Grocery,1,60,Card,No
+T0227,C076,2025-10-20,18-25,Female,Bengaluru,Butter,Dairy,2,55,Card,No
+T0227,C076,2025-10-20,18-25,Female,Bengaluru,Milk,Dairy,2,30,Card,No
+T0227,C076,2025-10-20,18-25,Female,Bengaluru,Toothpaste,Personal Care,1,60,Card,No
+T0227,C076,2025-10-20,18-25,Female,Bengaluru,Bread,Bakery,3,40,Card,No
+T0228,C078,2025-06-22,50+,Male,Raichur,Sugar,Grocery,2,45,UPI,No
+T0228,C078,2025-06-22,50+,Male,Raichur,Coffee,Beverages,2,180,UPI,No
+T0228,C078,2025-06-22,50+,Male,Raichur,Milk,Dairy,3,30,UPI,No
+T0228,C078,2025-06-22,50+,Male,Raichur,Butter,Dairy,3,55,UPI,No
+T0228,C078,2025-06-22,50+,Male,Raichur,Bread,Bakery,1,40,UPI,No
+T0229,C030,2025-11-06,26-35,Female,Kalaburagi,Onion,Vegetables,1,35,Card,Yes
+T0229,C030,2025-11-06,26-35,Female,Kalaburagi,Potato,Vegetables,2,28,Card,Yes
+T0229,C030,2025-11-06,26-35,Female,Kalaburagi,Soap,Personal Care,1,35,Card,Yes
+T0229,C030,2025-11-06,26-35,Female,Kalaburagi,Tomato,Vegetables,2,30,Card,Yes
+T0230,C063,2025-03-30,18-25,Female,Bengaluru,Sugar,Grocery,1,45,Cash,Yes
+T0230,C063,2025-03-30,18-25,Female,Bengaluru,Milk,Dairy,1,30,Cash,Yes
+T0230,C063,2025-03-30,18-25,Female,Bengaluru,Onion,Vegetables,1,35,Cash,Yes
+T0230,C063,2025-03-30,18-25,Female,Bengaluru,Bread,Bakery,2,40,Cash,Yes
+T0230,C063,2025-03-30,18-25,Female,Bengaluru,Juice,Beverages,1,85,Cash,Yes
+T0231,C047,2025-08-17,18-25,Male,Hubballi,Sugar,Grocery,3,45,Cash,No
+T0231,C047,2025-08-17,18-25,Male,Hubballi,Biscuits,Snacks,3,20,Cash,No
+T0231,C047,2025-08-17,18-25,Male,Hubballi,Tea,Beverages,2,120,Cash,No
+T0231,C047,2025-08-17,18-25,Male,Hubballi,Potato,Vegetables,2,28,Cash,No
+T0231,C047,2025-08-17,18-25,Male,Hubballi,Toothpaste,Personal Care,1,60,Cash,No
+T0231,C047,2025-08-17,18-25,Male,Hubballi,Shampoo,Personal Care,2,90,Cash,No
+T0231,C047,2025-08-17,18-25,Male,Hubballi,Soap,Personal Care,3,35,Cash,No
+T0232,C012,2025-04-24,18-25,Female,Bengaluru,Butter,Dairy,3,55,Card,Yes
+T0232,C012,2025-04-24,18-25,Female,Bengaluru,Milk,Dairy,1,30,Card,Yes
+T0232,C012,2025-04-24,18-25,Female,Bengaluru,Bread,Bakery,2,40,Card,Yes
+T0233,C053,2025-04-25,50+,Male,Raichur,Sugar,Grocery,3,45,UPI,No
+T0233,C053,2025-04-25,50+,Male,Raichur,Coffee,Beverages,3,180,UPI,No
+T0233,C053,2025-04-25,50+,Male,Raichur,Milk,Dairy,3,30,UPI,No
+T0233,C053,2025-04-25,50+,Male,Raichur,Bread,Bakery,2,40,UPI,No
+T0234,C055,2025-11-16,18-25,Male,Kalaburagi,Chips,Snacks,1,25,UPI,Yes
+T0234,C055,2025-11-16,18-25,Male,Kalaburagi,Detergent,Household,3,110,UPI,Yes
+T0234,C055,2025-11-16,18-25,Male,Kalaburagi,Juice,Beverages,3,85,UPI,Yes
+T0235,C048,2025-03-18,18-25,Male,Raichur,Shampoo,Personal Care,1,90,Card,Yes
+T0235,C048,2025-03-18,18-25,Male,Raichur,Toothpaste,Personal Care,3,60,Card,Yes
+T0235,C048,2025-03-18,18-25,Male,Raichur,Dal,Grocery,2,95,Card,Yes
+T0235,C048,2025-03-18,18-25,Male,Raichur,Coffee,Beverages,3,180,Card,Yes
+T0235,C048,2025-03-18,18-25,Male,Raichur,Onion,Vegetables,2,35,Card,Yes
+T0235,C048,2025-03-18,18-25,Male,Raichur,Potato,Vegetables,3,28,Card,Yes
+T0235,C048,2025-03-18,18-25,Male,Raichur,Soap,Personal Care,1,35,Card,Yes
+T0235,C048,2025-03-18,18-25,Male,Raichur,Tomato,Vegetables,3,30,Card,Yes
+T0236,C004,2025-04-24,50+,Male,Ballari,Eggs,Dairy,3,70,Card,No
+T0236,C004,2025-04-24,50+,Male,Ballari,Dal,Grocery,2,95,Card,No
+T0236,C004,2025-04-24,50+,Male,Ballari,Toothpaste,Personal Care,3,60,Card,No
+T0236,C004,2025-04-24,50+,Male,Ballari,Shampoo,Personal Care,2,90,Card,No
+T0236,C004,2025-04-24,50+,Male,Ballari,Bread,Bakery,1,40,Card,No
+T0236,C004,2025-04-24,50+,Male,Ballari,Juice,Beverages,3,85,Card,No
+T0237,C072,2025-12-02,18-25,Male,Raichur,Cooking Oil,Grocery,2,140,Cash,Yes
+T0237,C072,2025-12-02,18-25,Male,Raichur,Potato,Vegetables,1,28,Cash,Yes
+T0237,C072,2025-12-02,18-25,Male,Raichur,Juice,Beverages,3,85,Cash,Yes
+T0238,C040,2025-08-29,50+,Male,Bengaluru,Chips,Snacks,2,25,Cash,Yes
+T0238,C040,2025-08-29,50+,Male,Bengaluru,Eggs,Dairy,1,70,Cash,Yes
+T0238,C040,2025-08-29,50+,Male,Bengaluru,Juice,Beverages,3,85,Cash,Yes
+T0239,C016,2025-06-11,26-35,Male,Ballari,Shampoo,Personal Care,1,90,Card,Yes
+T0239,C016,2025-06-11,26-35,Male,Ballari,Sugar,Grocery,2,45,Card,Yes
+T0239,C016,2025-06-11,26-35,Male,Ballari,Rice,Grocery,2,60,Card,Yes
+T0239,C016,2025-06-11,26-35,Male,Ballari,Coffee,Beverages,3,180,Card,Yes
+T0239,C016,2025-06-11,26-35,Male,Ballari,Onion,Vegetables,1,35,Card,Yes
+T0239,C016,2025-06-11,26-35,Male,Ballari,Potato,Vegetables,2,28,Card,Yes
+T0240,C008,2025-10-23,36-50,Male,Raichur,Eggs,Dairy,1,70,Cash,No
+T0240,C008,2025-10-23,36-50,Male,Raichur,Bread,Bakery,1,40,Cash,No
+T0241,C079,2025-10-01,36-50,Male,Ballari,Coffee,Beverages,1,180,Cash,No
+T0241,C079,2025-10-01,36-50,Male,Ballari,Milk,Dairy,2,30,Cash,No
+T0241,C079,2025-10-01,36-50,Male,Ballari,Sugar,Grocery,3,45,Cash,No
+T0242,C025,2025-03-08,26-35,Male,Bengaluru,Butter,Dairy,3,55,Cash,No
+T0242,C025,2025-03-08,26-35,Male,Bengaluru,Milk,Dairy,3,30,Cash,No
+T0242,C025,2025-03-08,26-35,Male,Bengaluru,Bread,Bakery,2,40,Cash,No
+T0242,C025,2025-03-08,26-35,Male,Bengaluru,Coffee,Beverages,1,180,Cash,No
+T0243,C009,2025-12-18,50+,Female,Bengaluru,Juice,Beverages,2,85,Cash,No
+T0243,C009,2025-12-18,50+,Female,Bengaluru,Onion,Vegetables,2,35,Cash,No
+T0243,C009,2025-12-18,50+,Female,Bengaluru,Potato,Vegetables,1,28,Cash,No
+T0243,C009,2025-12-18,50+,Female,Bengaluru,Soap,Personal Care,1,35,Cash,No
+T0243,C009,2025-12-18,50+,Female,Bengaluru,Tomato,Vegetables,2,30,Cash,No
+T0244,C003,2025-03-05,18-25,Male,Kalaburagi,Tea,Beverages,2,120,UPI,Yes
+T0244,C003,2025-03-05,18-25,Male,Kalaburagi,Cooking Oil,Grocery,3,140,UPI,Yes
+T0244,C003,2025-03-05,18-25,Male,Kalaburagi,Detergent,Household,2,110,UPI,Yes
+T0244,C003,2025-03-05,18-25,Male,Kalaburagi,Biscuits,Snacks,3,20,UPI,Yes
+T0245,C080,2025-08-16,18-25,Female,Ballari,Milk,Dairy,3,30,UPI,Yes
+T0245,C080,2025-08-16,18-25,Female,Ballari,Eggs,Dairy,2,70,UPI,Yes
+T0245,C080,2025-08-16,18-25,Female,Ballari,Bread,Bakery,2,40,UPI,Yes
+T0245,C080,2025-08-16,18-25,Female,Ballari,Soap,Personal Care,3,35,UPI,Yes
+T0246,C020,2025-11-07,26-35,Female,Bengaluru,Butter,Dairy,2,55,Card,Yes
+T0246,C020,2025-11-07,26-35,Female,Bengaluru,Milk,Dairy,1,30,Card,Yes
+T0246,C020,2025-11-07,26-35,Female,Bengaluru,Bread,Bakery,3,40,Card,Yes
+T0246,C020,2025-11-07,26-35,Female,Bengaluru,Potato,Vegetables,3,28,Card,Yes
+T0247,C080,2025-05-15,18-25,Female,Ballari,Potato,Vegetables,2,28,Card,Yes
+T0248,C053,2025-05-01,50+,Male,Raichur,Toothpaste,Personal Care,3,60,Cash,Yes
+T0248,C053,2025-05-01,50+,Male,Raichur,Soap,Personal Care,1,35,Cash,Yes
+T0248,C053,2025-05-01,50+,Male,Raichur,Juice,Beverages,1,85,Cash,Yes
+T0249,C074,2025-06-01,50+,Male,Hubballi,Shampoo,Personal Care,1,90,UPI,No
+T0249,C074,2025-06-01,50+,Male,Hubballi,Eggs,Dairy,1,70,UPI,No
+T0249,C074,2025-06-01,50+,Male,Hubballi,Dal,Grocery,1,95,UPI,No
+T0249,C074,2025-06-01,50+,Male,Hubballi,Sugar,Grocery,1,45,UPI,No
+T0249,C074,2025-06-01,50+,Male,Hubballi,Cooking Oil,Grocery,2,140,UPI,No
+T0249,C074,2025-06-01,50+,Male,Hubballi,Bread,Bakery,2,40,UPI,No
+T0250,C041,2025-12-06,26-35,Male,Bengaluru,Cooking Oil,Grocery,2,140,Card,Yes
+T0251,C046,2025-02-28,26-35,Male,Raichur,Potato,Vegetables,2,28,UPI,No
+T0251,C046,2025-02-28,26-35,Male,Raichur,Tomato,Vegetables,2,30,UPI,No
+T0252,C050,2025-02-23,50+,Male,Kalaburagi,Coffee,Beverages,3,180,UPI,No
+T0252,C050,2025-02-23,50+,Male,Kalaburagi,Sugar,Grocery,3,45,UPI,No
+T0252,C050,2025-02-23,50+,Male,Kalaburagi,Eggs,Dairy,2,70,UPI,No
+T0252,C050,2025-02-23,50+,Male,Kalaburagi,Bread,Bakery,1,40,UPI,No
+T0253,C079,2025-09-07,36-50,Male,Ballari,Toothpaste,Personal Care,2,60,Cash,No
+T0253,C079,2025-09-07,36-50,Male,Ballari,Chips,Snacks,1,25,Cash,No
+T0253,C079,2025-09-07,36-50,Male,Ballari,Rice,Grocery,1,60,Cash,No
+T0253,C079,2025-09-07,36-50,Male,Ballari,Juice,Beverages,2,85,Cash,No
+T0254,C041,2025-08-10,26-35,Male,Bengaluru,Eggs,Dairy,2,70,Card,Yes
+T0254,C041,2025-08-10,26-35,Male,Bengaluru,Sugar,Grocery,2,45,Card,Yes
+T0254,C041,2025-08-10,26-35,Male,Bengaluru,Biscuits,Snacks,3,20,Card,Yes
+T0254,C041,2025-08-10,26-35,Male,Bengaluru,Tea,Beverages,3,120,Card,Yes
+T0254,C041,2025-08-10,26-35,Male,Bengaluru,Potato,Vegetables,3,28,Card,Yes
+T0255,C050,2025-03-26,50+,Male,Kalaburagi,Butter,Dairy,2,55,Cash,No
+T0255,C050,2025-03-26,50+,Male,Kalaburagi,Milk,Dairy,1,30,Cash,No
+T0255,C050,2025-03-26,50+,Male,Kalaburagi,Toothpaste,Personal Care,2,60,Cash,No
+T0256,C036,2025-08-24,50+,Female,Kalaburagi,Tea,Beverages,1,120,UPI,No
+T0256,C036,2025-08-24,50+,Female,Kalaburagi,Sugar,Grocery,2,45,UPI,No
+T0256,C036,2025-08-24,50+,Female,Kalaburagi,Biscuits,Snacks,2,20,UPI,No
+T0257,C041,2025-01-19,26-35,Male,Bengaluru,Eggs,Dairy,1,70,Card,Yes
+T0257,C041,2025-01-19,26-35,Male,Bengaluru,Soap,Personal Care,3,35,Card,Yes
+T0258,C080,2025-08-21,18-25,Female,Ballari,Eggs,Dairy,3,70,UPI,No
+T0258,C080,2025-08-21,18-25,Female,Ballari,Onion,Vegetables,3,35,UPI,No
+T0258,C080,2025-08-21,18-25,Female,Ballari,Potato,Vegetables,2,28,UPI,No
+T0258,C080,2025-08-21,18-25,Female,Ballari,Bread,Bakery,3,40,UPI,No
+T0258,C080,2025-08-21,18-25,Female,Ballari,Tomato,Vegetables,2,30,UPI,No
+T0259,C015,2025-09-25,36-50,Female,Kalaburagi,Tomato,Vegetables,1,30,UPI,Yes
+T0259,C015,2025-09-25,36-50,Female,Kalaburagi,Sugar,Grocery,1,45,UPI,Yes
+T0259,C015,2025-09-25,36-50,Female,Kalaburagi,Biscuits,Snacks,2,20,UPI,Yes
+T0260,C018,2025-06-23,26-35,Male,Hubballi,Coffee,Beverages,1,180,Cash,No
+T0260,C018,2025-06-23,26-35,Male,Hubballi,Milk,Dairy,3,30,Cash,No
+T0260,C018,2025-06-23,26-35,Male,Hubballi,Butter,Dairy,3,55,Cash,No
+T0260,C018,2025-06-23,26-35,Male,Hubballi,Bread,Bakery,3,40,Cash,No
+T0261,C016,2025-09-13,26-35,Male,Ballari,Eggs,Dairy,3,70,Cash,Yes
+T0261,C016,2025-09-13,26-35,Male,Ballari,Bread,Bakery,2,40,Cash,Yes
+T0262,C075,2025-07-18,18-25,Male,Hubballi,Toothpaste,Personal Care,3,60,Card,No
+T0262,C075,2025-07-18,18-25,Male,Hubballi,Shampoo,Personal Care,2,90,Card,No
+T0262,C075,2025-07-18,18-25,Male,Hubballi,Soap,Personal Care,2,35,Card,No
+T0263,C078,2025-12-26,50+,Male,Raichur,Sugar,Grocery,3,45,Card,No
+T0263,C078,2025-12-26,50+,Male,Raichur,Biscuits,Snacks,3,20,Card,No
+T0263,C078,2025-12-26,50+,Male,Raichur,Tea,Beverages,3,120,Card,No
+T0263,C078,2025-12-26,50+,Male,Raichur,Toothpaste,Personal Care,3,60,Card,No
+T0263,C078,2025-12-26,50+,Male,Raichur,Shampoo,Personal Care,1,90,Card,No
+T0263,C078,2025-12-26,50+,Male,Raichur,Detergent,Household,1,110,Card,No
+T0263,C078,2025-12-26,50+,Male,Raichur,Coffee,Beverages,1,180,Card,No
+T0264,C080,2025-12-30,18-25,Female,Ballari,Juice,Beverages,3,85,Cash,No
+T0264,C080,2025-12-30,18-25,Female,Ballari,Onion,Vegetables,2,35,Cash,No
+T0264,C080,2025-12-30,18-25,Female,Ballari,Chips,Snacks,3,25,Cash,No
+T0264,C080,2025-12-30,18-25,Female,Ballari,Potato,Vegetables,3,28,Cash,No
+T0264,C080,2025-12-30,18-25,Female,Ballari,Tomato,Vegetables,3,30,Cash,No
+T0265,C054,2025-05-27,26-35,Male,Bengaluru,Coffee,Beverages,1,180,Card,No
+T0265,C054,2025-05-27,26-35,Male,Bengaluru,Cooking Oil,Grocery,1,140,Card,No
+T0265,C054,2025-05-27,26-35,Male,Bengaluru,Tomato,Vegetables,3,30,Card,No
+T0266,C038,2025-11-28,36-50,Female,Ballari,Sugar,Grocery,1,45,Card,No
+T0266,C038,2025-11-28,36-50,Female,Ballari,Butter,Dairy,3,55,Card,No
+T0266,C038,2025-11-28,36-50,Female,Ballari,Milk,Dairy,3,30,Card,No
+T0266,C038,2025-11-28,36-50,Female,Ballari,Bread,Bakery,2,40,Card,No
+T0266,C038,2025-11-28,36-50,Female,Ballari,Tomato,Vegetables,3,30,Card,No
+T0267,C007,2025-05-09,50+,Male,Hubballi,Sugar,Grocery,1,45,Cash,No
+T0267,C007,2025-05-09,50+,Male,Hubballi,Coffee,Beverages,3,180,Cash,No
+T0267,C007,2025-05-09,50+,Male,Hubballi,Milk,Dairy,3,30,Cash,No
+T0267,C007,2025-05-09,50+,Male,Hubballi,Bread,Bakery,3,40,Cash,No
+T0268,C048,2025-07-13,18-25,Male,Raichur,Eggs,Dairy,2,70,Cash,No
+T0268,C048,2025-07-13,18-25,Male,Raichur,Sugar,Grocery,3,45,Cash,No
+T0268,C048,2025-07-13,18-25,Male,Raichur,Biscuits,Snacks,2,20,Cash,No
+T0268,C048,2025-07-13,18-25,Male,Raichur,Tea,Beverages,1,120,Cash,No
+T0268,C048,2025-07-13,18-25,Male,Raichur,Detergent,Household,1,110,Cash,No
+T0268,C048,2025-07-13,18-25,Male,Raichur,Coffee,Beverages,3,180,Cash,No
+T0269,C033,2025-03-20,50+,Male,Ballari,Chips,Snacks,3,25,UPI,Yes
+T0269,C033,2025-03-20,50+,Male,Ballari,Juice,Beverages,3,85,UPI,Yes
+T0270,C039,2025-09-24,36-50,Female,Raichur,Cooking Oil,Grocery,2,140,Cash,Yes
+T0270,C039,2025-09-24,36-50,Female,Raichur,Sugar,Grocery,3,45,Cash,Yes
+T0270,C039,2025-09-24,36-50,Female,Raichur,Juice,Beverages,3,85,Cash,Yes
+T0271,C052,2025-07-04,36-50,Female,Kalaburagi,Chips,Snacks,3,25,UPI,Yes
+T0271,C052,2025-07-04,36-50,Female,Kalaburagi,Juice,Beverages,3,85,UPI,Yes
+T0272,C061,2025-12-16,50+,Male,Hubballi,Eggs,Dairy,1,70,UPI,No
+T0272,C061,2025-12-16,50+,Male,Hubballi,Butter,Dairy,2,55,UPI,No
+T0272,C061,2025-12-16,50+,Male,Hubballi,Milk,Dairy,2,30,UPI,No
+T0272,C061,2025-12-16,50+,Male,Hubballi,Bread,Bakery,3,40,UPI,No
+T0273,C037,2025-06-01,36-50,Male,Ballari,Milk,Dairy,2,30,Card,Yes
+T0273,C037,2025-06-01,36-50,Male,Ballari,Chips,Snacks,3,25,Card,Yes
+T0273,C037,2025-06-01,36-50,Male,Ballari,Juice,Beverages,1,85,Card,Yes
+T0274,C013,2025-12-17,36-50,Male,Hubballi,Butter,Dairy,1,55,UPI,Yes
+T0274,C013,2025-12-17,36-50,Male,Hubballi,Milk,Dairy,3,30,UPI,Yes
+T0274,C013,2025-12-17,36-50,Male,Hubballi,Bread,Bakery,3,40,UPI,Yes
+T0275,C056,2025-05-09,26-35,Male,Ballari,Dal,Grocery,3,95,Card,Yes
+T0275,C056,2025-05-09,26-35,Male,Ballari,Rice,Grocery,1,60,Card,Yes
+T0276,C034,2025-10-01,18-25,Male,Raichur,Coffee,Beverages,3,180,Cash,Yes
+T0276,C034,2025-10-01,18-25,Male,Raichur,Milk,Dairy,3,30,Cash,Yes
+T0276,C034,2025-10-01,18-25,Male,Raichur,Eggs,Dairy,1,70,Cash,Yes
+T0276,C034,2025-10-01,18-25,Male,Raichur,Sugar,Grocery,3,45,Cash,Yes
+T0277,C010,2025-07-15,26-35,Male,Bengaluru,Shampoo,Personal Care,2,90,UPI,Yes
+T0277,C010,2025-07-15,26-35,Male,Bengaluru,Cooking Oil,Grocery,1,140,UPI,Yes
+T0277,C010,2025-07-15,26-35,Male,Bengaluru,Dal,Grocery,3,95,UPI,Yes
+T0277,C010,2025-07-15,26-35,Male,Bengaluru,Rice,Grocery,1,60,UPI,Yes
+T0278,C018,2025-10-11,26-35,Male,Hubballi,Sugar,Grocery,1,45,Card,Yes
+T0278,C018,2025-10-11,26-35,Male,Hubballi,Biscuits,Snacks,1,20,Card,Yes
+T0278,C018,2025-10-11,26-35,Male,Hubballi,Coffee,Beverages,1,180,Card,Yes
+T0278,C018,2025-10-11,26-35,Male,Hubballi,Milk,Dairy,3,30,Card,Yes
+T0278,C018,2025-10-11,26-35,Male,Hubballi,Bread,Bakery,3,40,Card,Yes
+T0279,C051,2025-03-24,26-35,Female,Hubballi,Dal,Grocery,3,95,Cash,Yes
+T0279,C051,2025-03-24,26-35,Female,Hubballi,Rice,Grocery,2,60,Cash,Yes
+T0279,C051,2025-03-24,26-35,Female,Hubballi,Cooking Oil,Grocery,1,140,Cash,Yes
+T0279,C051,2025-03-24,26-35,Female,Hubballi,Toothpaste,Personal Care,1,60,Cash,Yes
+T0279,C051,2025-03-24,26-35,Female,Hubballi,Shampoo,Personal Care,1,90,Cash,Yes
+T0279,C051,2025-03-24,26-35,Female,Hubballi,Soap,Personal Care,3,35,Cash,Yes
+T0280,C073,2025-02-20,26-35,Female,Hubballi,Butter,Dairy,2,55,Cash,No
+T0280,C073,2025-02-20,26-35,Female,Hubballi,Eggs,Dairy,2,70,Cash,No
+T0280,C073,2025-02-20,26-35,Female,Hubballi,Tea,Beverages,1,120,Cash,No
+T0281,C031,2025-11-12,50+,Female,Bengaluru,Juice,Beverages,3,85,Card,No
+T0281,C031,2025-11-12,50+,Female,Bengaluru,Onion,Vegetables,3,35,Card,No
+T0281,C031,2025-11-12,50+,Female,Bengaluru,Potato,Vegetables,1,28,Card,No
+T0281,C031,2025-11-12,50+,Female,Bengaluru,Tomato,Vegetables,3,30,Card,No
+T0282,C073,2025-04-24,26-35,Female,Hubballi,Chips,Snacks,2,25,Card,No
+T0282,C073,2025-04-24,26-35,Female,Hubballi,Sugar,Grocery,2,45,Card,No
+T0282,C073,2025-04-24,26-35,Female,Hubballi,Juice,Beverages,1,85,Card,No
+T0283,C043,2025-02-25,26-35,Male,Kalaburagi,Eggs,Dairy,2,70,Cash,Yes
+T0283,C043,2025-02-25,26-35,Male,Kalaburagi,Bread,Bakery,1,40,Cash,Yes
+T0283,C043,2025-02-25,26-35,Male,Kalaburagi,Tomato,Vegetables,3,30,Cash,Yes
+T0284,C026,2025-10-24,50+,Female,Ballari,Dal,Grocery,1,95,UPI,Yes
+T0284,C026,2025-10-24,50+,Female,Ballari,Rice,Grocery,3,60,UPI,Yes
+T0284,C026,2025-10-24,50+,Female,Ballari,Cooking Oil,Grocery,2,140,UPI,Yes
+T0284,C026,2025-10-24,50+,Female,Ballari,Onion,Vegetables,3,35,UPI,Yes
+T0284,C026,2025-10-24,50+,Female,Ballari,Bread,Bakery,3,40,UPI,Yes
+T0285,C061,2025-07-23,50+,Male,Hubballi,Eggs,Dairy,3,70,UPI,Yes
+T0285,C061,2025-07-23,50+,Male,Hubballi,Butter,Dairy,1,55,UPI,Yes
+T0285,C061,2025-07-23,50+,Male,Hubballi,Toothpaste,Personal Care,3,60,UPI,Yes
+T0285,C061,2025-07-23,50+,Male,Hubballi,Shampoo,Personal Care,3,90,UPI,Yes
+T0285,C061,2025-07-23,50+,Male,Hubballi,Soap,Personal Care,1,35,UPI,Yes
+T0285,C061,2025-07-23,50+,Male,Hubballi,Detergent,Household,3,110,UPI,Yes
+T0286,C018,2025-09-05,26-35,Male,Hubballi,Toothpaste,Personal Care,1,60,UPI,Yes
+T0286,C018,2025-09-05,26-35,Male,Hubballi,Shampoo,Personal Care,2,90,UPI,Yes
+T0286,C018,2025-09-05,26-35,Male,Hubballi,Soap,Personal Care,1,35,UPI,Yes
+T0287,C009,2025-08-29,50+,Female,Bengaluru,Chips,Snacks,1,25,UPI,Yes
+T0287,C009,2025-08-29,50+,Female,Bengaluru,Biscuits,Snacks,3,20,UPI,Yes
+T0287,C009,2025-08-29,50+,Female,Bengaluru,Juice,Beverages,2,85,UPI,Yes
+T0288,C014,2025-09-22,18-25,Female,Ballari,Sugar,Grocery,1,45,UPI,No
+T0288,C014,2025-09-22,18-25,Female,Ballari,Coffee,Beverages,3,180,UPI,No
+T0288,C014,2025-09-22,18-25,Female,Ballari,Milk,Dairy,2,30,UPI,No
+T0288,C014,2025-09-22,18-25,Female,Ballari,Onion,Vegetables,2,35,UPI,No
+T0288,C014,2025-09-22,18-25,Female,Ballari,Potato,Vegetables,2,28,UPI,No
+T0288,C014,2025-09-22,18-25,Female,Ballari,Tomato,Vegetables,2,30,UPI,No
+T0289,C062,2025-07-05,50+,Male,Ballari,Butter,Dairy,3,55,Card,Yes
+T0289,C062,2025-07-05,50+,Male,Ballari,Milk,Dairy,1,30,Card,Yes
+T0289,C062,2025-07-05,50+,Male,Ballari,Onion,Vegetables,2,35,Card,Yes
+T0289,C062,2025-07-05,50+,Male,Ballari,Bread,Bakery,2,40,Card,Yes
+T0289,C062,2025-07-05,50+,Male,Ballari,Potato,Vegetables,3,28,Card,Yes
+T0289,C062,2025-07-05,50+,Male,Ballari,Tomato,Vegetables,1,30,Card,Yes
+T0290,C062,2025-03-10,50+,Male,Ballari,Eggs,Dairy,3,70,Card,Yes
+T0290,C062,2025-03-10,50+,Male,Ballari,Tea,Beverages,1,120,Card,Yes
+T0290,C062,2025-03-10,50+,Male,Ballari,Cooking Oil,Grocery,1,140,Card,Yes
+T0290,C062,2025-03-10,50+,Male,Ballari,Onion,Vegetables,1,35,Card,Yes
+T0290,C062,2025-03-10,50+,Male,Ballari,Bread,Bakery,2,40,Card,Yes
+T0291,C024,2025-08-18,26-35,Female,Ballari,Sugar,Grocery,2,45,Card,No
+T0291,C024,2025-08-18,26-35,Female,Ballari,Coffee,Beverages,1,180,Card,No
+T0291,C024,2025-08-18,26-35,Female,Ballari,Milk,Dairy,1,30,Card,No
+T0291,C024,2025-08-18,26-35,Female,Ballari,Onion,Vegetables,2,35,Card,No
+T0291,C024,2025-08-18,26-35,Female,Ballari,Potato,Vegetables,3,28,Card,No
+T0291,C024,2025-08-18,26-35,Female,Ballari,Tomato,Vegetables,1,30,Card,No
+T0292,C075,2025-04-28,18-25,Male,Hubballi,Butter,Dairy,1,55,UPI,No
+T0292,C075,2025-04-28,18-25,Male,Hubballi,Onion,Vegetables,1,35,UPI,No
+T0292,C075,2025-04-28,18-25,Male,Hubballi,Potato,Vegetables,1,28,UPI,No
+T0292,C075,2025-04-28,18-25,Male,Hubballi,Tomato,Vegetables,1,30,UPI,No
+T0293,C067,2025-02-17,26-35,Male,Raichur,Eggs,Dairy,3,70,UPI,Yes
+T0293,C067,2025-02-17,26-35,Male,Raichur,Sugar,Grocery,3,45,UPI,Yes
+T0293,C067,2025-02-17,26-35,Male,Raichur,Detergent,Household,1,110,UPI,Yes
+T0294,C056,2025-12-23,26-35,Male,Ballari,Onion,Vegetables,2,35,Card,Yes
+T0294,C056,2025-12-23,26-35,Male,Ballari,Sugar,Grocery,1,45,Card,Yes
+T0294,C056,2025-12-23,26-35,Male,Ballari,Coffee,Beverages,2,180,Card,Yes
+T0294,C056,2025-12-23,26-35,Male,Ballari,Milk,Dairy,2,30,Card,Yes
+T0294,C056,2025-12-23,26-35,Male,Ballari,Toothpaste,Personal Care,1,60,Card,Yes
+T0294,C056,2025-12-23,26-35,Male,Ballari,Shampoo,Personal Care,1,90,Card,Yes
+T0294,C056,2025-12-23,26-35,Male,Ballari,Soap,Personal Care,2,35,Card,Yes
+T0295,C077,2025-07-29,50+,Female,Hubballi,Sugar,Grocery,1,45,UPI,Yes
+T0295,C077,2025-07-29,50+,Female,Hubballi,Dal,Grocery,2,95,UPI,Yes
+T0295,C077,2025-07-29,50+,Female,Hubballi,Coffee,Beverages,3,180,UPI,Yes
+T0295,C077,2025-07-29,50+,Female,Hubballi,Milk,Dairy,3,30,UPI,Yes
+T0295,C077,2025-07-29,50+,Female,Hubballi,Shampoo,Personal Care,2,90,UPI,Yes
+T0295,C077,2025-07-29,50+,Female,Hubballi,Juice,Beverages,2,85,UPI,Yes
+T0296,C069,2025-07-31,26-35,Female,Hubballi,Chips,Snacks,1,25,Card,No
+T0296,C069,2025-07-31,26-35,Female,Hubballi,Dal,Grocery,2,95,Card,No
+T0296,C069,2025-07-31,26-35,Female,Hubballi,Juice,Beverages,3,85,Card,No
+T0297,C072,2025-12-04,18-25,Male,Raichur,Onion,Vegetables,2,35,Cash,Yes
+T0297,C072,2025-12-04,18-25,Male,Raichur,Potato,Vegetables,3,28,Cash,Yes
+T0297,C072,2025-12-04,18-25,Male,Raichur,Rice,Grocery,1,60,Cash,Yes
+T0297,C072,2025-12-04,18-25,Male,Raichur,Tomato,Vegetables,1,30,Cash,Yes
+T0298,C028,2025-03-16,50+,Female,Hubballi,Eggs,Dairy,1,70,UPI,No
+T0298,C028,2025-03-16,50+,Female,Hubballi,Sugar,Grocery,1,45,UPI,No
+T0298,C028,2025-03-16,50+,Female,Hubballi,Coffee,Beverages,2,180,UPI,No
+T0298,C028,2025-03-16,50+,Female,Hubballi,Milk,Dairy,1,30,UPI,No
+T0298,C028,2025-03-16,50+,Female,Hubballi,Butter,Dairy,2,55,UPI,No
+T0298,C028,2025-03-16,50+,Female,Hubballi,Bread,Bakery,1,40,UPI,No
+T0299,C078,2025-01-30,50+,Male,Raichur,Coffee,Beverages,2,180,Cash,No
+T0299,C078,2025-01-30,50+,Male,Raichur,Milk,Dairy,1,30,Cash,No
+T0299,C078,2025-01-30,50+,Male,Raichur,Sugar,Grocery,1,45,Cash,No
+T0299,C078,2025-01-30,50+,Male,Raichur,Potato,Vegetables,3,28,Cash,No
+T0300,C067,2025-11-11,26-35,Male,Raichur,Sugar,Grocery,2,45,Cash,Yes
+T0300,C067,2025-11-11,26-35,Male,Raichur,Biscuits,Snacks,1,20,Cash,Yes
+T0301,C001,2025-10-28,18-25,Male,Bengaluru,Cooking Oil,Grocery,3,140,Cash,Yes
+T0301,C001,2025-10-28,18-25,Male,Bengaluru,Chips,Snacks,3,25,Cash,Yes
+T0301,C001,2025-10-28,18-25,Male,Bengaluru,Dal,Grocery,1,95,Cash,Yes
+T0301,C001,2025-10-28,18-25,Male,Bengaluru,Rice,Grocery,1,60,Cash,Yes
+T0302,C071,2025-11-07,18-25,Male,Kalaburagi,Chips,Snacks,2,25,Cash,No
+T0302,C071,2025-11-07,18-25,Male,Kalaburagi,Juice,Beverages,3,85,Cash,No
+T0303,C001,2025-03-01,18-25,Male,Bengaluru,Shampoo,Personal Care,3,90,Card,No
+T0303,C001,2025-03-01,18-25,Male,Bengaluru,Juice,Beverages,3,85,Card,No
+T0304,C033,2025-01-15,50+,Male,Ballari,Eggs,Dairy,2,70,UPI,Yes
+T0304,C033,2025-01-15,50+,Male,Ballari,Sugar,Grocery,1,45,UPI,Yes
+T0304,C033,2025-01-15,50+,Male,Ballari,Biscuits,Snacks,2,20,UPI,Yes
+T0304,C033,2025-01-15,50+,Male,Ballari,Tea,Beverages,3,120,UPI,Yes
+T0304,C033,2025-01-15,50+,Male,Ballari,Onion,Vegetables,1,35,UPI,Yes
+T0304,C033,2025-01-15,50+,Male,Ballari,Bread,Bakery,3,40,UPI,Yes
+T0305,C030,2025-05-28,26-35,Female,Kalaburagi,Coffee,Beverages,3,180,Cash,No
+T0305,C030,2025-05-28,26-35,Female,Kalaburagi,Milk,Dairy,3,30,Cash,No
+T0305,C030,2025-05-28,26-35,Female,Kalaburagi,Sugar,Grocery,2,45,Cash,No
+T0306,C010,2025-09-13,26-35,Male,Bengaluru,Sugar,Grocery,1,45,Card,Yes
+T0306,C010,2025-09-13,26-35,Male,Bengaluru,Biscuits,Snacks,3,20,Card,Yes
+T0306,C010,2025-09-13,26-35,Male,Bengaluru,Tea,Beverages,1,120,Card,Yes
+T0306,C010,2025-09-13,26-35,Male,Bengaluru,Toothpaste,Personal Care,2,60,Card,Yes
+T0306,C010,2025-09-13,26-35,Male,Bengaluru,Shampoo,Personal Care,1,90,Card,Yes
+T0306,C010,2025-09-13,26-35,Male,Bengaluru,Soap,Personal Care,1,35,Card,Yes
+T0307,C026,2025-12-13,50+,Female,Ballari,Chips,Snacks,3,25,Card,No
+T0308,C001,2025-09-19,18-25,Male,Bengaluru,Sugar,Grocery,1,45,UPI,No
+T0308,C001,2025-09-19,18-25,Male,Bengaluru,Cooking Oil,Grocery,3,140,UPI,No
+T0308,C001,2025-09-19,18-25,Male,Bengaluru,Butter,Dairy,1,55,UPI,No
+T0308,C001,2025-09-19,18-25,Male,Bengaluru,Milk,Dairy,1,30,UPI,No
+T0308,C001,2025-09-19,18-25,Male,Bengaluru,Bread,Bakery,3,40,UPI,No
+T0308,C001,2025-09-19,18-25,Male,Bengaluru,Coffee,Beverages,2,180,UPI,No
+T0309,C062,2025-01-07,50+,Male,Ballari,Butter,Dairy,2,55,Card,Yes
+T0309,C062,2025-01-07,50+,Male,Ballari,Milk,Dairy,3,30,Card,Yes
+T0309,C062,2025-01-07,50+,Male,Ballari,Bread,Bakery,1,40,Card,Yes
+T0309,C062,2025-01-07,50+,Male,Ballari,Potato,Vegetables,2,28,Card,Yes
+T0309,C062,2025-01-07,50+,Male,Ballari,Tomato,Vegetables,2,30,Card,Yes
+T0310,C079,2025-04-05,36-50,Male,Ballari,Biscuits,Snacks,1,20,UPI,No
+T0310,C079,2025-04-05,36-50,Male,Ballari,Toothpaste,Personal Care,2,60,UPI,No
+T0310,C079,2025-04-05,36-50,Male,Ballari,Shampoo,Personal Care,3,90,UPI,No
+T0310,C079,2025-04-05,36-50,Male,Ballari,Soap,Personal Care,2,35,UPI,No
+T0310,C079,2025-04-05,36-50,Male,Ballari,Juice,Beverages,2,85,UPI,No
+T0311,C052,2025-05-19,36-50,Female,Kalaburagi,Eggs,Dairy,2,70,Cash,No
+T0311,C052,2025-05-19,36-50,Female,Kalaburagi,Sugar,Grocery,1,45,Cash,No
+T0312,C019,2025-06-03,36-50,Female,Bengaluru,Sugar,Grocery,2,45,UPI,Yes
+T0312,C019,2025-06-03,36-50,Female,Bengaluru,Biscuits,Snacks,1,20,UPI,Yes
+T0312,C019,2025-06-03,36-50,Female,Bengaluru,Tea,Beverages,3,120,UPI,Yes
+T0312,C019,2025-06-03,36-50,Female,Bengaluru,Toothpaste,Personal Care,1,60,UPI,Yes
+T0312,C019,2025-06-03,36-50,Female,Bengaluru,Shampoo,Personal Care,1,90,UPI,Yes
+T0312,C019,2025-06-03,36-50,Female,Bengaluru,Soap,Personal Care,1,35,UPI,Yes
+T0312,C019,2025-06-03,36-50,Female,Bengaluru,Juice,Beverages,2,85,UPI,Yes
+T0313,C061,2025-06-29,50+,Male,Hubballi,Eggs,Dairy,3,70,Card,Yes
+T0313,C061,2025-06-29,50+,Male,Hubballi,Dal,Grocery,3,95,Card,Yes
+T0313,C061,2025-06-29,50+,Male,Hubballi,Rice,Grocery,3,60,Card,Yes
+T0313,C061,2025-06-29,50+,Male,Hubballi,Sugar,Grocery,3,45,Card,Yes
+T0313,C061,2025-06-29,50+,Male,Hubballi,Biscuits,Snacks,3,20,Card,Yes
+T0313,C061,2025-06-29,50+,Male,Hubballi,Tea,Beverages,1,120,Card,Yes
+T0313,C061,2025-06-29,50+,Male,Hubballi,Cooking Oil,Grocery,2,140,Card,Yes
+T0314,C046,2025-07-15,26-35,Male,Raichur,Eggs,Dairy,2,70,Card,No
+T0314,C046,2025-07-15,26-35,Male,Raichur,Bread,Bakery,3,40,Card,No
+T0315,C019,2025-02-10,36-50,Female,Bengaluru,Butter,Dairy,1,55,Cash,No
+T0315,C019,2025-02-10,36-50,Female,Bengaluru,Chips,Snacks,2,25,Cash,No
+T0315,C019,2025-02-10,36-50,Female,Bengaluru,Juice,Beverages,2,85,Cash,No
+T0316,C038,2025-07-31,36-50,Female,Ballari,Shampoo,Personal Care,1,90,Cash,Yes
+T0316,C038,2025-07-31,36-50,Female,Ballari,Eggs,Dairy,1,70,Cash,Yes
+T0316,C038,2025-07-31,36-50,Female,Ballari,Onion,Vegetables,3,35,Cash,Yes
+T0316,C038,2025-07-31,36-50,Female,Ballari,Potato,Vegetables,1,28,Cash,Yes
+T0316,C038,2025-07-31,36-50,Female,Ballari,Bread,Bakery,3,40,Cash,Yes
+T0316,C038,2025-07-31,36-50,Female,Ballari,Detergent,Household,2,110,Cash,Yes
+T0316,C038,2025-07-31,36-50,Female,Ballari,Tomato,Vegetables,3,30,Cash,Yes
+T0317,C011,2025-01-28,18-25,Male,Hubballi,Toothpaste,Personal Care,3,60,Cash,No
+T0317,C011,2025-01-28,18-25,Male,Hubballi,Shampoo,Personal Care,1,90,Cash,No
+T0317,C011,2025-01-28,18-25,Male,Hubballi,Tomato,Vegetables,1,30,Cash,No
+T0318,C034,2025-09-27,18-25,Male,Raichur,Butter,Dairy,1,55,Cash,Yes
+T0318,C034,2025-09-27,18-25,Male,Raichur,Milk,Dairy,3,30,Cash,Yes
+T0318,C034,2025-09-27,18-25,Male,Raichur,Toothpaste,Personal Care,2,60,Cash,Yes
+T0318,C034,2025-09-27,18-25,Male,Raichur,Shampoo,Personal Care,2,90,Cash,Yes
+T0318,C034,2025-09-27,18-25,Male,Raichur,Soap,Personal Care,2,35,Cash,Yes
+T0318,C034,2025-09-27,18-25,Male,Raichur,Bread,Bakery,2,40,Cash,Yes
+T0319,C070,2025-11-02,26-35,Male,Hubballi,Cooking Oil,Grocery,3,140,UPI,No
+T0319,C070,2025-11-02,26-35,Male,Hubballi,Onion,Vegetables,3,35,UPI,No
+T0319,C070,2025-11-02,26-35,Male,Hubballi,Bread,Bakery,3,40,UPI,No
+T0320,C069,2025-08-15,26-35,Female,Hubballi,Chips,Snacks,2,25,UPI,No
+T0320,C069,2025-08-15,26-35,Female,Hubballi,Juice,Beverages,2,85,UPI,No
+T0321,C020,2025-08-29,26-35,Female,Bengaluru,Butter,Dairy,3,55,Card,Yes
+T0321,C020,2025-08-29,26-35,Female,Bengaluru,Milk,Dairy,2,30,Card,Yes
+T0321,C020,2025-08-29,26-35,Female,Bengaluru,Coffee,Beverages,2,180,Card,Yes
+T0322,C039,2025-07-30,36-50,Female,Raichur,Sugar,Grocery,2,45,Card,No
+T0322,C039,2025-07-30,36-50,Female,Raichur,Dal,Grocery,1,95,Card,No
+T0322,C039,2025-07-30,36-50,Female,Raichur,Biscuits,Snacks,1,20,Card,No
+T0322,C039,2025-07-30,36-50,Female,Raichur,Coffee,Beverages,3,180,Card,No
+T0322,C039,2025-07-30,36-50,Female,Raichur,Milk,Dairy,3,30,Card,No
+T0323,C050,2025-11-29,50+,Male,Kalaburagi,Sugar,Grocery,2,45,Card,No
+T0323,C050,2025-11-29,50+,Male,Kalaburagi,Biscuits,Snacks,1,20,Card,No
+T0323,C050,2025-11-29,50+,Male,Kalaburagi,Tea,Beverages,1,120,Card,No
+T0323,C050,2025-11-29,50+,Male,Kalaburagi,Coffee,Beverages,1,180,Card,No
+T0324,C018,2025-06-14,26-35,Male,Hubballi,Dal,Grocery,1,95,Cash,Yes
+T0324,C018,2025-06-14,26-35,Male,Hubballi,Rice,Grocery,3,60,Cash,Yes
+T0324,C018,2025-06-14,26-35,Male,Hubballi,Cooking Oil,Grocery,1,140,Cash,Yes
+T0324,C018,2025-06-14,26-35,Male,Hubballi,Toothpaste,Personal Care,1,60,Cash,Yes
+T0325,C014,2025-03-19,18-25,Female,Ballari,Onion,Vegetables,1,35,Cash,No
+T0326,C044,2025-02-11,36-50,Female,Ballari,Milk,Dairy,2,30,Cash,Yes
+T0326,C044,2025-02-11,36-50,Female,Ballari,Onion,Vegetables,2,35,Cash,Yes
+T0326,C044,2025-02-11,36-50,Female,Ballari,Potato,Vegetables,1,28,Cash,Yes
+T0326,C044,2025-02-11,36-50,Female,Ballari,Juice,Beverages,3,85,Cash,Yes
+T0326,C044,2025-02-11,36-50,Female,Ballari,Tomato,Vegetables,2,30,Cash,Yes
+T0327,C024,2025-08-15,26-35,Female,Ballari,Onion,Vegetables,1,35,Cash,Yes
+T0327,C024,2025-08-15,26-35,Female,Ballari,Chips,Snacks,2,25,Cash,Yes
+T0327,C024,2025-08-15,26-35,Female,Ballari,Sugar,Grocery,3,45,Cash,Yes
+T0327,C024,2025-08-15,26-35,Female,Ballari,Tomato,Vegetables,1,30,Cash,Yes
+T0328,C067,2025-03-04,26-35,Male,Raichur,Eggs,Dairy,3,70,UPI,No
+T0328,C067,2025-03-04,26-35,Male,Raichur,Sugar,Grocery,2,45,UPI,No
+T0328,C067,2025-03-04,26-35,Male,Raichur,Biscuits,Snacks,1,20,UPI,No
+T0328,C067,2025-03-04,26-35,Male,Raichur,Tea,Beverages,2,120,UPI,No
+T0328,C067,2025-03-04,26-35,Male,Raichur,Bread,Bakery,1,40,UPI,No
+T0328,C067,2025-03-04,26-35,Male,Raichur,Detergent,Household,3,110,UPI,No
+T0328,C067,2025-03-04,26-35,Male,Raichur,Tomato,Vegetables,1,30,UPI,No
+T0329,C015,2025-07-22,36-50,Female,Kalaburagi,Coffee,Beverages,1,180,Cash,Yes
+T0329,C015,2025-07-22,36-50,Female,Kalaburagi,Milk,Dairy,3,30,Cash,Yes
+T0329,C015,2025-07-22,36-50,Female,Kalaburagi,Sugar,Grocery,3,45,Cash,Yes
+T0330,C061,2025-07-02,50+,Male,Hubballi,Potato,Vegetables,3,28,Card,Yes
+T0330,C061,2025-07-02,50+,Male,Hubballi,Eggs,Dairy,3,70,Card,Yes
+T0330,C061,2025-07-02,50+,Male,Hubballi,Milk,Dairy,1,30,Card,Yes
+T0330,C061,2025-07-02,50+,Male,Hubballi,Toothpaste,Personal Care,1,60,Card,Yes
+T0330,C061,2025-07-02,50+,Male,Hubballi,Shampoo,Personal Care,2,90,Card,Yes
+T0330,C061,2025-07-02,50+,Male,Hubballi,Soap,Personal Care,1,35,Card,Yes
+T0330,C061,2025-07-02,50+,Male,Hubballi,Bread,Bakery,2,40,Card,Yes
+T0331,C072,2025-09-06,18-25,Male,Raichur,Sugar,Grocery,3,45,Card,No
+T0331,C072,2025-09-06,18-25,Male,Raichur,Milk,Dairy,2,30,Card,No
+T0331,C072,2025-09-06,18-25,Male,Raichur,Chips,Snacks,3,25,Card,No
+T0331,C072,2025-09-06,18-25,Male,Raichur,Juice,Beverages,3,85,Card,No
+T0332,C063,2025-02-05,18-25,Female,Bengaluru,Cooking Oil,Grocery,2,140,Card,Yes
+T0332,C063,2025-02-05,18-25,Female,Bengaluru,Toothpaste,Personal Care,2,60,Card,Yes
+T0332,C063,2025-02-05,18-25,Female,Bengaluru,Shampoo,Personal Care,2,90,Card,Yes
+T0332,C063,2025-02-05,18-25,Female,Bengaluru,Soap,Personal Care,3,35,Card,Yes
+T0332,C063,2025-02-05,18-25,Female,Bengaluru,Tomato,Vegetables,2,30,Card,Yes
+T0333,C059,2025-05-03,26-35,Female,Hubballi,Coffee,Beverages,3,180,UPI,Yes
+T0333,C059,2025-05-03,26-35,Female,Hubballi,Milk,Dairy,3,30,UPI,Yes
+T0333,C059,2025-05-03,26-35,Female,Hubballi,Sugar,Grocery,2,45,UPI,Yes
+T0333,C059,2025-05-03,26-35,Female,Hubballi,Potato,Vegetables,1,28,UPI,Yes
+T0334,C068,2025-03-08,50+,Male,Hubballi,Eggs,Dairy,1,70,Cash,Yes
+T0334,C068,2025-03-08,50+,Male,Hubballi,Coffee,Beverages,1,180,Cash,Yes
+T0334,C068,2025-03-08,50+,Male,Hubballi,Milk,Dairy,2,30,Cash,Yes
+T0334,C068,2025-03-08,50+,Male,Hubballi,Butter,Dairy,1,55,Cash,Yes
+T0334,C068,2025-03-08,50+,Male,Hubballi,Bread,Bakery,1,40,Cash,Yes
+T0335,C005,2025-04-17,18-25,Male,Raichur,Sugar,Grocery,1,45,Card,No
+T0335,C005,2025-04-17,18-25,Male,Raichur,Coffee,Beverages,2,180,Card,No
+T0335,C005,2025-04-17,18-25,Male,Raichur,Milk,Dairy,3,30,Card,No
+T0335,C005,2025-04-17,18-25,Male,Raichur,Butter,Dairy,1,55,Card,No
+T0335,C005,2025-04-17,18-25,Male,Raichur,Bread,Bakery,2,40,Card,No
+T0335,C005,2025-04-17,18-25,Male,Raichur,Juice,Beverages,3,85,Card,No
+T0336,C054,2025-06-05,26-35,Male,Bengaluru,Milk,Dairy,3,30,Cash,Yes
+T0336,C054,2025-06-05,26-35,Male,Bengaluru,Bread,Bakery,1,40,Cash,Yes
+T0337,C013,2025-11-23,36-50,Male,Hubballi,Eggs,Dairy,3,70,Card,No
+T0337,C013,2025-11-23,36-50,Male,Hubballi,Sugar,Grocery,2,45,Card,No
+T0337,C013,2025-11-23,36-50,Male,Hubballi,Biscuits,Snacks,3,20,Card,No
+T0337,C013,2025-11-23,36-50,Male,Hubballi,Tea,Beverages,3,120,Card,No
+T0337,C013,2025-11-23,36-50,Male,Hubballi,Onion,Vegetables,2,35,Card,No
+T0337,C013,2025-11-23,36-50,Male,Hubballi,Potato,Vegetables,1,28,Card,No
+T0337,C013,2025-11-23,36-50,Male,Hubballi,Soap,Personal Care,1,35,Card,No
+T0337,C013,2025-11-23,36-50,Male,Hubballi,Tomato,Vegetables,1,30,Card,No
+T0338,C071,2025-06-11,18-25,Male,Kalaburagi,Chips,Snacks,2,25,Card,No
+T0338,C071,2025-06-11,18-25,Male,Kalaburagi,Shampoo,Personal Care,2,90,Card,No
+T0338,C071,2025-06-11,18-25,Male,Kalaburagi,Biscuits,Snacks,3,20,Card,No
+T0338,C071,2025-06-11,18-25,Male,Kalaburagi,Juice,Beverages,2,85,Card,No
+T0339,C042,2025-01-18,26-35,Male,Bengaluru,Sugar,Grocery,3,45,UPI,Yes
+T0339,C042,2025-01-18,26-35,Male,Bengaluru,Biscuits,Snacks,1,20,UPI,Yes
+T0339,C042,2025-01-18,26-35,Male,Bengaluru,Tea,Beverages,2,120,UPI,Yes
+T0339,C042,2025-01-18,26-35,Male,Bengaluru,Onion,Vegetables,1,35,UPI,Yes
+T0339,C042,2025-01-18,26-35,Male,Bengaluru,Potato,Vegetables,2,28,UPI,Yes
+T0339,C042,2025-01-18,26-35,Male,Bengaluru,Bread,Bakery,1,40,UPI,Yes
+T0339,C042,2025-01-18,26-35,Male,Bengaluru,Tomato,Vegetables,1,30,UPI,Yes
+T0340,C041,2025-01-20,26-35,Male,Bengaluru,Eggs,Dairy,1,70,UPI,No
+T0340,C041,2025-01-20,26-35,Male,Bengaluru,Rice,Grocery,1,60,UPI,No
+T0340,C041,2025-01-20,26-35,Male,Bengaluru,Onion,Vegetables,2,35,UPI,No
+T0340,C041,2025-01-20,26-35,Male,Bengaluru,Potato,Vegetables,2,28,UPI,No
+T0340,C041,2025-01-20,26-35,Male,Bengaluru,Tomato,Vegetables,3,30,UPI,No
+T0341,C032,2025-02-09,26-35,Male,Kalaburagi,Potato,Vegetables,2,28,Card,No
+T0341,C032,2025-02-09,26-35,Male,Kalaburagi,Tomato,Vegetables,1,30,Card,No
+T0342,C063,2025-08-11,18-25,Female,Bengaluru,Dal,Grocery,1,95,UPI,Yes
+T0342,C063,2025-08-11,18-25,Female,Bengaluru,Rice,Grocery,3,60,UPI,Yes
+T0342,C063,2025-08-11,18-25,Female,Bengaluru,Biscuits,Snacks,3,20,UPI,Yes
+T0342,C063,2025-08-11,18-25,Female,Bengaluru,Onion,Vegetables,3,35,UPI,Yes
+T0342,C063,2025-08-11,18-25,Female,Bengaluru,Potato,Vegetables,1,28,UPI,Yes
+T0342,C063,2025-08-11,18-25,Female,Bengaluru,Tomato,Vegetables,3,30,UPI,Yes
+T0343,C049,2025-12-24,50+,Male,Bengaluru,Onion,Vegetables,1,35,Cash,Yes
+T0343,C049,2025-12-24,50+,Male,Bengaluru,Potato,Vegetables,3,28,Cash,Yes
+T0343,C049,2025-12-24,50+,Male,Bengaluru,Detergent,Household,3,110,Cash,Yes
+T0343,C049,2025-12-24,50+,Male,Bengaluru,Tomato,Vegetables,2,30,Cash,Yes
+T0344,C058,2025-07-24,18-25,Female,Ballari,Eggs,Dairy,2,70,UPI,Yes
+T0344,C058,2025-07-24,18-25,Female,Ballari,Rice,Grocery,3,60,UPI,Yes
+T0344,C058,2025-07-24,18-25,Female,Ballari,Cooking Oil,Grocery,2,140,UPI,Yes
+T0344,C058,2025-07-24,18-25,Female,Ballari,Bread,Bakery,3,40,UPI,Yes
+T0344,C058,2025-07-24,18-25,Female,Ballari,Milk,Dairy,1,30,UPI,Yes
+T0344,C058,2025-07-24,18-25,Female,Ballari,Tomato,Vegetables,1,30,UPI,Yes
+T0345,C062,2025-02-06,50+,Male,Ballari,Eggs,Dairy,2,70,UPI,No
+T0345,C062,2025-02-06,50+,Male,Ballari,Sugar,Grocery,3,45,UPI,No
+T0345,C062,2025-02-06,50+,Male,Ballari,Biscuits,Snacks,3,20,UPI,No
+T0345,C062,2025-02-06,50+,Male,Ballari,Tea,Beverages,1,120,UPI,No
+T0345,C062,2025-02-06,50+,Male,Ballari,Bread,Bakery,1,40,UPI,No
+T0346,C053,2025-03-28,50+,Male,Raichur,Coffee,Beverages,3,180,UPI,No
+T0346,C053,2025-03-28,50+,Male,Raichur,Chips,Snacks,1,25,UPI,No
+T0346,C053,2025-03-28,50+,Male,Raichur,Bread,Bakery,2,40,UPI,No
+T0346,C053,2025-03-28,50+,Male,Raichur,Juice,Beverages,1,85,UPI,No
+T0347,C030,2025-02-27,26-35,Female,Kalaburagi,Chips,Snacks,1,25,Card,Yes
+T0347,C030,2025-02-27,26-35,Female,Kalaburagi,Juice,Beverages,3,85,Card,Yes
+T0348,C019,2025-06-19,36-50,Female,Bengaluru,Butter,Dairy,1,55,Cash,Yes
+T0348,C019,2025-06-19,36-50,Female,Bengaluru,Milk,Dairy,3,30,Cash,Yes
+T0348,C019,2025-06-19,36-50,Female,Bengaluru,Bread,Bakery,3,40,Cash,Yes
+T0349,C034,2025-05-11,18-25,Male,Raichur,Eggs,Dairy,2,70,Cash,Yes
+T0349,C034,2025-05-11,18-25,Male,Raichur,Milk,Dairy,1,30,Cash,Yes
+T0349,C034,2025-05-11,18-25,Male,Raichur,Potato,Vegetables,3,28,Cash,Yes
+T0349,C034,2025-05-11,18-25,Male,Raichur,Detergent,Household,3,110,Cash,Yes
+T0349,C034,2025-05-11,18-25,Male,Raichur,Tomato,Vegetables,2,30,Cash,Yes
+T0350,C007,2025-01-10,50+,Male,Hubballi,Butter,Dairy,1,55,UPI,No
+T0350,C007,2025-01-10,50+,Male,Hubballi,Milk,Dairy,2,30,UPI,No
+T0350,C007,2025-01-10,50+,Male,Hubballi,Eggs,Dairy,3,70,UPI,No
+T0350,C007,2025-01-10,50+,Male,Hubballi,Biscuits,Snacks,3,20,UPI,No
+T0351,C013,2025-04-12,36-50,Male,Hubballi,Eggs,Dairy,3,70,Card,No
+T0351,C013,2025-04-12,36-50,Male,Hubballi,Bread,Bakery,3,40,Card,No
+T0352,C003,2025-06-27,18-25,Male,Kalaburagi,Sugar,Grocery,2,45,Card,No
+T0352,C003,2025-06-27,18-25,Male,Kalaburagi,Biscuits,Snacks,3,20,Card,No
+T0352,C003,2025-06-27,18-25,Male,Kalaburagi,Tea,Beverages,2,120,Card,No
+T0352,C003,2025-06-27,18-25,Male,Kalaburagi,Cooking Oil,Grocery,1,140,Card,No
+T0352,C003,2025-06-27,18-25,Male,Kalaburagi,Bread,Bakery,3,40,Card,No
+T0353,C036,2025-10-12,50+,Female,Kalaburagi,Onion,Vegetables,1,35,UPI,Yes
+T0353,C036,2025-10-12,50+,Female,Kalaburagi,Potato,Vegetables,2,28,UPI,Yes
+T0353,C036,2025-10-12,50+,Female,Kalaburagi,Tomato,Vegetables,2,30,UPI,Yes
+T0354,C018,2025-05-04,26-35,Male,Hubballi,Sugar,Grocery,2,45,Card,Yes
+T0354,C018,2025-05-04,26-35,Male,Hubballi,Coffee,Beverages,2,180,Card,Yes
+T0354,C018,2025-05-04,26-35,Male,Hubballi,Milk,Dairy,3,30,Card,Yes
+T0354,C018,2025-05-04,26-35,Male,Hubballi,Soap,Personal Care,2,35,Card,Yes
+T0355,C058,2025-03-16,18-25,Female,Ballari,Dal,Grocery,2,95,Card,Yes
+T0355,C058,2025-03-16,18-25,Female,Ballari,Rice,Grocery,1,60,Card,Yes
+T0355,C058,2025-03-16,18-25,Female,Ballari,Toothpaste,Personal Care,3,60,Card,Yes
+T0355,C058,2025-03-16,18-25,Female,Ballari,Shampoo,Personal Care,3,90,Card,Yes
+T0355,C058,2025-03-16,18-25,Female,Ballari,Soap,Personal Care,3,35,Card,Yes
+T0356,C016,2025-06-13,26-35,Male,Ballari,Chips,Snacks,2,25,UPI,No
+T0357,C057,2025-11-02,18-25,Male,Ballari,Dal,Grocery,3,95,Cash,Yes
+T0357,C057,2025-11-02,18-25,Male,Ballari,Rice,Grocery,1,60,Cash,Yes
+T0357,C057,2025-11-02,18-25,Male,Ballari,Sugar,Grocery,2,45,Cash,Yes
+T0357,C057,2025-11-02,18-25,Male,Ballari,Cooking Oil,Grocery,1,140,Cash,Yes
+T0357,C057,2025-11-02,18-25,Male,Ballari,Potato,Vegetables,3,28,Cash,Yes
+T0357,C057,2025-11-02,18-25,Male,Ballari,Tomato,Vegetables,2,30,Cash,Yes
+T0358,C018,2025-04-09,26-35,Male,Hubballi,Eggs,Dairy,2,70,Cash,Yes
+T0358,C018,2025-04-09,26-35,Male,Hubballi,Bread,Bakery,1,40,Cash,Yes
+T0358,C018,2025-04-09,26-35,Male,Hubballi,Chips,Snacks,2,25,Cash,Yes
+T0358,C018,2025-04-09,26-35,Male,Hubballi,Juice,Beverages,2,85,Cash,Yes
+T0359,C029,2025-08-07,26-35,Female,Raichur,Sugar,Grocery,3,45,UPI,Yes
+T0359,C029,2025-08-07,26-35,Female,Raichur,Biscuits,Snacks,3,20,UPI,Yes
+T0359,C029,2025-08-07,26-35,Female,Raichur,Tea,Beverages,2,120,UPI,Yes
+T0359,C029,2025-08-07,26-35,Female,Raichur,Milk,Dairy,3,30,UPI,Yes
+T0359,C029,2025-08-07,26-35,Female,Raichur,Coffee,Beverages,2,180,UPI,Yes
+T0360,C051,2025-07-18,26-35,Female,Hubballi,Butter,Dairy,1,55,Card,Yes
+T0360,C051,2025-07-18,26-35,Female,Hubballi,Milk,Dairy,2,30,Card,Yes
+T0360,C051,2025-07-18,26-35,Female,Hubballi,Onion,Vegetables,2,35,Card,Yes
+T0360,C051,2025-07-18,26-35,Female,Hubballi,Potato,Vegetables,2,28,Card,Yes
+T0360,C051,2025-07-18,26-35,Female,Hubballi,Tomato,Vegetables,2,30,Card,Yes
+T0361,C037,2025-11-27,36-50,Male,Ballari,Rice,Grocery,3,60,UPI,Yes
+T0361,C037,2025-11-27,36-50,Male,Ballari,Shampoo,Personal Care,3,90,UPI,Yes
+T0361,C037,2025-11-27,36-50,Male,Ballari,Soap,Personal Care,1,35,UPI,Yes
+T0362,C024,2025-05-09,26-35,Female,Ballari,Sugar,Grocery,3,45,UPI,Yes
+T0362,C024,2025-05-09,26-35,Female,Ballari,Butter,Dairy,3,55,UPI,Yes
+T0362,C024,2025-05-09,26-35,Female,Ballari,Biscuits,Snacks,1,20,UPI,Yes
+T0362,C024,2025-05-09,26-35,Female,Ballari,Tea,Beverages,1,120,UPI,Yes
+T0362,C024,2025-05-09,26-35,Female,Ballari,Toothpaste,Personal Care,1,60,UPI,Yes
+T0362,C024,2025-05-09,26-35,Female,Ballari,Shampoo,Personal Care,3,90,UPI,Yes
+T0362,C024,2025-05-09,26-35,Female,Ballari,Soap,Personal Care,2,35,UPI,Yes
+T0363,C047,2025-07-13,18-25,Male,Hubballi,Coffee,Beverages,1,180,Card,No
+T0363,C047,2025-07-13,18-25,Male,Hubballi,Milk,Dairy,1,30,Card,No
+T0363,C047,2025-07-13,18-25,Male,Hubballi,Sugar,Grocery,2,45,Card,No
+T0364,C073,2025-11-17,26-35,Female,Hubballi,Dal,Grocery,1,95,Cash,Yes
+T0364,C073,2025-11-17,26-35,Female,Hubballi,Rice,Grocery,1,60,Cash,Yes
+T0364,C073,2025-11-17,26-35,Female,Hubballi,Coffee,Beverages,1,180,Cash,Yes
+T0364,C073,2025-11-17,26-35,Female,Hubballi,Cooking Oil,Grocery,3,140,Cash,Yes
+T0364,C073,2025-11-17,26-35,Female,Hubballi,Toothpaste,Personal Care,2,60,Cash,Yes
+T0364,C073,2025-11-17,26-35,Female,Hubballi,Shampoo,Personal Care,1,90,Cash,Yes
+T0364,C073,2025-11-17,26-35,Female,Hubballi,Soap,Personal Care,2,35,Cash,Yes
+T0365,C064,2025-07-29,50+,Female,Hubballi,Shampoo,Personal Care,3,90,UPI,Yes
+T0365,C064,2025-07-29,50+,Female,Hubballi,Butter,Dairy,3,55,UPI,Yes
+T0365,C064,2025-07-29,50+,Female,Hubballi,Milk,Dairy,1,30,UPI,Yes
+T0365,C064,2025-07-29,50+,Female,Hubballi,Toothpaste,Personal Care,1,60,UPI,Yes
+T0365,C064,2025-07-29,50+,Female,Hubballi,Bread,Bakery,3,40,UPI,Yes
+T0366,C036,2025-02-14,50+,Female,Kalaburagi,Biscuits,Snacks,2,20,Cash,Yes
+T0366,C036,2025-02-14,50+,Female,Kalaburagi,Tea,Beverages,1,120,Cash,Yes
+T0366,C036,2025-02-14,50+,Female,Kalaburagi,Juice,Beverages,1,85,Cash,Yes
+T0366,C036,2025-02-14,50+,Female,Kalaburagi,Butter,Dairy,3,55,Cash,Yes
+T0366,C036,2025-02-14,50+,Female,Kalaburagi,Coffee,Beverages,2,180,Cash,Yes
+T0367,C079,2025-08-07,36-50,Male,Ballari,Sugar,Grocery,2,45,Card,Yes
+T0367,C079,2025-08-07,36-50,Male,Ballari,Biscuits,Snacks,2,20,Card,Yes
+T0367,C079,2025-08-07,36-50,Male,Ballari,Tea,Beverages,1,120,Card,Yes
+T0367,C079,2025-08-07,36-50,Male,Ballari,Shampoo,Personal Care,1,90,Card,Yes
+T0367,C079,2025-08-07,36-50,Male,Ballari,Soap,Personal Care,3,35,Card,Yes
+T0368,C036,2025-10-20,50+,Female,Kalaburagi,Coffee,Beverages,2,180,Card,Yes
+T0368,C036,2025-10-20,50+,Female,Kalaburagi,Milk,Dairy,3,30,Card,Yes
+T0368,C036,2025-10-20,50+,Female,Kalaburagi,Sugar,Grocery,3,45,Card,Yes
+T0369,C078,2025-11-20,50+,Male,Raichur,Toothpaste,Personal Care,1,60,UPI,No
+T0369,C078,2025-11-20,50+,Male,Raichur,Sugar,Grocery,3,45,UPI,No
+T0369,C078,2025-11-20,50+,Male,Raichur,Tea,Beverages,1,120,UPI,No
+T0369,C078,2025-11-20,50+,Male,Raichur,Onion,Vegetables,3,35,UPI,No
+T0369,C078,2025-11-20,50+,Male,Raichur,Potato,Vegetables,2,28,UPI,No
+T0369,C078,2025-11-20,50+,Male,Raichur,Detergent,Household,1,110,UPI,No
+T0369,C078,2025-11-20,50+,Male,Raichur,Tomato,Vegetables,1,30,UPI,No
+T0370,C016,2025-11-12,26-35,Male,Ballari,Eggs,Dairy,1,70,UPI,No
+T0371,C043,2025-06-07,26-35,Male,Kalaburagi,Sugar,Grocery,1,45,UPI,No
+T0371,C043,2025-06-07,26-35,Male,Kalaburagi,Biscuits,Snacks,1,20,UPI,No
+T0372,C043,2025-04-10,26-35,Male,Kalaburagi,Coffee,Beverages,3,180,UPI,No
+T0372,C043,2025-04-10,26-35,Male,Kalaburagi,Milk,Dairy,2,30,UPI,No
+T0373,C061,2025-07-31,50+,Male,Hubballi,Toothpaste,Personal Care,3,60,Card,Yes
+T0373,C061,2025-07-31,50+,Male,Hubballi,Shampoo,Personal Care,2,90,Card,Yes
+T0373,C061,2025-07-31,50+,Male,Hubballi,Soap,Personal Care,3,35,Card,Yes
+T0373,C061,2025-07-31,50+,Male,Hubballi,Juice,Beverages,3,85,Card,Yes
+T0374,C041,2025-06-23,26-35,Male,Bengaluru,Butter,Dairy,3,55,UPI,Yes
+T0374,C041,2025-06-23,26-35,Male,Bengaluru,Milk,Dairy,3,30,UPI,Yes
+T0374,C041,2025-06-23,26-35,Male,Bengaluru,Bread,Bakery,2,40,UPI,Yes
+T0374,C041,2025-06-23,26-35,Male,Bengaluru,Rice,Grocery,1,60,UPI,Yes
+T0375,C077,2025-09-12,50+,Female,Hubballi,Butter,Dairy,2,55,Cash,No
+T0375,C077,2025-09-12,50+,Female,Hubballi,Onion,Vegetables,2,35,Cash,No
+T0375,C077,2025-09-12,50+,Female,Hubballi,Tomato,Vegetables,1,30,Cash,No
+T0376,C068,2025-08-16,50+,Male,Hubballi,Toothpaste,Personal Care,2,60,Card,Yes
+T0376,C068,2025-08-16,50+,Male,Hubballi,Soap,Personal Care,3,35,Card,Yes
+T0377,C020,2025-03-15,26-35,Female,Bengaluru,Coffee,Beverages,1,180,Cash,Yes
+T0377,C020,2025-03-15,26-35,Female,Bengaluru,Chips,Snacks,3,25,Cash,Yes
+T0377,C020,2025-03-15,26-35,Female,Bengaluru,Juice,Beverages,1,85,Cash,Yes
+T0378,C059,2025-08-28,26-35,Female,Hubballi,Butter,Dairy,3,55,Cash,Yes
+T0378,C059,2025-08-28,26-35,Female,Hubballi,Cooking Oil,Grocery,3,140,Cash,Yes
+T0378,C059,2025-08-28,26-35,Female,Hubballi,Dal,Grocery,3,95,Cash,Yes
+T0378,C059,2025-08-28,26-35,Female,Hubballi,Juice,Beverages,2,85,Cash,Yes
+T0379,C003,2025-05-20,18-25,Male,Kalaburagi,Eggs,Dairy,2,70,Cash,Yes
+T0379,C003,2025-05-20,18-25,Male,Kalaburagi,Juice,Beverages,1,85,Cash,Yes
+T0379,C003,2025-05-20,18-25,Male,Kalaburagi,Onion,Vegetables,1,35,Cash,Yes
+T0379,C003,2025-05-20,18-25,Male,Kalaburagi,Chips,Snacks,3,25,Cash,Yes
+T0379,C003,2025-05-20,18-25,Male,Kalaburagi,Potato,Vegetables,3,28,Cash,Yes
+T0379,C003,2025-05-20,18-25,Male,Kalaburagi,Tomato,Vegetables,3,30,Cash,Yes
+T0380,C014,2025-05-06,18-25,Female,Ballari,Coffee,Beverages,2,180,Cash,Yes
+T0380,C014,2025-05-06,18-25,Female,Ballari,Onion,Vegetables,3,35,Cash,Yes
+T0380,C014,2025-05-06,18-25,Female,Ballari,Chips,Snacks,2,25,Cash,Yes
+T0380,C014,2025-05-06,18-25,Female,Ballari,Juice,Beverages,3,85,Cash,Yes
+T0381,C057,2025-02-14,18-25,Male,Ballari,Milk,Dairy,1,30,UPI,No
+T0381,C057,2025-02-14,18-25,Male,Ballari,Soap,Personal Care,3,35,UPI,No
+T0382,C077,2025-08-27,50+,Female,Hubballi,Eggs,Dairy,1,70,Card,Yes
+T0382,C077,2025-08-27,50+,Female,Hubballi,Onion,Vegetables,3,35,Card,Yes
+T0382,C077,2025-08-27,50+,Female,Hubballi,Bread,Bakery,2,40,Card,Yes
+T0382,C077,2025-08-27,50+,Female,Hubballi,Potato,Vegetables,1,28,Card,Yes
+T0382,C077,2025-08-27,50+,Female,Hubballi,Tomato,Vegetables,2,30,Card,Yes
+T0383,C040,2025-12-25,50+,Male,Bengaluru,Eggs,Dairy,2,70,Card,No
+T0383,C040,2025-12-25,50+,Male,Bengaluru,Sugar,Grocery,2,45,Card,No
+T0383,C040,2025-12-25,50+,Male,Bengaluru,Biscuits,Snacks,2,20,Card,No
+T0383,C040,2025-12-25,50+,Male,Bengaluru,Tea,Beverages,1,120,Card,No
+T0383,C040,2025-12-25,50+,Male,Bengaluru,Cooking Oil,Grocery,1,140,Card,No
+T0383,C040,2025-12-25,50+,Male,Bengaluru,Bread,Bakery,2,40,Card,No
+T0384,C015,2025-10-22,36-50,Female,Kalaburagi,Eggs,Dairy,2,70,Cash,Yes
+T0384,C015,2025-10-22,36-50,Female,Kalaburagi,Bread,Bakery,3,40,Cash,Yes
+T0384,C015,2025-10-22,36-50,Female,Kalaburagi,Potato,Vegetables,1,28,Cash,Yes
+T0385,C042,2025-02-03,26-35,Male,Bengaluru,Dal,Grocery,3,95,UPI,Yes
+T0385,C042,2025-02-03,26-35,Male,Bengaluru,Rice,Grocery,3,60,UPI,Yes
+T0385,C042,2025-02-03,26-35,Male,Bengaluru,Sugar,Grocery,2,45,UPI,Yes
+T0385,C042,2025-02-03,26-35,Male,Bengaluru,Coffee,Beverages,2,180,UPI,Yes
+T0385,C042,2025-02-03,26-35,Male,Bengaluru,Cooking Oil,Grocery,3,140,UPI,Yes
+T0385,C042,2025-02-03,26-35,Male,Bengaluru,Chips,Snacks,2,25,UPI,Yes
+T0385,C042,2025-02-03,26-35,Male,Bengaluru,Milk,Dairy,3,30,UPI,Yes
+T0386,C031,2025-10-31,50+,Female,Bengaluru,Cooking Oil,Grocery,2,140,Card,No
+T0386,C031,2025-10-31,50+,Female,Bengaluru,Dal,Grocery,3,95,Card,No
+T0386,C031,2025-10-31,50+,Female,Bengaluru,Rice,Grocery,1,60,Card,No
+T0387,C057,2025-09-11,18-25,Male,Ballari,Juice,Beverages,1,85,Card,Yes
+T0387,C057,2025-09-11,18-25,Male,Ballari,Chips,Snacks,1,25,Card,Yes
+T0387,C057,2025-09-11,18-25,Male,Ballari,Tomato,Vegetables,1,30,Card,Yes
+T0388,C075,2025-10-19,18-25,Male,Hubballi,Sugar,Grocery,2,45,Card,No
+T0388,C075,2025-10-19,18-25,Male,Hubballi,Butter,Dairy,3,55,Card,No
+T0388,C075,2025-10-19,18-25,Male,Hubballi,Milk,Dairy,2,30,Card,No
+T0388,C075,2025-10-19,18-25,Male,Hubballi,Juice,Beverages,1,85,Card,No
+T0388,C075,2025-10-19,18-25,Male,Hubballi,Coffee,Beverages,3,180,Card,No
+T0389,C002,2025-02-26,26-35,Male,Raichur,Eggs,Dairy,1,70,UPI,Yes
+T0389,C002,2025-02-26,26-35,Male,Raichur,Sugar,Grocery,2,45,UPI,Yes
+T0389,C002,2025-02-26,26-35,Male,Raichur,Biscuits,Snacks,3,20,UPI,Yes
+T0389,C002,2025-02-26,26-35,Male,Raichur,Milk,Dairy,3,30,UPI,Yes
+T0389,C002,2025-02-26,26-35,Male,Raichur,Tomato,Vegetables,2,30,UPI,Yes
+T0390,C041,2025-03-20,26-35,Male,Bengaluru,Soap,Personal Care,1,35,UPI,Yes
+T0390,C041,2025-03-20,26-35,Male,Bengaluru,Sugar,Grocery,1,45,UPI,Yes
+T0390,C041,2025-03-20,26-35,Male,Bengaluru,Biscuits,Snacks,1,20,UPI,Yes
+T0390,C041,2025-03-20,26-35,Male,Bengaluru,Coffee,Beverages,3,180,UPI,Yes
+T0390,C041,2025-03-20,26-35,Male,Bengaluru,Milk,Dairy,1,30,UPI,Yes
+T0390,C041,2025-03-20,26-35,Male,Bengaluru,Tea,Beverages,1,120,UPI,Yes
+T0391,C063,2025-04-03,18-25,Female,Bengaluru,Sugar,Grocery,3,45,UPI,No
+T0391,C063,2025-04-03,18-25,Female,Bengaluru,Cooking Oil,Grocery,2,140,UPI,No
+T0391,C063,2025-04-03,18-25,Female,Bengaluru,Dal,Grocery,2,95,UPI,No
+T0391,C063,2025-04-03,18-25,Female,Bengaluru,Rice,Grocery,2,60,UPI,No
+T0391,C063,2025-04-03,18-25,Female,Bengaluru,Milk,Dairy,1,30,UPI,No
+T0391,C063,2025-04-03,18-25,Female,Bengaluru,Potato,Vegetables,1,28,UPI,No
+T0392,C055,2025-01-20,18-25,Male,Kalaburagi,Butter,Dairy,3,55,Card,No
+T0392,C055,2025-01-20,18-25,Male,Kalaburagi,Milk,Dairy,2,30,Card,No
+T0392,C055,2025-01-20,18-25,Male,Kalaburagi,Onion,Vegetables,1,35,Card,No
+T0392,C055,2025-01-20,18-25,Male,Kalaburagi,Bread,Bakery,3,40,Card,No
+T0392,C055,2025-01-20,18-25,Male,Kalaburagi,Potato,Vegetables,2,28,Card,No
+T0392,C055,2025-01-20,18-25,Male,Kalaburagi,Tomato,Vegetables,3,30,Card,No
+T0393,C011,2025-05-06,18-25,Male,Hubballi,Potato,Vegetables,3,28,UPI,Yes
+T0393,C011,2025-05-06,18-25,Male,Hubballi,Tomato,Vegetables,3,30,UPI,Yes
+T0394,C070,2025-06-19,26-35,Male,Hubballi,Eggs,Dairy,2,70,UPI,No
+T0394,C070,2025-06-19,26-35,Male,Hubballi,Onion,Vegetables,2,35,UPI,No
+T0394,C070,2025-06-19,26-35,Male,Hubballi,Potato,Vegetables,1,28,UPI,No
+T0394,C070,2025-06-19,26-35,Male,Hubballi,Bread,Bakery,1,40,UPI,No
+T0395,C077,2025-05-27,50+,Female,Hubballi,Coffee,Beverages,1,180,UPI,Yes
+T0395,C077,2025-05-27,50+,Female,Hubballi,Juice,Beverages,3,85,UPI,Yes
+T0395,C077,2025-05-27,50+,Female,Hubballi,Onion,Vegetables,1,35,UPI,Yes
+T0395,C077,2025-05-27,50+,Female,Hubballi,Chips,Snacks,2,25,UPI,Yes
+T0395,C077,2025-05-27,50+,Female,Hubballi,Potato,Vegetables,2,28,UPI,Yes
+T0395,C077,2025-05-27,50+,Female,Hubballi,Bread,Bakery,1,40,UPI,Yes
+T0395,C077,2025-05-27,50+,Female,Hubballi,Tomato,Vegetables,3,30,UPI,Yes
+T0396,C036,2025-07-09,50+,Female,Kalaburagi,Shampoo,Personal Care,3,90,Cash,No
+T0396,C036,2025-07-09,50+,Female,Kalaburagi,Potato,Vegetables,1,28,Cash,No
+T0396,C036,2025-07-09,50+,Female,Kalaburagi,Rice,Grocery,2,60,Cash,No
+T0397,C024,2025-05-02,26-35,Female,Ballari,Shampoo,Personal Care,3,90,Card,No
+T0397,C024,2025-05-02,26-35,Female,Ballari,Butter,Dairy,3,55,Card,No
+T0397,C024,2025-05-02,26-35,Female,Ballari,Milk,Dairy,1,30,Card,No
+T0397,C024,2025-05-02,26-35,Female,Ballari,Toothpaste,Personal Care,1,60,Card,No
+T0397,C024,2025-05-02,26-35,Female,Ballari,Chips,Snacks,3,25,Card,No
+T0397,C024,2025-05-02,26-35,Female,Ballari,Bread,Bakery,3,40,Card,No
+T0397,C024,2025-05-02,26-35,Female,Ballari,Soap,Personal Care,2,35,Card,No
+T0398,C007,2025-12-16,50+,Male,Hubballi,Sugar,Grocery,2,45,Card,No
+T0398,C007,2025-12-16,50+,Male,Hubballi,Coffee,Beverages,2,180,Card,No
+T0398,C007,2025-12-16,50+,Male,Hubballi,Milk,Dairy,1,30,Card,No
+T0398,C007,2025-12-16,50+,Male,Hubballi,Chips,Snacks,3,25,Card,No
+T0398,C007,2025-12-16,50+,Male,Hubballi,Potato,Vegetables,2,28,Card,No
+T0398,C007,2025-12-16,50+,Male,Hubballi,Tomato,Vegetables,1,30,Card,No
+T0399,C037,2025-02-19,36-50,Male,Ballari,Coffee,Beverages,2,180,Card,No
+T0399,C037,2025-02-19,36-50,Male,Ballari,Milk,Dairy,3,30,Card,No
+T0399,C037,2025-02-19,36-50,Male,Ballari,Sugar,Grocery,3,45,Card,No
+T0400,C035,2025-12-12,50+,Male,Hubballi,Shampoo,Personal Care,3,90,Card,Yes
+T0400,C035,2025-12-12,50+,Male,Hubballi,Potato,Vegetables,3,28,Card,Yes
+T0400,C035,2025-12-12,50+,Male,Hubballi,Tomato,Vegetables,3,30,Card,Yes
+T0401,C025,2025-01-07,26-35,Male,Bengaluru,Chips,Snacks,3,25,UPI,Yes
+T0401,C025,2025-01-07,26-35,Male,Bengaluru,Bread,Bakery,1,40,UPI,Yes
+T0401,C025,2025-01-07,26-35,Male,Bengaluru,Eggs,Dairy,3,70,UPI,Yes
+T0401,C025,2025-01-07,26-35,Male,Bengaluru,Juice,Beverages,2,85,UPI,Yes
+T0402,C045,2025-11-01,18-25,Female,Bengaluru,Potato,Vegetables,3,28,Card,Yes
+T0402,C045,2025-11-01,18-25,Female,Bengaluru,Tomato,Vegetables,3,30,Card,Yes
+T0403,C016,2025-12-23,26-35,Male,Ballari,Dal,Grocery,2,95,Cash,No
+T0403,C016,2025-12-23,26-35,Male,Ballari,Rice,Grocery,2,60,Cash,No
+T0403,C016,2025-12-23,26-35,Male,Ballari,Butter,Dairy,3,55,Cash,No
+T0403,C016,2025-12-23,26-35,Male,Ballari,Milk,Dairy,1,30,Cash,No
+T0403,C016,2025-12-23,26-35,Male,Ballari,Bread,Bakery,3,40,Cash,No
+T0404,C059,2025-02-07,26-35,Female,Hubballi,Coffee,Beverages,2,180,UPI,Yes
+T0404,C059,2025-02-07,26-35,Female,Hubballi,Milk,Dairy,2,30,UPI,Yes
+T0404,C059,2025-02-07,26-35,Female,Hubballi,Sugar,Grocery,2,45,UPI,Yes
+T0404,C059,2025-02-07,26-35,Female,Hubballi,Cooking Oil,Grocery,1,140,UPI,Yes
+T0405,C034,2025-11-27,18-25,Male,Raichur,Cooking Oil,Grocery,1,140,UPI,Yes
+T0405,C034,2025-11-27,18-25,Male,Raichur,Toothpaste,Personal Care,3,60,UPI,Yes
+T0405,C034,2025-11-27,18-25,Male,Raichur,Chips,Snacks,2,25,UPI,Yes
+T0405,C034,2025-11-27,18-25,Male,Raichur,Shampoo,Personal Care,1,90,UPI,Yes
+T0405,C034,2025-11-27,18-25,Male,Raichur,Soap,Personal Care,3,35,UPI,Yes
+T0406,C014,2025-01-10,18-25,Female,Ballari,Shampoo,Personal Care,3,90,UPI,Yes
+T0406,C014,2025-01-10,18-25,Female,Ballari,Potato,Vegetables,3,28,UPI,Yes
+T0407,C001,2025-12-29,18-25,Male,Bengaluru,Sugar,Grocery,2,45,UPI,No
+T0407,C001,2025-12-29,18-25,Male,Bengaluru,Coffee,Beverages,2,180,UPI,No
+T0407,C001,2025-12-29,18-25,Male,Bengaluru,Milk,Dairy,3,30,UPI,No
+T0407,C001,2025-12-29,18-25,Male,Bengaluru,Bread,Bakery,1,40,UPI,No
+T0407,C001,2025-12-29,18-25,Male,Bengaluru,Detergent,Household,3,110,UPI,No
+T0408,C029,2025-06-20,26-35,Female,Raichur,Sugar,Grocery,2,45,Card,No
+T0408,C029,2025-06-20,26-35,Female,Raichur,Biscuits,Snacks,1,20,Card,No
+T0408,C029,2025-06-20,26-35,Female,Raichur,Coffee,Beverages,3,180,Card,No
+T0408,C029,2025-06-20,26-35,Female,Raichur,Milk,Dairy,3,30,Card,No
+T0408,C029,2025-06-20,26-35,Female,Raichur,Tomato,Vegetables,1,30,Card,No
+T0409,C047,2025-06-03,18-25,Male,Hubballi,Dal,Grocery,1,95,Card,No
+T0409,C047,2025-06-03,18-25,Male,Hubballi,Butter,Dairy,3,55,Card,No
+T0409,C047,2025-06-03,18-25,Male,Hubballi,Milk,Dairy,3,30,Card,No
+T0409,C047,2025-06-03,18-25,Male,Hubballi,Chips,Snacks,2,25,Card,No
+T0409,C047,2025-06-03,18-25,Male,Hubballi,Bread,Bakery,2,40,Card,No
+T0409,C047,2025-06-03,18-25,Male,Hubballi,Juice,Beverages,1,85,Card,No
+T0410,C057,2025-10-01,18-25,Male,Ballari,Dal,Grocery,1,95,UPI,Yes
+T0410,C057,2025-10-01,18-25,Male,Ballari,Rice,Grocery,2,60,UPI,Yes
+T0410,C057,2025-10-01,18-25,Male,Ballari,Biscuits,Snacks,1,20,UPI,Yes
+T0410,C057,2025-10-01,18-25,Male,Ballari,Coffee,Beverages,2,180,UPI,Yes
+T0410,C057,2025-10-01,18-25,Male,Ballari,Cooking Oil,Grocery,3,140,UPI,Yes
+T0410,C057,2025-10-01,18-25,Male,Ballari,Toothpaste,Personal Care,1,60,UPI,Yes
+T0411,C052,2025-10-24,36-50,Female,Kalaburagi,Sugar,Grocery,1,45,Cash,Yes
+T0411,C052,2025-10-24,36-50,Female,Kalaburagi,Rice,Grocery,3,60,Cash,Yes
+T0411,C052,2025-10-24,36-50,Female,Kalaburagi,Biscuits,Snacks,1,20,Cash,Yes
+T0411,C052,2025-10-24,36-50,Female,Kalaburagi,Tea,Beverages,2,120,Cash,Yes
+T0411,C052,2025-10-24,36-50,Female,Kalaburagi,Tomato,Vegetables,3,30,Cash,Yes
+T0412,C003,2025-02-19,18-25,Male,Kalaburagi,Coffee,Beverages,3,180,UPI,Yes
+T0412,C003,2025-02-19,18-25,Male,Kalaburagi,Milk,Dairy,1,30,UPI,Yes
+T0412,C003,2025-02-19,18-25,Male,Kalaburagi,Bread,Bakery,1,40,UPI,Yes
+T0413,C015,2025-03-03,36-50,Female,Kalaburagi,Juice,Beverages,2,85,Card,Yes
+T0413,C015,2025-03-03,36-50,Female,Kalaburagi,Chips,Snacks,1,25,Card,Yes
+T0413,C015,2025-03-03,36-50,Female,Kalaburagi,Sugar,Grocery,1,45,Card,Yes
+T0413,C015,2025-03-03,36-50,Female,Kalaburagi,Biscuits,Snacks,3,20,Card,Yes
+T0414,C023,2025-03-26,50+,Female,Bengaluru,Dal,Grocery,3,95,UPI,Yes
+T0414,C023,2025-03-26,50+,Female,Bengaluru,Biscuits,Snacks,1,20,UPI,Yes
+T0414,C023,2025-03-26,50+,Female,Bengaluru,Tomato,Vegetables,1,30,UPI,Yes
+T0415,C013,2025-08-02,36-50,Male,Hubballi,Coffee,Beverages,3,180,Card,No
+T0415,C013,2025-08-02,36-50,Male,Hubballi,Milk,Dairy,1,30,Card,No
+T0415,C013,2025-08-02,36-50,Male,Hubballi,Onion,Vegetables,1,35,Card,No
+T0415,C013,2025-08-02,36-50,Male,Hubballi,Bread,Bakery,1,40,Card,No
+T0416,C035,2025-06-28,50+,Male,Hubballi,Eggs,Dairy,3,70,UPI,Yes
+T0416,C035,2025-06-28,50+,Male,Hubballi,Sugar,Grocery,1,45,UPI,Yes
+T0416,C035,2025-06-28,50+,Male,Hubballi,Biscuits,Snacks,1,20,UPI,Yes
+T0416,C035,2025-06-28,50+,Male,Hubballi,Tea,Beverages,1,120,UPI,Yes
+T0416,C035,2025-06-28,50+,Male,Hubballi,Butter,Dairy,3,55,UPI,Yes
+T0416,C035,2025-06-28,50+,Male,Hubballi,Bread,Bakery,1,40,UPI,Yes
+T0416,C035,2025-06-28,50+,Male,Hubballi,Coffee,Beverages,3,180,UPI,Yes
+T0417,C047,2025-04-01,18-25,Male,Hubballi,Eggs,Dairy,1,70,Cash,Yes
+T0417,C047,2025-04-01,18-25,Male,Hubballi,Sugar,Grocery,3,45,Cash,Yes
+T0417,C047,2025-04-01,18-25,Male,Hubballi,Biscuits,Snacks,2,20,Cash,Yes
+T0417,C047,2025-04-01,18-25,Male,Hubballi,Tea,Beverages,2,120,Cash,Yes
+T0417,C047,2025-04-01,18-25,Male,Hubballi,Toothpaste,Personal Care,1,60,Cash,Yes
+T0417,C047,2025-04-01,18-25,Male,Hubballi,Bread,Bakery,2,40,Cash,Yes
+T0417,C047,2025-04-01,18-25,Male,Hubballi,Potato,Vegetables,2,28,Cash,Yes
+T0418,C043,2025-05-01,26-35,Male,Kalaburagi,Butter,Dairy,3,55,Card,No
+T0418,C043,2025-05-01,26-35,Male,Kalaburagi,Milk,Dairy,3,30,Card,No
+T0418,C043,2025-05-01,26-35,Male,Kalaburagi,Eggs,Dairy,2,70,Card,No
+T0418,C043,2025-05-01,26-35,Male,Kalaburagi,Bread,Bakery,2,40,Card,No
+T0419,C026,2025-02-07,50+,Female,Ballari,Dal,Grocery,1,95,UPI,No
+T0419,C026,2025-02-07,50+,Female,Ballari,Sugar,Grocery,2,45,UPI,No
+T0419,C026,2025-02-07,50+,Female,Ballari,Cooking Oil,Grocery,1,140,UPI,No
+T0419,C026,2025-02-07,50+,Female,Ballari,Chips,Snacks,1,25,UPI,No
+T0419,C026,2025-02-07,50+,Female,Ballari,Juice,Beverages,3,85,UPI,No
+T0420,C059,2025-04-14,26-35,Female,Hubballi,Coffee,Beverages,1,180,UPI,Yes
+T0420,C059,2025-04-14,26-35,Female,Hubballi,Milk,Dairy,3,30,UPI,Yes
+T0420,C059,2025-04-14,26-35,Female,Hubballi,Sugar,Grocery,3,45,UPI,Yes
+T0420,C059,2025-04-14,26-35,Female,Hubballi,Tea,Beverages,1,120,UPI,Yes
+T0421,C036,2025-06-01,50+,Female,Kalaburagi,Cooking Oil,Grocery,3,140,Card,Yes
+T0421,C036,2025-06-01,50+,Female,Kalaburagi,Dal,Grocery,3,95,Card,Yes
+T0421,C036,2025-06-01,50+,Female,Kalaburagi,Rice,Grocery,1,60,Card,Yes
+T0421,C036,2025-06-01,50+,Female,Kalaburagi,Sugar,Grocery,3,45,Card,Yes
+T0422,C071,2025-10-30,18-25,Male,Kalaburagi,Cooking Oil,Grocery,2,140,UPI,No
+T0422,C071,2025-10-30,18-25,Male,Kalaburagi,Dal,Grocery,1,95,UPI,No
+T0422,C071,2025-10-30,18-25,Male,Kalaburagi,Rice,Grocery,3,60,UPI,No
+T0423,C055,2025-08-02,18-25,Male,Kalaburagi,Sugar,Grocery,2,45,Cash,Yes
+T0423,C055,2025-08-02,18-25,Male,Kalaburagi,Dal,Grocery,3,95,Cash,Yes
+T0423,C055,2025-08-02,18-25,Male,Kalaburagi,Rice,Grocery,3,60,Cash,Yes
+T0423,C055,2025-08-02,18-25,Male,Kalaburagi,Biscuits,Snacks,1,20,Cash,Yes
+T0423,C055,2025-08-02,18-25,Male,Kalaburagi,Tea,Beverages,2,120,Cash,Yes
+T0424,C068,2025-08-20,50+,Male,Hubballi,Eggs,Dairy,1,70,UPI,Yes
+T0424,C068,2025-08-20,50+,Male,Hubballi,Bread,Bakery,3,40,UPI,Yes
+T0425,C002,2025-10-26,26-35,Male,Raichur,Dal,Grocery,2,95,Cash,No
+T0425,C002,2025-10-26,26-35,Male,Raichur,Sugar,Grocery,1,45,Cash,No
+T0425,C002,2025-10-26,26-35,Male,Raichur,Cooking Oil,Grocery,3,140,Cash,No
+T0425,C002,2025-10-26,26-35,Male,Raichur,Milk,Dairy,2,30,Cash,No
+T0425,C002,2025-10-26,26-35,Male,Raichur,Onion,Vegetables,1,35,Cash,No
+T0425,C002,2025-10-26,26-35,Male,Raichur,Shampoo,Personal Care,2,90,Cash,No
+T0426,C060,2025-10-22,26-35,Male,Kalaburagi,Sugar,Grocery,3,45,Cash,Yes
+T0426,C060,2025-10-22,26-35,Male,Kalaburagi,Butter,Dairy,2,55,Cash,Yes
+T0426,C060,2025-10-22,26-35,Male,Kalaburagi,Milk,Dairy,3,30,Cash,Yes
+T0426,C060,2025-10-22,26-35,Male,Kalaburagi,Tomato,Vegetables,1,30,Cash,Yes
+T0426,C060,2025-10-22,26-35,Male,Kalaburagi,Bread,Bakery,3,40,Cash,Yes
+T0426,C060,2025-10-22,26-35,Male,Kalaburagi,Potato,Vegetables,3,28,Cash,Yes
+T0426,C060,2025-10-22,26-35,Male,Kalaburagi,Coffee,Beverages,2,180,Cash,Yes
+T0427,C007,2025-11-28,50+,Male,Hubballi,Coffee,Beverages,3,180,Card,Yes
+T0427,C007,2025-11-28,50+,Male,Hubballi,Milk,Dairy,3,30,Card,Yes
+T0427,C007,2025-11-28,50+,Male,Hubballi,Sugar,Grocery,1,45,Card,Yes
+T0428,C018,2025-06-14,26-35,Male,Hubballi,Sugar,Grocery,3,45,UPI,No
+T0428,C018,2025-06-14,26-35,Male,Hubballi,Dal,Grocery,3,95,UPI,No
+T0428,C018,2025-06-14,26-35,Male,Hubballi,Biscuits,Snacks,2,20,UPI,No
+T0428,C018,2025-06-14,26-35,Male,Hubballi,Tea,Beverages,2,120,UPI,No
+T0429,C007,2025-12-30,50+,Male,Hubballi,Toothpaste,Personal Care,2,60,Card,No
+T0429,C007,2025-12-30,50+,Male,Hubballi,Chips,Snacks,3,25,Card,No
+T0429,C007,2025-12-30,50+,Male,Hubballi,Eggs,Dairy,2,70,Card,No
+T0429,C007,2025-12-30,50+,Male,Hubballi,Juice,Beverages,3,85,Card,No
+T0430,C009,2025-05-28,50+,Female,Bengaluru,Bread,Bakery,1,40,Cash,Yes
+T0431,C036,2025-08-02,50+,Female,Kalaburagi,Coffee,Beverages,2,180,Card,Yes
+T0431,C036,2025-08-02,50+,Female,Kalaburagi,Toothpaste,Personal Care,2,60,Card,Yes
+T0431,C036,2025-08-02,50+,Female,Kalaburagi,Shampoo,Personal Care,2,90,Card,Yes
+T0431,C036,2025-08-02,50+,Female,Kalaburagi,Soap,Personal Care,2,35,Card,Yes
+T0431,C036,2025-08-02,50+,Female,Kalaburagi,Bread,Bakery,3,40,Card,Yes
+T0432,C003,2025-10-24,18-25,Male,Kalaburagi,Juice,Beverages,2,85,UPI,No
+T0432,C003,2025-10-24,18-25,Male,Kalaburagi,Sugar,Grocery,3,45,UPI,No
+T0432,C003,2025-10-24,18-25,Male,Kalaburagi,Soap,Personal Care,3,35,UPI,No
+T0432,C003,2025-10-24,18-25,Male,Kalaburagi,Biscuits,Snacks,3,20,UPI,No
+T0433,C068,2025-05-28,50+,Male,Hubballi,Eggs,Dairy,2,70,Cash,Yes
+T0433,C068,2025-05-28,50+,Male,Hubballi,Sugar,Grocery,2,45,Cash,Yes
+T0433,C068,2025-05-28,50+,Male,Hubballi,Biscuits,Snacks,2,20,Cash,Yes
+T0433,C068,2025-05-28,50+,Male,Hubballi,Tea,Beverages,1,120,Cash,Yes
+T0434,C080,2025-05-02,18-25,Female,Ballari,Rice,Grocery,2,60,Cash,Yes
+T0434,C080,2025-05-02,18-25,Female,Ballari,Cooking Oil,Grocery,3,140,Cash,Yes
+T0434,C080,2025-05-02,18-25,Female,Ballari,Onion,Vegetables,1,35,Cash,Yes
+T0434,C080,2025-05-02,18-25,Female,Ballari,Potato,Vegetables,2,28,Cash,Yes
+T0434,C080,2025-05-02,18-25,Female,Ballari,Tomato,Vegetables,2,30,Cash,Yes
+T0435,C048,2025-07-10,18-25,Male,Raichur,Tea,Beverages,3,120,UPI,Yes
+T0435,C048,2025-07-10,18-25,Male,Raichur,Rice,Grocery,2,60,UPI,Yes
+T0435,C048,2025-07-10,18-25,Male,Raichur,Biscuits,Snacks,1,20,UPI,Yes
+T0436,C004,2025-01-03,50+,Male,Ballari,Eggs,Dairy,3,70,Card,No
+T0436,C004,2025-01-03,50+,Male,Ballari,Bread,Bakery,3,40,Card,No
+T0436,C004,2025-01-03,50+,Male,Ballari,Rice,Grocery,2,60,Card,No
+T0437,C061,2025-09-03,50+,Male,Hubballi,Toothpaste,Personal Care,3,60,Cash,Yes
+T0437,C061,2025-09-03,50+,Male,Hubballi,Eggs,Dairy,3,70,Cash,Yes
+T0437,C061,2025-09-03,50+,Male,Hubballi,Shampoo,Personal Care,1,90,Cash,Yes
+T0437,C061,2025-09-03,50+,Male,Hubballi,Soap,Personal Care,2,35,Cash,Yes
+T0438,C004,2025-09-27,50+,Male,Ballari,Tea,Beverages,1,120,Cash,No
+T0438,C004,2025-09-27,50+,Male,Ballari,Onion,Vegetables,1,35,Cash,No
+T0438,C004,2025-09-27,50+,Male,Ballari,Dal,Grocery,1,95,Cash,No
+T0439,C069,2025-01-29,26-35,Female,Hubballi,Dal,Grocery,2,95,Card,No
+T0439,C069,2025-01-29,26-35,Female,Hubballi,Rice,Grocery,1,60,Card,No
+T0439,C069,2025-01-29,26-35,Female,Hubballi,Cooking Oil,Grocery,3,140,Card,No
+T0439,C069,2025-01-29,26-35,Female,Hubballi,Potato,Vegetables,2,28,Card,No
+T0439,C069,2025-01-29,26-35,Female,Hubballi,Detergent,Household,2,110,Card,No
+T0440,C050,2025-08-16,50+,Male,Kalaburagi,Dal,Grocery,2,95,Card,No
+T0440,C050,2025-08-16,50+,Male,Kalaburagi,Butter,Dairy,2,55,Card,No
+T0440,C050,2025-08-16,50+,Male,Kalaburagi,Milk,Dairy,1,30,Card,No
+T0440,C050,2025-08-16,50+,Male,Kalaburagi,Bread,Bakery,3,40,Card,No
+T0441,C055,2025-10-30,18-25,Male,Kalaburagi,Cooking Oil,Grocery,1,140,UPI,Yes
+T0441,C055,2025-10-30,18-25,Male,Kalaburagi,Dal,Grocery,2,95,UPI,Yes
+T0441,C055,2025-10-30,18-25,Male,Kalaburagi,Rice,Grocery,3,60,UPI,Yes
+T0441,C055,2025-10-30,18-25,Male,Kalaburagi,Coffee,Beverages,2,180,UPI,Yes
+T0441,C055,2025-10-30,18-25,Male,Kalaburagi,Milk,Dairy,2,30,UPI,Yes
+T0441,C055,2025-10-30,18-25,Male,Kalaburagi,Butter,Dairy,1,55,UPI,Yes
+T0442,C072,2025-06-04,18-25,Male,Raichur,Milk,Dairy,2,30,Card,No
+T0442,C072,2025-06-04,18-25,Male,Raichur,Toothpaste,Personal Care,3,60,Card,No
+T0442,C072,2025-06-04,18-25,Male,Raichur,Shampoo,Personal Care,3,90,Card,No
+T0442,C072,2025-06-04,18-25,Male,Raichur,Soap,Personal Care,2,35,Card,No
+T0443,C029,2025-12-01,26-35,Female,Raichur,Eggs,Dairy,2,70,Card,No
+T0443,C029,2025-12-01,26-35,Female,Raichur,Butter,Dairy,1,55,Card,No
+T0443,C029,2025-12-01,26-35,Female,Raichur,Milk,Dairy,2,30,Card,No
+T0443,C029,2025-12-01,26-35,Female,Raichur,Toothpaste,Personal Care,3,60,Card,No
+T0443,C029,2025-12-01,26-35,Female,Raichur,Bread,Bakery,3,40,Card,No
+T0444,C032,2025-09-04,26-35,Male,Kalaburagi,Dal,Grocery,2,95,Card,No
+T0444,C032,2025-09-04,26-35,Male,Kalaburagi,Rice,Grocery,3,60,Card,No
+T0444,C032,2025-09-04,26-35,Male,Kalaburagi,Biscuits,Snacks,3,20,Card,No
+T0444,C032,2025-09-04,26-35,Male,Kalaburagi,Cooking Oil,Grocery,2,140,Card,No
+T0444,C032,2025-09-04,26-35,Male,Kalaburagi,Onion,Vegetables,3,35,Card,No
+T0445,C016,2025-12-21,26-35,Male,Ballari,Shampoo,Personal Care,1,90,Cash,No
+T0445,C016,2025-12-21,26-35,Male,Ballari,Milk,Dairy,1,30,Cash,No
+T0445,C016,2025-12-21,26-35,Male,Ballari,Bread,Bakery,2,40,Cash,No
+T0446,C047,2025-04-10,18-25,Male,Hubballi,Butter,Dairy,1,55,Card,Yes
+T0446,C047,2025-04-10,18-25,Male,Hubballi,Detergent,Household,3,110,Card,Yes
+T0446,C047,2025-04-10,18-25,Male,Hubballi,Juice,Beverages,1,85,Card,Yes
+T0447,C070,2025-12-17,26-35,Male,Hubballi,Tea,Beverages,1,120,Card,No
+T0447,C070,2025-12-17,26-35,Male,Hubballi,Chips,Snacks,3,25,Card,No
+T0447,C070,2025-12-17,26-35,Male,Hubballi,Juice,Beverages,3,85,Card,No
+T0448,C046,2025-03-25,26-35,Male,Raichur,Butter,Dairy,1,55,Cash,Yes
+T0448,C046,2025-03-25,26-35,Male,Raichur,Milk,Dairy,3,30,Cash,Yes
+T0448,C046,2025-03-25,26-35,Male,Raichur,Juice,Beverages,1,85,Cash,Yes
+T0449,C025,2025-08-15,26-35,Male,Bengaluru,Dal,Grocery,1,95,Card,No
+T0449,C025,2025-08-15,26-35,Male,Bengaluru,Rice,Grocery,3,60,Card,No
+T0449,C025,2025-08-15,26-35,Male,Bengaluru,Sugar,Grocery,2,45,Card,No
+T0449,C025,2025-08-15,26-35,Male,Bengaluru,Biscuits,Snacks,1,20,Card,No
+T0449,C025,2025-08-15,26-35,Male,Bengaluru,Tea,Beverages,3,120,Card,No
+T0450,C016,2025-04-18,26-35,Male,Ballari,Toothpaste,Personal Care,2,60,Cash,Yes
+T0450,C016,2025-04-18,26-35,Male,Ballari,Shampoo,Personal Care,3,90,Cash,Yes
+T0451,C015,2025-01-17,36-50,Female,Kalaburagi,Milk,Dairy,2,30,Card,Yes
+T0451,C015,2025-01-17,36-50,Female,Kalaburagi,Bread,Bakery,1,40,Card,Yes
+T0452,C033,2025-11-05,50+,Male,Ballari,Rice,Grocery,1,60,Cash,Yes
+T0453,C045,2025-03-24,18-25,Female,Bengaluru,Cooking Oil,Grocery,3,140,Card,Yes
+T0453,C045,2025-03-24,18-25,Female,Bengaluru,Dal,Grocery,3,95,Card,Yes
+T0453,C045,2025-03-24,18-25,Female,Bengaluru,Potato,Vegetables,1,28,Card,Yes
+T0453,C045,2025-03-24,18-25,Female,Bengaluru,Biscuits,Snacks,1,20,Card,Yes
+T0454,C075,2025-04-20,18-25,Male,Hubballi,Eggs,Dairy,2,70,Card,No
+T0454,C075,2025-04-20,18-25,Male,Hubballi,Sugar,Grocery,3,45,Card,No
+T0454,C075,2025-04-20,18-25,Male,Hubballi,Biscuits,Snacks,3,20,Card,No
+T0454,C075,2025-04-20,18-25,Male,Hubballi,Tea,Beverages,1,120,Card,No
+T0454,C075,2025-04-20,18-25,Male,Hubballi,Bread,Bakery,2,40,Card,No
+T0455,C014,2025-02-27,18-25,Female,Ballari,Chips,Snacks,2,25,UPI,Yes
+T0455,C014,2025-02-27,18-25,Female,Ballari,Sugar,Grocery,1,45,UPI,Yes
+T0455,C014,2025-02-27,18-25,Female,Ballari,Soap,Personal Care,3,35,UPI,Yes
+T0455,C014,2025-02-27,18-25,Female,Ballari,Juice,Beverages,1,85,UPI,Yes
+T0456,C064,2025-07-17,50+,Female,Hubballi,Potato,Vegetables,3,28,UPI,No
+T0456,C064,2025-07-17,50+,Female,Hubballi,Tomato,Vegetables,3,30,UPI,No
+T0457,C040,2025-04-02,50+,Male,Bengaluru,Eggs,Dairy,3,70,Cash,No
+T0457,C040,2025-04-02,50+,Male,Bengaluru,Rice,Grocery,1,60,Cash,No
+T0457,C040,2025-04-02,50+,Male,Bengaluru,Biscuits,Snacks,2,20,Cash,No
+T0457,C040,2025-04-02,50+,Male,Bengaluru,Cooking Oil,Grocery,2,140,Cash,No
+T0457,C040,2025-04-02,50+,Male,Bengaluru,Bread,Bakery,3,40,Cash,No
+T0458,C011,2025-07-06,18-25,Male,Hubballi,Butter,Dairy,1,55,Cash,No
+T0458,C011,2025-07-06,18-25,Male,Hubballi,Cooking Oil,Grocery,3,140,Cash,No
+T0458,C011,2025-07-06,18-25,Male,Hubballi,Toothpaste,Personal Care,2,60,Cash,No
+T0458,C011,2025-07-06,18-25,Male,Hubballi,Shampoo,Personal Care,1,90,Cash,No
+T0458,C011,2025-07-06,18-25,Male,Hubballi,Soap,Personal Care,1,35,Cash,No
+T0459,C055,2025-09-01,18-25,Male,Kalaburagi,Shampoo,Personal Care,2,90,Card,No
+T0459,C055,2025-09-01,18-25,Male,Kalaburagi,Eggs,Dairy,3,70,Card,No
+T0459,C055,2025-09-01,18-25,Male,Kalaburagi,Biscuits,Snacks,2,20,Card,No
+T0459,C055,2025-09-01,18-25,Male,Kalaburagi,Toothpaste,Personal Care,1,60,Card,No
+T0459,C055,2025-09-01,18-25,Male,Kalaburagi,Bread,Bakery,2,40,Card,No
+T0459,C055,2025-09-01,18-25,Male,Kalaburagi,Soap,Personal Care,1,35,Card,No
+T0460,C016,2025-01-16,26-35,Male,Ballari,Eggs,Dairy,1,70,Cash,Yes
+T0460,C016,2025-01-16,26-35,Male,Ballari,Bread,Bakery,2,40,Cash,Yes
+T0461,C004,2025-12-05,50+,Male,Ballari,Eggs,Dairy,2,70,Card,No
+T0461,C004,2025-12-05,50+,Male,Ballari,Sugar,Grocery,1,45,Card,No
+T0461,C004,2025-12-05,50+,Male,Ballari,Coffee,Beverages,2,180,Card,No
+T0461,C004,2025-12-05,50+,Male,Ballari,Milk,Dairy,3,30,Card,No
+T0461,C004,2025-12-05,50+,Male,Ballari,Butter,Dairy,2,55,Card,No
+T0462,C063,2025-07-16,18-25,Female,Bengaluru,Eggs,Dairy,2,70,UPI,No
+T0462,C063,2025-07-16,18-25,Female,Bengaluru,Onion,Vegetables,2,35,UPI,No
+T0462,C063,2025-07-16,18-25,Female,Bengaluru,Potato,Vegetables,2,28,UPI,No
+T0462,C063,2025-07-16,18-25,Female,Bengaluru,Tomato,Vegetables,1,30,UPI,No
+T0463,C005,2025-09-07,18-25,Male,Raichur,Onion,Vegetables,3,35,Cash,No
+T0463,C005,2025-09-07,18-25,Male,Raichur,Chips,Snacks,3,25,Cash,No
+T0463,C005,2025-09-07,18-25,Male,Raichur,Potato,Vegetables,3,28,Cash,No
+T0463,C005,2025-09-07,18-25,Male,Raichur,Tomato,Vegetables,3,30,Cash,No
+T0464,C074,2025-07-20,50+,Male,Hubballi,Eggs,Dairy,3,70,UPI,No
+T0464,C074,2025-07-20,50+,Male,Hubballi,Bread,Bakery,2,40,UPI,No
+T0465,C079,2025-01-14,36-50,Male,Ballari,Onion,Vegetables,2,35,Card,No
+T0465,C079,2025-01-14,36-50,Male,Ballari,Chips,Snacks,1,25,Card,No
+T0465,C079,2025-01-14,36-50,Male,Ballari,Sugar,Grocery,2,45,Card,No
+T0465,C079,2025-01-14,36-50,Male,Ballari,Juice,Beverages,2,85,Card,No
+T0466,C046,2025-11-28,26-35,Male,Raichur,Juice,Beverages,3,85,UPI,Yes
+T0467,C009,2025-10-18,50+,Female,Bengaluru,Soap,Personal Care,2,35,Card,No
+T0467,C009,2025-10-18,50+,Female,Bengaluru,Dal,Grocery,1,95,Card,No
+T0467,C009,2025-10-18,50+,Female,Bengaluru,Rice,Grocery,3,60,Card,No
+T0468,C061,2025-09-15,50+,Male,Hubballi,Shampoo,Personal Care,1,90,Card,No
+T0468,C061,2025-09-15,50+,Male,Hubballi,Butter,Dairy,3,55,Card,No
+T0468,C061,2025-09-15,50+,Male,Hubballi,Milk,Dairy,2,30,Card,No
+T0468,C061,2025-09-15,50+,Male,Hubballi,Toothpaste,Personal Care,2,60,Card,No
+T0468,C061,2025-09-15,50+,Male,Hubballi,Bread,Bakery,2,40,Card,No
+T0469,C026,2025-06-02,50+,Female,Ballari,Cooking Oil,Grocery,1,140,Card,No
+T0469,C026,2025-06-02,50+,Female,Ballari,Dal,Grocery,3,95,Card,No
+T0469,C026,2025-06-02,50+,Female,Ballari,Rice,Grocery,3,60,Card,No
+T0470,C012,2025-06-03,18-25,Female,Bengaluru,Dal,Grocery,1,95,UPI,No
+T0470,C012,2025-06-03,18-25,Female,Bengaluru,Rice,Grocery,2,60,UPI,No
+T0470,C012,2025-06-03,18-25,Female,Bengaluru,Coffee,Beverages,2,180,UPI,No
+T0470,C012,2025-06-03,18-25,Female,Bengaluru,Onion,Vegetables,2,35,UPI,No
+T0470,C012,2025-06-03,18-25,Female,Bengaluru,Potato,Vegetables,3,28,UPI,No
+T0470,C012,2025-06-03,18-25,Female,Bengaluru,Detergent,Household,3,110,UPI,No
+T0470,C012,2025-06-03,18-25,Female,Bengaluru,Tomato,Vegetables,2,30,UPI,No
+T0471,C071,2025-12-05,18-25,Male,Kalaburagi,Butter,Dairy,2,55,Card,No
+T0471,C071,2025-12-05,18-25,Male,Kalaburagi,Milk,Dairy,3,30,Card,No
+T0471,C071,2025-12-05,18-25,Male,Kalaburagi,Bread,Bakery,3,40,Card,No
+T0471,C071,2025-12-05,18-25,Male,Kalaburagi,Dal,Grocery,3,95,Card,No
+T0472,C056,2025-02-02,26-35,Male,Ballari,Butter,Dairy,2,55,Card,Yes
+T0472,C056,2025-02-02,26-35,Male,Ballari,Milk,Dairy,2,30,Card,Yes
+T0472,C056,2025-02-02,26-35,Male,Ballari,Onion,Vegetables,2,35,Card,Yes
+T0472,C056,2025-02-02,26-35,Male,Ballari,Bread,Bakery,3,40,Card,Yes
+T0472,C056,2025-02-02,26-35,Male,Ballari,Potato,Vegetables,1,28,Card,Yes
+T0472,C056,2025-02-02,26-35,Male,Ballari,Juice,Beverages,2,85,Card,Yes
+T0472,C056,2025-02-02,26-35,Male,Ballari,Tomato,Vegetables,3,30,Card,Yes
+T0473,C077,2025-09-06,50+,Female,Hubballi,Coffee,Beverages,2,180,Card,No
+T0473,C077,2025-09-06,50+,Female,Hubballi,Shampoo,Personal Care,3,90,Card,No
+T0474,C005,2025-04-01,18-25,Male,Raichur,Toothpaste,Personal Care,3,60,Card,Yes
+T0474,C005,2025-04-01,18-25,Male,Raichur,Shampoo,Personal Care,2,90,Card,Yes
+T0474,C005,2025-04-01,18-25,Male,Raichur,Tomato,Vegetables,1,30,Card,Yes
+T0475,C008,2025-12-10,36-50,Male,Raichur,Chips,Snacks,2,25,Card,Yes
+T0475,C008,2025-12-10,36-50,Male,Raichur,Biscuits,Snacks,3,20,Card,Yes
+T0475,C008,2025-12-10,36-50,Male,Raichur,Juice,Beverages,1,85,Card,Yes
+T0476,C031,2025-02-16,50+,Female,Bengaluru,Dal,Grocery,2,95,Cash,Yes
+T0476,C031,2025-02-16,50+,Female,Bengaluru,Rice,Grocery,2,60,Cash,Yes
+T0476,C031,2025-02-16,50+,Female,Bengaluru,Tea,Beverages,3,120,Cash,Yes
+T0476,C031,2025-02-16,50+,Female,Bengaluru,Cooking Oil,Grocery,3,140,Cash,Yes
+T0476,C031,2025-02-16,50+,Female,Bengaluru,Toothpaste,Personal Care,2,60,Cash,Yes
+T0477,C031,2025-05-11,50+,Female,Bengaluru,Sugar,Grocery,2,45,Card,Yes
+T0477,C031,2025-05-11,50+,Female,Bengaluru,Soap,Personal Care,3,35,Card,Yes
+T0477,C031,2025-05-11,50+,Female,Bengaluru,Biscuits,Snacks,2,20,Card,Yes
+T0478,C015,2025-07-05,36-50,Female,Kalaburagi,Coffee,Beverages,2,180,UPI,No
+T0478,C015,2025-07-05,36-50,Female,Kalaburagi,Milk,Dairy,1,30,UPI,No
+T0478,C015,2025-07-05,36-50,Female,Kalaburagi,Sugar,Grocery,3,45,UPI,No
+T0479,C078,2025-11-24,50+,Male,Raichur,Butter,Dairy,3,55,Card,No
+T0479,C078,2025-11-24,50+,Male,Raichur,Milk,Dairy,1,30,Card,No
+T0479,C078,2025-11-24,50+,Male,Raichur,Chips,Snacks,3,25,Card,No
+T0479,C078,2025-11-24,50+,Male,Raichur,Bread,Bakery,1,40,Card,No
+T0479,C078,2025-11-24,50+,Male,Raichur,Coffee,Beverages,2,180,Card,No
+T0480,C050,2025-06-02,50+,Male,Kalaburagi,Coffee,Beverages,2,180,Cash,Yes
+T0480,C050,2025-06-02,50+,Male,Kalaburagi,Milk,Dairy,3,30,Cash,Yes
+T0480,C050,2025-06-02,50+,Male,Kalaburagi,Sugar,Grocery,2,45,Cash,Yes
+T0481,C053,2025-06-20,50+,Male,Raichur,Onion,Vegetables,1,35,Card,No
+T0481,C053,2025-06-20,50+,Male,Raichur,Potato,Vegetables,1,28,Card,No
+T0481,C053,2025-06-20,50+,Male,Raichur,Soap,Personal Care,3,35,Card,No
+T0481,C053,2025-06-20,50+,Male,Raichur,Tomato,Vegetables,2,30,Card,No
+T0482,C065,2025-12-22,18-25,Male,Ballari,Chips,Snacks,3,25,Cash,Yes
+T0482,C065,2025-12-22,18-25,Male,Ballari,Shampoo,Personal Care,3,90,Cash,Yes
+T0482,C065,2025-12-22,18-25,Male,Ballari,Juice,Beverages,1,85,Cash,Yes
+T0483,C057,2025-06-13,18-25,Male,Ballari,Rice,Grocery,3,60,UPI,No
+T0483,C057,2025-06-13,18-25,Male,Ballari,Butter,Dairy,1,55,UPI,No
+T0483,C057,2025-06-13,18-25,Male,Ballari,Milk,Dairy,2,30,UPI,No
+T0483,C057,2025-06-13,18-25,Male,Ballari,Toothpaste,Personal Care,1,60,UPI,No
+T0483,C057,2025-06-13,18-25,Male,Ballari,Shampoo,Personal Care,3,90,UPI,No
+T0483,C057,2025-06-13,18-25,Male,Ballari,Soap,Personal Care,3,35,UPI,No
+T0484,C042,2025-04-25,26-35,Male,Bengaluru,Onion,Vegetables,3,35,Cash,Yes
+T0484,C042,2025-04-25,26-35,Male,Bengaluru,Sugar,Grocery,3,45,Cash,Yes
+T0484,C042,2025-04-25,26-35,Male,Bengaluru,Biscuits,Snacks,3,20,Cash,Yes
+T0485,C030,2025-01-26,26-35,Female,Kalaburagi,Eggs,Dairy,3,70,UPI,No
+T0485,C030,2025-01-26,26-35,Female,Kalaburagi,Bread,Bakery,2,40,UPI,No
+T0486,C020,2025-09-27,26-35,Female,Bengaluru,Chips,Snacks,3,25,UPI,No
+T0486,C020,2025-09-27,26-35,Female,Bengaluru,Juice,Beverages,2,85,UPI,No
+T0487,C016,2025-07-15,26-35,Male,Ballari,Tea,Beverages,1,120,Cash,No
+T0487,C016,2025-07-15,26-35,Male,Ballari,Toothpaste,Personal Care,3,60,Cash,No
+T0487,C016,2025-07-15,26-35,Male,Ballari,Sugar,Grocery,1,45,Cash,No
+T0487,C016,2025-07-15,26-35,Male,Ballari,Biscuits,Snacks,2,20,Cash,No
+T0488,C025,2025-11-13,26-35,Male,Bengaluru,Sugar,Grocery,2,45,UPI,Yes
+T0488,C025,2025-11-13,26-35,Male,Bengaluru,Toothpaste,Personal Care,3,60,UPI,Yes
+T0488,C025,2025-11-13,26-35,Male,Bengaluru,Shampoo,Personal Care,3,90,UPI,Yes
+T0489,C059,2025-07-16,26-35,Female,Hubballi,Butter,Dairy,3,55,Card,No
+T0489,C059,2025-07-16,26-35,Female,Hubballi,Milk,Dairy,3,30,Card,No
+T0489,C059,2025-07-16,26-35,Female,Hubballi,Bread,Bakery,2,40,Card,No
+T0489,C059,2025-07-16,26-35,Female,Hubballi,Dal,Grocery,1,95,Card,No
+T0490,C013,2025-05-10,36-50,Male,Hubballi,Eggs,Dairy,2,70,Card,No
+T0490,C013,2025-05-10,36-50,Male,Hubballi,Butter,Dairy,2,55,Card,No
+T0490,C013,2025-05-10,36-50,Male,Hubballi,Milk,Dairy,3,30,Card,No
+T0490,C013,2025-05-10,36-50,Male,Hubballi,Bread,Bakery,2,40,Card,No
+T0491,C017,2025-03-14,26-35,Female,Ballari,Butter,Dairy,2,55,UPI,Yes
+T0491,C017,2025-03-14,26-35,Female,Ballari,Milk,Dairy,1,30,UPI,Yes
+T0491,C017,2025-03-14,26-35,Female,Ballari,Onion,Vegetables,1,35,UPI,Yes
+T0491,C017,2025-03-14,26-35,Female,Ballari,Bread,Bakery,2,40,UPI,Yes
+T0491,C017,2025-03-14,26-35,Female,Ballari,Soap,Personal Care,2,35,UPI,Yes
+T0491,C017,2025-03-14,26-35,Female,Ballari,Detergent,Household,3,110,UPI,Yes
+T0491,C017,2025-03-14,26-35,Female,Ballari,Tomato,Vegetables,2,30,UPI,Yes
+T0492,C056,2025-03-26,26-35,Male,Ballari,Onion,Vegetables,1,35,UPI,No
+T0492,C056,2025-03-26,26-35,Male,Ballari,Potato,Vegetables,3,28,UPI,No
+T0492,C056,2025-03-26,26-35,Male,Ballari,Soap,Personal Care,3,35,UPI,No
+T0492,C056,2025-03-26,26-35,Male,Ballari,Tomato,Vegetables,3,30,UPI,No
+T0493,C057,2025-12-28,18-25,Male,Ballari,Cooking Oil,Grocery,1,140,UPI,No
+T0493,C057,2025-12-28,18-25,Male,Ballari,Sugar,Grocery,2,45,UPI,No
+T0494,C006,2025-02-27,18-25,Male,Kalaburagi,Toothpaste,Personal Care,1,60,Card,Yes
+T0494,C006,2025-02-27,18-25,Male,Kalaburagi,Chips,Snacks,2,25,Card,Yes
+T0494,C006,2025-02-27,18-25,Male,Kalaburagi,Juice,Beverages,1,85,Card,Yes
+T0495,C027,2025-10-26,26-35,Female,Raichur,Onion,Vegetables,2,35,Cash,Yes
+T0495,C027,2025-10-26,26-35,Female,Raichur,Dal,Grocery,1,95,Cash,Yes
+T0495,C027,2025-10-26,26-35,Female,Raichur,Toothpaste,Personal Care,1,60,Cash,Yes
+T0495,C027,2025-10-26,26-35,Female,Raichur,Shampoo,Personal Care,2,90,Cash,Yes
+T0495,C027,2025-10-26,26-35,Female,Raichur,Soap,Personal Care,3,35,Cash,Yes
+T0496,C013,2025-02-24,36-50,Male,Hubballi,Milk,Dairy,1,30,UPI,Yes
+T0496,C013,2025-02-24,36-50,Male,Hubballi,Onion,Vegetables,1,35,UPI,Yes
+T0496,C013,2025-02-24,36-50,Male,Hubballi,Bread,Bakery,2,40,UPI,Yes
+T0497,C062,2025-06-16,50+,Male,Ballari,Shampoo,Personal Care,1,90,Card,Yes
+T0497,C062,2025-06-16,50+,Male,Ballari,Potato,Vegetables,1,28,Card,Yes
+T0497,C062,2025-06-16,50+,Male,Ballari,Tomato,Vegetables,3,30,Card,Yes
+T0498,C037,2025-07-24,36-50,Male,Ballari,Butter,Dairy,1,55,UPI,Yes
+T0498,C037,2025-07-24,36-50,Male,Ballari,Milk,Dairy,2,30,UPI,Yes
+T0498,C037,2025-07-24,36-50,Male,Ballari,Bread,Bakery,1,40,UPI,Yes
+T0499,C003,2025-06-02,18-25,Male,Kalaburagi,Eggs,Dairy,3,70,UPI,No
+T0499,C003,2025-06-02,18-25,Male,Kalaburagi,Rice,Grocery,2,60,UPI,No
+T0499,C003,2025-06-02,18-25,Male,Kalaburagi,Toothpaste,Personal Care,3,60,UPI,No
+T0499,C003,2025-06-02,18-25,Male,Kalaburagi,Shampoo,Personal Care,3,90,UPI,No
+T0499,C003,2025-06-02,18-25,Male,Kalaburagi,Soap,Personal Care,1,35,UPI,No
+T0500,C046,2025-08-05,26-35,Male,Raichur,Dal,Grocery,2,95,UPI,Yes
+T0500,C046,2025-08-05,26-35,Male,Raichur,Rice,Grocery,3,60,UPI,Yes
+T0500,C046,2025-08-05,26-35,Male,Raichur,Sugar,Grocery,2,45,UPI,Yes
+T0500,C046,2025-08-05,26-35,Male,Raichur,Coffee,Beverages,1,180,UPI,Yes
+T0500,C046,2025-08-05,26-35,Male,Raichur,Cooking Oil,Grocery,1,140,UPI,Yes
+T0500,C046,2025-08-05,26-35,Male,Raichur,Milk,Dairy,3,30,UPI,Yes
+T0501,C044,2025-05-29,36-50,Female,Ballari,Sugar,Grocery,1,45,UPI,No
+T0501,C044,2025-05-29,36-50,Female,Ballari,Biscuits,Snacks,2,20,UPI,No
+T0501,C044,2025-05-29,36-50,Female,Ballari,Tea,Beverages,2,120,UPI,No
+T0501,C044,2025-05-29,36-50,Female,Ballari,Butter,Dairy,1,55,UPI,No
+T0501,C044,2025-05-29,36-50,Female,Ballari,Detergent,Household,1,110,UPI,No
+T0502,C039,2025-09-20,36-50,Female,Raichur,Coffee,Beverages,2,180,Cash,No
+T0503,C013,2025-02-28,36-50,Male,Hubballi,Onion,Vegetables,1,35,Card,No
+T0503,C013,2025-02-28,36-50,Male,Hubballi,Potato,Vegetables,1,28,Card,No
+T0503,C013,2025-02-28,36-50,Male,Hubballi,Tomato,Vegetables,2,30,Card,No
+T0504,C006,2025-11-16,18-25,Male,Kalaburagi,Coffee,Beverages,1,180,UPI,No
+T0504,C006,2025-11-16,18-25,Male,Kalaburagi,Milk,Dairy,1,30,UPI,No
+T0504,C006,2025-11-16,18-25,Male,Kalaburagi,Sugar,Grocery,1,45,UPI,No
+T0504,C006,2025-11-16,18-25,Male,Kalaburagi,Shampoo,Personal Care,1,90,UPI,No
+T0505,C078,2025-03-29,50+,Male,Raichur,Dal,Grocery,2,95,Card,No
+T0505,C078,2025-03-29,50+,Male,Raichur,Rice,Grocery,3,60,Card,No
+T0506,C052,2025-02-14,36-50,Female,Kalaburagi,Shampoo,Personal Care,1,90,Cash,Yes
+T0506,C052,2025-02-14,36-50,Female,Kalaburagi,Eggs,Dairy,1,70,Cash,Yes
+T0506,C052,2025-02-14,36-50,Female,Kalaburagi,Coffee,Beverages,1,180,Cash,Yes
+T0506,C052,2025-02-14,36-50,Female,Kalaburagi,Toothpaste,Personal Care,1,60,Cash,Yes
+T0506,C052,2025-02-14,36-50,Female,Kalaburagi,Bread,Bakery,3,40,Cash,Yes
+T0506,C052,2025-02-14,36-50,Female,Kalaburagi,Soap,Personal Care,1,35,Cash,Yes
+T0507,C004,2025-04-08,50+,Male,Ballari,Eggs,Dairy,2,70,Cash,No
+T0507,C004,2025-04-08,50+,Male,Ballari,Bread,Bakery,1,40,Cash,No
+T0507,C004,2025-04-08,50+,Male,Ballari,Tomato,Vegetables,2,30,Cash,No
+T0508,C055,2025-01-11,18-25,Male,Kalaburagi,Cooking Oil,Grocery,1,140,UPI,Yes
+T0508,C055,2025-01-11,18-25,Male,Kalaburagi,Toothpaste,Personal Care,2,60,UPI,Yes
+T0508,C055,2025-01-11,18-25,Male,Kalaburagi,Dal,Grocery,3,95,UPI,Yes
+T0508,C055,2025-01-11,18-25,Male,Kalaburagi,Rice,Grocery,2,60,UPI,Yes
+T0509,C007,2025-10-24,50+,Male,Hubballi,Butter,Dairy,1,55,Card,No
+T0509,C007,2025-10-24,50+,Male,Hubballi,Milk,Dairy,2,30,Card,No
+T0509,C007,2025-10-24,50+,Male,Hubballi,Toothpaste,Personal Care,2,60,Card,No
+T0510,C063,2025-03-01,18-25,Female,Bengaluru,Eggs,Dairy,2,70,UPI,No
+T0510,C063,2025-03-01,18-25,Female,Bengaluru,Rice,Grocery,3,60,UPI,No
+T0510,C063,2025-03-01,18-25,Female,Bengaluru,Cooking Oil,Grocery,2,140,UPI,No
+T0510,C063,2025-03-01,18-25,Female,Bengaluru,Toothpaste,Personal Care,1,60,UPI,No
+T0510,C063,2025-03-01,18-25,Female,Bengaluru,Bread,Bakery,1,40,UPI,No
+T0510,C063,2025-03-01,18-25,Female,Bengaluru,Soap,Personal Care,2,35,UPI,No
+T0511,C025,2025-03-09,26-35,Male,Bengaluru,Chips,Snacks,2,25,UPI,No
+T0511,C025,2025-03-09,26-35,Male,Bengaluru,Shampoo,Personal Care,3,90,UPI,No
+T0511,C025,2025-03-09,26-35,Male,Bengaluru,Juice,Beverages,3,85,UPI,No
+T0512,C047,2025-03-30,18-25,Male,Hubballi,Rice,Grocery,3,60,Cash,Yes
+T0512,C047,2025-03-30,18-25,Male,Hubballi,Toothpaste,Personal Care,2,60,Cash,Yes
+T0512,C047,2025-03-30,18-25,Male,Hubballi,Shampoo,Personal Care,1,90,Cash,Yes
+T0512,C047,2025-03-30,18-25,Male,Hubballi,Soap,Personal Care,2,35,Cash,Yes
+T0513,C064,2025-12-13,50+,Female,Hubballi,Tea,Beverages,3,120,Cash,Yes
+T0513,C064,2025-12-13,50+,Female,Hubballi,Biscuits,Snacks,1,20,Cash,Yes
+T0514,C009,2025-06-24,50+,Female,Bengaluru,Tea,Beverages,3,120,UPI,Yes
+T0514,C009,2025-06-24,50+,Female,Bengaluru,Milk,Dairy,2,30,UPI,Yes
+T0514,C009,2025-06-24,50+,Female,Bengaluru,Sugar,Grocery,1,45,UPI,Yes
+T0515,C066,2025-11-09,50+,Female,Ballari,Cooking Oil,Grocery,3,140,Card,Yes
+T0515,C066,2025-11-09,50+,Female,Ballari,Chips,Snacks,1,25,Card,Yes
+T0515,C066,2025-11-09,50+,Female,Ballari,Dal,Grocery,3,95,Card,Yes
+T0515,C066,2025-11-09,50+,Female,Ballari,Juice,Beverages,1,85,Card,Yes
+T0516,C022,2025-03-20,26-35,Male,Raichur,Dal,Grocery,2,95,Card,No
+T0516,C022,2025-03-20,26-35,Male,Raichur,Rice,Grocery,1,60,Card,No
+T0516,C022,2025-03-20,26-35,Male,Raichur,Sugar,Grocery,1,45,Card,No
+T0516,C022,2025-03-20,26-35,Male,Raichur,Coffee,Beverages,1,180,Card,No
+T0516,C022,2025-03-20,26-35,Male,Raichur,Cooking Oil,Grocery,2,140,Card,No
+T0516,C022,2025-03-20,26-35,Male,Raichur,Milk,Dairy,2,30,Card,No
+T0517,C001,2025-05-17,18-25,Male,Bengaluru,Eggs,Dairy,2,70,UPI,No
+T0517,C001,2025-05-17,18-25,Male,Bengaluru,Bread,Bakery,3,40,UPI,No
+T0518,C032,2025-09-22,26-35,Male,Kalaburagi,Coffee,Beverages,1,180,Card,No
+T0518,C032,2025-09-22,26-35,Male,Kalaburagi,Sugar,Grocery,2,45,Card,No
+T0518,C032,2025-09-22,26-35,Male,Kalaburagi,Shampoo,Personal Care,1,90,Card,No
+T0519,C002,2025-01-30,26-35,Male,Raichur,Dal,Grocery,2,95,Card,No
+T0519,C002,2025-01-30,26-35,Male,Raichur,Rice,Grocery,2,60,Card,No
+T0519,C002,2025-01-30,26-35,Male,Raichur,Cooking Oil,Grocery,3,140,Card,No
+T0519,C002,2025-01-30,26-35,Male,Raichur,Onion,Vegetables,3,35,Card,No
+T0519,C002,2025-01-30,26-35,Male,Raichur,Bread,Bakery,3,40,Card,No
+T0519,C002,2025-01-30,26-35,Male,Raichur,Milk,Dairy,2,30,Card,No
+T0520,C041,2025-12-25,26-35,Male,Bengaluru,Butter,Dairy,3,55,UPI,No
+T0520,C041,2025-12-25,26-35,Male,Bengaluru,Milk,Dairy,1,30,UPI,No
+T0520,C041,2025-12-25,26-35,Male,Bengaluru,Bread,Bakery,3,40,UPI,No
+T0521,C080,2025-01-19,18-25,Female,Ballari,Eggs,Dairy,2,70,Card,No
+T0521,C080,2025-01-19,18-25,Female,Ballari,Butter,Dairy,3,55,Card,No
+T0521,C080,2025-01-19,18-25,Female,Ballari,Chips,Snacks,3,25,Card,No
+T0521,C080,2025-01-19,18-25,Female,Ballari,Bread,Bakery,3,40,Card,No
+T0521,C080,2025-01-19,18-25,Female,Ballari,Juice,Beverages,1,85,Card,No
+T0522,C067,2025-05-04,26-35,Male,Raichur,Rice,Grocery,3,60,UPI,No
+T0522,C067,2025-05-04,26-35,Male,Raichur,Tea,Beverages,1,120,UPI,No
+T0522,C067,2025-05-04,26-35,Male,Raichur,Cooking Oil,Grocery,3,140,UPI,No
+T0522,C067,2025-05-04,26-35,Male,Raichur,Onion,Vegetables,1,35,UPI,No
+T0522,C067,2025-05-04,26-35,Male,Raichur,Potato,Vegetables,2,28,UPI,No
+T0523,C034,2025-05-01,18-25,Male,Raichur,Butter,Dairy,2,55,Card,Yes
+T0523,C034,2025-05-01,18-25,Male,Raichur,Milk,Dairy,2,30,Card,Yes
+T0523,C034,2025-05-01,18-25,Male,Raichur,Juice,Beverages,2,85,Card,Yes
+T0524,C074,2025-02-20,50+,Male,Hubballi,Chips,Snacks,2,25,Cash,No
+T0524,C074,2025-02-20,50+,Male,Hubballi,Shampoo,Personal Care,1,90,Cash,No
+T0524,C074,2025-02-20,50+,Male,Hubballi,Soap,Personal Care,1,35,Cash,No
+T0524,C074,2025-02-20,50+,Male,Hubballi,Juice,Beverages,1,85,Cash,No
+T0525,C055,2025-10-29,18-25,Male,Kalaburagi,Eggs,Dairy,2,70,Card,No
+T0525,C055,2025-10-29,18-25,Male,Kalaburagi,Chips,Snacks,3,25,Card,No
+T0525,C055,2025-10-29,18-25,Male,Kalaburagi,Detergent,Household,2,110,Card,No
+T0526,C055,2025-03-15,18-25,Male,Kalaburagi,Eggs,Dairy,2,70,Card,Yes
+T0526,C055,2025-03-15,18-25,Male,Kalaburagi,Bread,Bakery,3,40,Card,Yes
+T0527,C059,2025-10-14,26-35,Female,Hubballi,Cooking Oil,Grocery,3,140,UPI,Yes
+T0527,C059,2025-10-14,26-35,Female,Hubballi,Rice,Grocery,2,60,UPI,Yes
+T0528,C015,2025-03-02,36-50,Female,Kalaburagi,Chips,Snacks,2,25,UPI,No
+T0529,C039,2025-06-06,36-50,Female,Raichur,Milk,Dairy,1,30,UPI,Yes
+T0529,C039,2025-06-06,36-50,Female,Raichur,Soap,Personal Care,3,35,UPI,Yes
+T0530,C063,2025-06-08,18-25,Female,Bengaluru,Onion,Vegetables,2,35,Card,No
+T0530,C063,2025-06-08,18-25,Female,Bengaluru,Rice,Grocery,2,60,Card,No
+T0531,C061,2025-11-16,50+,Male,Hubballi,Coffee,Beverages,2,180,Card,No
+T0531,C061,2025-11-16,50+,Male,Hubballi,Toothpaste,Personal Care,1,60,Card,No
+T0531,C061,2025-11-16,50+,Male,Hubballi,Sugar,Grocery,2,45,Card,No
+T0531,C061,2025-11-16,50+,Male,Hubballi,Soap,Personal Care,2,35,Card,No
+T0532,C070,2025-12-29,26-35,Male,Hubballi,Eggs,Dairy,3,70,Cash,No
+T0532,C070,2025-12-29,26-35,Male,Hubballi,Bread,Bakery,3,40,Cash,No
+T0533,C016,2025-01-10,26-35,Male,Ballari,Eggs,Dairy,1,70,Cash,Yes
+T0533,C016,2025-01-10,26-35,Male,Ballari,Dal,Grocery,2,95,Cash,Yes
+T0533,C016,2025-01-10,26-35,Male,Ballari,Rice,Grocery,1,60,Cash,Yes
+T0533,C016,2025-01-10,26-35,Male,Ballari,Cooking Oil,Grocery,1,140,Cash,Yes
+T0533,C016,2025-01-10,26-35,Male,Ballari,Bread,Bakery,3,40,Cash,Yes
+T0533,C016,2025-01-10,26-35,Male,Ballari,Detergent,Household,3,110,Cash,Yes
+T0534,C057,2025-06-24,18-25,Male,Ballari,Chips,Snacks,2,25,UPI,Yes
+T0535,C004,2025-03-20,50+,Male,Ballari,Butter,Dairy,3,55,UPI,No
+T0535,C004,2025-03-20,50+,Male,Ballari,Chips,Snacks,1,25,UPI,No
+T0535,C004,2025-03-20,50+,Male,Ballari,Sugar,Grocery,1,45,UPI,No
+T0536,C079,2025-07-31,36-50,Male,Ballari,Toothpaste,Personal Care,2,60,UPI,No
+T0536,C079,2025-07-31,36-50,Male,Ballari,Rice,Grocery,1,60,UPI,No
+T0537,C007,2025-05-18,50+,Male,Hubballi,Eggs,Dairy,2,70,Cash,No
+T0537,C007,2025-05-18,50+,Male,Hubballi,Sugar,Grocery,3,45,Cash,No
+T0537,C007,2025-05-18,50+,Male,Hubballi,Biscuits,Snacks,2,20,Cash,No
+T0537,C007,2025-05-18,50+,Male,Hubballi,Tea,Beverages,1,120,Cash,No
+T0537,C007,2025-05-18,50+,Male,Hubballi,Chips,Snacks,2,25,Cash,No
+T0538,C004,2025-10-12,50+,Male,Ballari,Tea,Beverages,2,120,Card,Yes
+T0538,C004,2025-10-12,50+,Male,Ballari,Eggs,Dairy,3,70,Card,Yes
+T0538,C004,2025-10-12,50+,Male,Ballari,Sugar,Grocery,2,45,Card,Yes
+T0538,C004,2025-10-12,50+,Male,Ballari,Biscuits,Snacks,2,20,Card,Yes
+T0539,C011,2025-01-01,18-25,Male,Hubballi,Sugar,Grocery,3,45,UPI,No
+T0539,C011,2025-01-01,18-25,Male,Hubballi,Biscuits,Snacks,1,20,UPI,No
+T0539,C011,2025-01-01,18-25,Male,Hubballi,Tea,Beverages,1,120,UPI,No
+T0539,C011,2025-01-01,18-25,Male,Hubballi,Milk,Dairy,1,30,UPI,No
+T0539,C011,2025-01-01,18-25,Male,Hubballi,Shampoo,Personal Care,2,90,UPI,No
+T0539,C011,2025-01-01,18-25,Male,Hubballi,Coffee,Beverages,2,180,UPI,No
+T0540,C077,2025-03-24,50+,Female,Hubballi,Sugar,Grocery,2,45,Card,Yes
+T0540,C077,2025-03-24,50+,Female,Hubballi,Coffee,Beverages,1,180,Card,Yes
+T0540,C077,2025-03-24,50+,Female,Hubballi,Milk,Dairy,2,30,Card,Yes
+T0541,C016,2025-11-22,26-35,Male,Ballari,Juice,Beverages,2,85,UPI,No
+T0541,C016,2025-11-22,26-35,Male,Ballari,Onion,Vegetables,1,35,UPI,No
+T0541,C016,2025-11-22,26-35,Male,Ballari,Potato,Vegetables,3,28,UPI,No
+T0541,C016,2025-11-22,26-35,Male,Ballari,Tomato,Vegetables,2,30,UPI,No
+T0542,C044,2025-11-08,36-50,Female,Ballari,Eggs,Dairy,1,70,UPI,Yes
+T0542,C044,2025-11-08,36-50,Female,Ballari,Bread,Bakery,3,40,UPI,Yes
+T0542,C044,2025-11-08,36-50,Female,Ballari,Rice,Grocery,1,60,UPI,Yes
+T0543,C053,2025-06-30,50+,Male,Raichur,Eggs,Dairy,2,70,UPI,No
+T0543,C053,2025-06-30,50+,Male,Raichur,Sugar,Grocery,1,45,UPI,No
+T0543,C053,2025-06-30,50+,Male,Raichur,Coffee,Beverages,3,180,UPI,No
+T0543,C053,2025-06-30,50+,Male,Raichur,Milk,Dairy,1,30,UPI,No
+T0543,C053,2025-06-30,50+,Male,Raichur,Shampoo,Personal Care,1,90,UPI,No
+T0544,C060,2025-04-09,26-35,Male,Kalaburagi,Tea,Beverages,3,120,Cash,No
+T0544,C060,2025-04-09,26-35,Male,Kalaburagi,Sugar,Grocery,1,45,Cash,No
+T0544,C060,2025-04-09,26-35,Male,Kalaburagi,Biscuits,Snacks,1,20,Cash,No
+T0545,C064,2025-01-04,50+,Female,Hubballi,Butter,Dairy,1,55,Cash,No
+T0545,C064,2025-01-04,50+,Female,Hubballi,Milk,Dairy,2,30,Cash,No
+T0545,C064,2025-01-04,50+,Female,Hubballi,Bread,Bakery,3,40,Cash,No
+T0546,C065,2025-03-31,18-25,Male,Ballari,Onion,Vegetables,3,35,Cash,Yes
+T0546,C065,2025-03-31,18-25,Male,Ballari,Potato,Vegetables,1,28,Cash,Yes
+T0546,C065,2025-03-31,18-25,Male,Ballari,Toothpaste,Personal Care,1,60,Cash,Yes
+T0546,C065,2025-03-31,18-25,Male,Ballari,Shampoo,Personal Care,2,90,Cash,Yes
+T0546,C065,2025-03-31,18-25,Male,Ballari,Soap,Personal Care,3,35,Cash,Yes
+T0547,C030,2025-08-07,26-35,Female,Kalaburagi,Dal,Grocery,2,95,Card,Yes
+T0547,C030,2025-08-07,26-35,Female,Kalaburagi,Rice,Grocery,2,60,Card,Yes
+T0547,C030,2025-08-07,26-35,Female,Kalaburagi,Cooking Oil,Grocery,2,140,Card,Yes
+T0547,C030,2025-08-07,26-35,Female,Kalaburagi,Potato,Vegetables,2,28,Card,Yes
+T0547,C030,2025-08-07,26-35,Female,Kalaburagi,Bread,Bakery,1,40,Card,Yes
+T0547,C030,2025-08-07,26-35,Female,Kalaburagi,Tomato,Vegetables,3,30,Card,Yes
+T0548,C067,2025-05-23,26-35,Male,Raichur,Milk,Dairy,2,30,UPI,No
+T0548,C067,2025-05-23,26-35,Male,Raichur,Eggs,Dairy,1,70,UPI,No
+T0548,C067,2025-05-23,26-35,Male,Raichur,Bread,Bakery,2,40,UPI,No
+T0548,C067,2025-05-23,26-35,Male,Raichur,Sugar,Grocery,1,45,UPI,No
+T0549,C043,2025-05-08,26-35,Male,Kalaburagi,Butter,Dairy,2,55,Cash,Yes
+T0549,C043,2025-05-08,26-35,Male,Kalaburagi,Milk,Dairy,2,30,Cash,Yes
+T0549,C043,2025-05-08,26-35,Male,Kalaburagi,Bread,Bakery,1,40,Cash,Yes
+T0550,C013,2025-05-07,36-50,Male,Hubballi,Tea,Beverages,1,120,Cash,No
+T0550,C013,2025-05-07,36-50,Male,Hubballi,Eggs,Dairy,2,70,Cash,No
+T0550,C013,2025-05-07,36-50,Male,Hubballi,Juice,Beverages,1,85,Cash,No
+T0551,C043,2025-01-18,26-35,Male,Kalaburagi,Sugar,Grocery,3,45,UPI,No
+T0551,C043,2025-01-18,26-35,Male,Kalaburagi,Biscuits,Snacks,1,20,UPI,No
+T0551,C043,2025-01-18,26-35,Male,Kalaburagi,Tea,Beverages,1,120,UPI,No
+T0551,C043,2025-01-18,26-35,Male,Kalaburagi,Milk,Dairy,1,30,UPI,No
+T0551,C043,2025-01-18,26-35,Male,Kalaburagi,Bread,Bakery,2,40,UPI,No
+T0552,C008,2025-07-25,36-50,Male,Raichur,Milk,Dairy,1,30,Cash,No
+T0552,C008,2025-07-25,36-50,Male,Raichur,Chips,Snacks,3,25,Cash,No
+T0552,C008,2025-07-25,36-50,Male,Raichur,Sugar,Grocery,3,45,Cash,No
+T0553,C080,2025-06-23,18-25,Female,Ballari,Eggs,Dairy,2,70,Card,Yes
+T0553,C080,2025-06-23,18-25,Female,Ballari,Bread,Bakery,3,40,Card,Yes
+T0553,C080,2025-06-23,18-25,Female,Ballari,Potato,Vegetables,2,28,Card,Yes
+T0554,C076,2025-10-21,18-25,Female,Bengaluru,Cooking Oil,Grocery,2,140,Cash,No
+T0555,C054,2025-01-31,26-35,Male,Bengaluru,Eggs,Dairy,3,70,Cash,No
+T0556,C056,2025-01-05,26-35,Male,Ballari,Biscuits,Snacks,1,20,Card,Yes
+T0556,C056,2025-01-05,26-35,Male,Ballari,Toothpaste,Personal Care,1,60,Card,Yes
+T0556,C056,2025-01-05,26-35,Male,Ballari,Chips,Snacks,3,25,Card,Yes
+T0556,C056,2025-01-05,26-35,Male,Ballari,Soap,Personal Care,3,35,Card,Yes
+T0556,C056,2025-01-05,26-35,Male,Ballari,Juice,Beverages,1,85,Card,Yes
+T0557,C055,2025-06-24,18-25,Male,Kalaburagi,Tea,Beverages,3,120,Cash,No
+T0557,C055,2025-06-24,18-25,Male,Kalaburagi,Sugar,Grocery,3,45,Cash,No
+T0557,C055,2025-06-24,18-25,Male,Kalaburagi,Biscuits,Snacks,2,20,Cash,No
+T0558,C077,2025-09-11,50+,Female,Hubballi,Sugar,Grocery,3,45,Cash,Yes
+T0558,C077,2025-09-11,50+,Female,Hubballi,Coffee,Beverages,1,180,Cash,Yes
+T0558,C077,2025-09-11,50+,Female,Hubballi,Milk,Dairy,3,30,Cash,Yes
+T0558,C077,2025-09-11,50+,Female,Hubballi,Chips,Snacks,1,25,Cash,Yes
+T0558,C077,2025-09-11,50+,Female,Hubballi,Juice,Beverages,2,85,Cash,Yes
+T0559,C080,2025-07-24,18-25,Female,Ballari,Sugar,Grocery,2,45,Cash,Yes
+T0559,C080,2025-07-24,18-25,Female,Ballari,Dal,Grocery,1,95,Cash,Yes
+T0559,C080,2025-07-24,18-25,Female,Ballari,Biscuits,Snacks,1,20,Cash,Yes
+T0559,C080,2025-07-24,18-25,Female,Ballari,Tea,Beverages,2,120,Cash,Yes
+T0559,C080,2025-07-24,18-25,Female,Ballari,Chips,Snacks,1,25,Cash,Yes
+T0560,C072,2025-01-16,18-25,Male,Raichur,Milk,Dairy,2,30,Cash,Yes
+T0560,C072,2025-01-16,18-25,Male,Raichur,Toothpaste,Personal Care,1,60,Cash,Yes
+T0560,C072,2025-01-16,18-25,Male,Raichur,Shampoo,Personal Care,1,90,Cash,Yes
+T0560,C072,2025-01-16,18-25,Male,Raichur,Soap,Personal Care,2,35,Cash,Yes
+T0561,C023,2025-01-11,50+,Female,Bengaluru,Tea,Beverages,2,120,Card,Yes
+T0561,C023,2025-01-11,50+,Female,Bengaluru,Biscuits,Snacks,3,20,Card,Yes
+T0562,C015,2025-11-16,36-50,Female,Kalaburagi,Sugar,Grocery,1,45,UPI,Yes
+T0562,C015,2025-11-16,36-50,Female,Kalaburagi,Biscuits,Snacks,1,20,UPI,Yes
+T0562,C015,2025-11-16,36-50,Female,Kalaburagi,Tea,Beverages,1,120,UPI,Yes
+T0562,C015,2025-11-16,36-50,Female,Kalaburagi,Cooking Oil,Grocery,1,140,UPI,Yes
+T0562,C015,2025-11-16,36-50,Female,Kalaburagi,Detergent,Household,1,110,UPI,Yes
+T0563,C069,2025-11-12,26-35,Female,Hubballi,Milk,Dairy,3,30,Card,Yes
+T0563,C069,2025-11-12,26-35,Female,Hubballi,Chips,Snacks,2,25,Card,Yes
+T0563,C069,2025-11-12,26-35,Female,Hubballi,Sugar,Grocery,1,45,Card,Yes
+T0563,C069,2025-11-12,26-35,Female,Hubballi,Juice,Beverages,2,85,Card,Yes
+T0564,C032,2025-02-11,26-35,Male,Kalaburagi,Dal,Grocery,1,95,UPI,Yes
+T0564,C032,2025-02-11,26-35,Male,Kalaburagi,Onion,Vegetables,3,35,UPI,Yes
+T0564,C032,2025-02-11,26-35,Male,Kalaburagi,Potato,Vegetables,2,28,UPI,Yes
+T0564,C032,2025-02-11,26-35,Male,Kalaburagi,Tomato,Vegetables,3,30,UPI,Yes
+T0565,C066,2025-12-22,50+,Female,Ballari,Eggs,Dairy,2,70,UPI,No
+T0565,C066,2025-12-22,50+,Female,Ballari,Bread,Bakery,2,40,UPI,No
+T0565,C066,2025-12-22,50+,Female,Ballari,Detergent,Household,3,110,UPI,No
+T0565,C066,2025-12-22,50+,Female,Ballari,Biscuits,Snacks,2,20,UPI,No
+T0566,C075,2025-05-11,18-25,Male,Hubballi,Cooking Oil,Grocery,1,140,Card,Yes
+T0566,C075,2025-05-11,18-25,Male,Hubballi,Dal,Grocery,1,95,Card,Yes
+T0566,C075,2025-05-11,18-25,Male,Hubballi,Rice,Grocery,2,60,Card,Yes
+T0566,C075,2025-05-11,18-25,Male,Hubballi,Biscuits,Snacks,2,20,Card,Yes
+T0566,C075,2025-05-11,18-25,Male,Hubballi,Butter,Dairy,3,55,Card,Yes
+T0566,C075,2025-05-11,18-25,Male,Hubballi,Milk,Dairy,2,30,Card,Yes
+T0566,C075,2025-05-11,18-25,Male,Hubballi,Bread,Bakery,1,40,Card,Yes
+T0567,C075,2025-08-10,18-25,Male,Hubballi,Shampoo,Personal Care,2,90,UPI,No
+T0567,C075,2025-08-10,18-25,Male,Hubballi,Eggs,Dairy,2,70,UPI,No
+T0567,C075,2025-08-10,18-25,Male,Hubballi,Bread,Bakery,2,40,UPI,No
+T0568,C049,2025-05-31,50+,Male,Bengaluru,Shampoo,Personal Care,2,90,Card,Yes
+T0568,C049,2025-05-31,50+,Male,Bengaluru,Soap,Personal Care,1,35,Card,Yes
+T0569,C013,2025-06-04,36-50,Male,Hubballi,Dal,Grocery,1,95,Card,No
+T0569,C013,2025-06-04,36-50,Male,Hubballi,Rice,Grocery,3,60,Card,No
+T0569,C013,2025-06-04,36-50,Male,Hubballi,Tea,Beverages,3,120,Card,No
+T0569,C013,2025-06-04,36-50,Male,Hubballi,Cooking Oil,Grocery,1,140,Card,No
+T0569,C013,2025-06-04,36-50,Male,Hubballi,Juice,Beverages,3,85,Card,No
+T0570,C070,2025-10-24,26-35,Male,Hubballi,Butter,Dairy,2,55,Card,Yes
+T0570,C070,2025-10-24,26-35,Male,Hubballi,Milk,Dairy,3,30,Card,Yes
+T0570,C070,2025-10-24,26-35,Male,Hubballi,Chips,Snacks,3,25,Card,Yes
+T0570,C070,2025-10-24,26-35,Male,Hubballi,Bread,Bakery,1,40,Card,Yes
+T0571,C051,2025-08-25,26-35,Female,Hubballi,Sugar,Grocery,2,45,UPI,Yes
+T0571,C051,2025-08-25,26-35,Female,Hubballi,Biscuits,Snacks,1,20,UPI,Yes
+T0571,C051,2025-08-25,26-35,Female,Hubballi,Tea,Beverages,2,120,UPI,Yes
+T0571,C051,2025-08-25,26-35,Female,Hubballi,Shampoo,Personal Care,3,90,UPI,Yes
+T0571,C051,2025-08-25,26-35,Female,Hubballi,Tomato,Vegetables,2,30,UPI,Yes
+T0572,C027,2025-10-23,26-35,Female,Raichur,Eggs,Dairy,3,70,Cash,No
+T0573,C002,2025-06-03,26-35,Male,Raichur,Tomato,Vegetables,3,30,UPI,Yes
+T0573,C002,2025-06-03,26-35,Male,Raichur,Chips,Snacks,1,25,UPI,Yes
+T0573,C002,2025-06-03,26-35,Male,Raichur,Juice,Beverages,1,85,UPI,Yes
+T0574,C020,2025-09-01,26-35,Female,Bengaluru,Sugar,Grocery,3,45,Cash,No
+T0574,C020,2025-09-01,26-35,Female,Bengaluru,Dal,Grocery,2,95,Cash,No
+T0574,C020,2025-09-01,26-35,Female,Bengaluru,Coffee,Beverages,3,180,Cash,No
+T0574,C020,2025-09-01,26-35,Female,Bengaluru,Milk,Dairy,2,30,Cash,No
+T0574,C020,2025-09-01,26-35,Female,Bengaluru,Chips,Snacks,1,25,Cash,No
+T0575,C022,2025-04-12,26-35,Male,Raichur,Toothpaste,Personal Care,2,60,Cash,No
+T0575,C022,2025-04-12,26-35,Male,Raichur,Soap,Personal Care,1,35,Cash,No
+T0576,C030,2025-07-20,26-35,Female,Kalaburagi,Cooking Oil,Grocery,1,140,Cash,Yes
+T0576,C030,2025-07-20,26-35,Female,Kalaburagi,Soap,Personal Care,3,35,Cash,Yes
+T0576,C030,2025-07-20,26-35,Female,Kalaburagi,Rice,Grocery,2,60,Cash,Yes
+T0577,C062,2025-11-06,50+,Male,Ballari,Sugar,Grocery,3,45,Card,No
+T0577,C062,2025-11-06,50+,Male,Ballari,Rice,Grocery,1,60,Card,No
+T0577,C062,2025-11-06,50+,Male,Ballari,Biscuits,Snacks,3,20,Card,No
+T0577,C062,2025-11-06,50+,Male,Ballari,Tea,Beverages,3,120,Card,No
+T0577,C062,2025-11-06,50+,Male,Ballari,Cooking Oil,Grocery,3,140,Card,No
+T0578,C059,2025-05-07,26-35,Female,Hubballi,Potato,Vegetables,3,28,Card,No
+T0579,C063,2025-06-27,18-25,Female,Bengaluru,Shampoo,Personal Care,2,90,Card,No
+T0579,C063,2025-06-27,18-25,Female,Bengaluru,Eggs,Dairy,3,70,Card,No
+T0579,C063,2025-06-27,18-25,Female,Bengaluru,Bread,Bakery,1,40,Card,No
+T0580,C054,2025-02-18,26-35,Male,Bengaluru,Onion,Vegetables,1,35,UPI,Yes
+T0580,C054,2025-02-18,26-35,Male,Bengaluru,Cooking Oil,Grocery,1,140,UPI,Yes
+T0580,C054,2025-02-18,26-35,Male,Bengaluru,Toothpaste,Personal Care,2,60,UPI,Yes
+T0580,C054,2025-02-18,26-35,Male,Bengaluru,Shampoo,Personal Care,3,90,UPI,Yes
+T0580,C054,2025-02-18,26-35,Male,Bengaluru,Soap,Personal Care,3,35,UPI,Yes
+T0581,C038,2025-07-08,36-50,Female,Ballari,Dal,Grocery,3,95,Cash,Yes
+T0581,C038,2025-07-08,36-50,Female,Ballari,Rice,Grocery,2,60,Cash,Yes
+T0581,C038,2025-07-08,36-50,Female,Ballari,Cooking Oil,Grocery,2,140,Cash,Yes
+T0581,C038,2025-07-08,36-50,Female,Ballari,Chips,Snacks,2,25,Cash,Yes
+T0581,C038,2025-07-08,36-50,Female,Ballari,Juice,Beverages,1,85,Cash,Yes
+T0582,C033,2025-06-25,50+,Male,Ballari,Butter,Dairy,1,55,Card,No
+T0582,C033,2025-06-25,50+,Male,Ballari,Chips,Snacks,2,25,Card,No
+T0582,C033,2025-06-25,50+,Male,Ballari,Bread,Bakery,1,40,Card,No
+T0582,C033,2025-06-25,50+,Male,Ballari,Shampoo,Personal Care,1,90,Card,No
+T0583,C033,2025-02-12,50+,Male,Ballari,Toothpaste,Personal Care,3,60,Card,Yes
+T0583,C033,2025-02-12,50+,Male,Ballari,Shampoo,Personal Care,2,90,Card,Yes
+T0583,C033,2025-02-12,50+,Male,Ballari,Soap,Personal Care,1,35,Card,Yes
+T0584,C061,2025-10-01,50+,Male,Hubballi,Eggs,Dairy,1,70,Card,No
+T0584,C061,2025-10-01,50+,Male,Hubballi,Shampoo,Personal Care,1,90,Card,No
+T0585,C002,2025-11-22,26-35,Male,Raichur,Dal,Grocery,2,95,Card,Yes
+T0585,C002,2025-11-22,26-35,Male,Raichur,Rice,Grocery,3,60,Card,Yes
+T0585,C002,2025-11-22,26-35,Male,Raichur,Cooking Oil,Grocery,2,140,Card,Yes
+T0585,C002,2025-11-22,26-35,Male,Raichur,Onion,Vegetables,2,35,Card,Yes
+T0585,C002,2025-11-22,26-35,Male,Raichur,Potato,Vegetables,1,28,Card,Yes
+T0585,C002,2025-11-22,26-35,Male,Raichur,Tomato,Vegetables,3,30,Card,Yes
+T0586,C001,2025-04-13,18-25,Male,Bengaluru,Coffee,Beverages,2,180,Cash,Yes
+T0586,C001,2025-04-13,18-25,Male,Bengaluru,Milk,Dairy,1,30,Cash,Yes
+T0586,C001,2025-04-13,18-25,Male,Bengaluru,Sugar,Grocery,1,45,Cash,Yes
+T0587,C044,2025-01-23,36-50,Female,Ballari,Dal,Grocery,2,95,UPI,Yes
+T0587,C044,2025-01-23,36-50,Female,Ballari,Rice,Grocery,2,60,UPI,Yes
+T0587,C044,2025-01-23,36-50,Female,Ballari,Cooking Oil,Grocery,3,140,UPI,Yes
+T0587,C044,2025-01-23,36-50,Female,Ballari,Potato,Vegetables,3,28,UPI,Yes
+T0588,C025,2025-07-19,26-35,Male,Bengaluru,Sugar,Grocery,1,45,Cash,No
+T0588,C025,2025-07-19,26-35,Male,Bengaluru,Biscuits,Snacks,1,20,Cash,No
+T0588,C025,2025-07-19,26-35,Male,Bengaluru,Tea,Beverages,3,120,Cash,No
+T0588,C025,2025-07-19,26-35,Male,Bengaluru,Onion,Vegetables,2,35,Cash,No
+T0588,C025,2025-07-19,26-35,Male,Bengaluru,Bread,Bakery,3,40,Cash,No
+T0588,C025,2025-07-19,26-35,Male,Bengaluru,Juice,Beverages,3,85,Cash,No
+T0589,C048,2025-12-31,18-25,Male,Raichur,Cooking Oil,Grocery,2,140,Card,Yes
+T0589,C048,2025-12-31,18-25,Male,Raichur,Eggs,Dairy,1,70,Card,Yes
+T0589,C048,2025-12-31,18-25,Male,Raichur,Dal,Grocery,3,95,Card,Yes
+T0589,C048,2025-12-31,18-25,Male,Raichur,Rice,Grocery,2,60,Card,Yes
+T0590,C050,2025-06-21,50+,Male,Kalaburagi,Eggs,Dairy,2,70,Cash,No
+T0590,C050,2025-06-21,50+,Male,Kalaburagi,Toothpaste,Personal Care,3,60,Cash,No
+T0590,C050,2025-06-21,50+,Male,Kalaburagi,Shampoo,Personal Care,3,90,Cash,No
+T0590,C050,2025-06-21,50+,Male,Kalaburagi,Soap,Personal Care,3,35,Cash,No
+T0590,C050,2025-06-21,50+,Male,Kalaburagi,Bread,Bakery,1,40,Cash,No
+T0591,C065,2025-01-31,18-25,Male,Ballari,Milk,Dairy,2,30,Cash,No
+T0591,C065,2025-01-31,18-25,Male,Ballari,Cooking Oil,Grocery,2,140,Cash,No
+T0591,C065,2025-01-31,18-25,Male,Ballari,Rice,Grocery,1,60,Cash,No
+T0591,C065,2025-01-31,18-25,Male,Ballari,Dal,Grocery,1,95,Cash,No
+T0592,C049,2025-03-10,50+,Male,Bengaluru,Butter,Dairy,3,55,UPI,No
+T0592,C049,2025-03-10,50+,Male,Bengaluru,Milk,Dairy,1,30,UPI,No
+T0592,C049,2025-03-10,50+,Male,Bengaluru,Bread,Bakery,3,40,UPI,No
+T0592,C049,2025-03-10,50+,Male,Bengaluru,Juice,Beverages,2,85,UPI,No
+T0593,C037,2025-12-18,36-50,Male,Ballari,Sugar,Grocery,3,45,Card,Yes
+T0593,C037,2025-12-18,36-50,Male,Ballari,Biscuits,Snacks,2,20,Card,Yes
+T0593,C037,2025-12-18,36-50,Male,Ballari,Tea,Beverages,3,120,Card,Yes
+T0593,C037,2025-12-18,36-50,Male,Ballari,Milk,Dairy,2,30,Card,Yes
+T0594,C024,2025-11-21,26-35,Female,Ballari,Butter,Dairy,1,55,Cash,Yes
+T0594,C024,2025-11-21,26-35,Female,Ballari,Milk,Dairy,1,30,Cash,Yes
+T0595,C023,2025-05-27,50+,Female,Bengaluru,Sugar,Grocery,3,45,Card,No
+T0595,C023,2025-05-27,50+,Female,Bengaluru,Dal,Grocery,1,95,Card,No
+T0595,C023,2025-05-27,50+,Female,Bengaluru,Rice,Grocery,2,60,Card,No
+T0595,C023,2025-05-27,50+,Female,Bengaluru,Biscuits,Snacks,2,20,Card,No
+T0595,C023,2025-05-27,50+,Female,Bengaluru,Tea,Beverages,1,120,Card,No
+T0595,C023,2025-05-27,50+,Female,Bengaluru,Cooking Oil,Grocery,2,140,Card,No
+T0595,C023,2025-05-27,50+,Female,Bengaluru,Coffee,Beverages,2,180,Card,No
+T0596,C049,2025-09-04,50+,Male,Bengaluru,Soap,Personal Care,2,35,Cash,No
+T0596,C049,2025-09-04,50+,Male,Bengaluru,Eggs,Dairy,1,70,Cash,No
+T0596,C049,2025-09-04,50+,Male,Bengaluru,Bread,Bakery,2,40,Cash,No
+T0596,C049,2025-09-04,50+,Male,Bengaluru,Rice,Grocery,3,60,Cash,No
+T0597,C069,2025-11-07,26-35,Female,Hubballi,Toothpaste,Personal Care,2,60,UPI,Yes
+T0597,C069,2025-11-07,26-35,Female,Hubballi,Shampoo,Personal Care,1,90,UPI,Yes
+T0597,C069,2025-11-07,26-35,Female,Hubballi,Soap,Personal Care,3,35,UPI,Yes
+T0597,C069,2025-11-07,26-35,Female,Hubballi,Tomato,Vegetables,2,30,UPI,Yes
+T0598,C026,2025-07-27,50+,Female,Ballari,Toothpaste,Personal Care,3,60,UPI,No
+T0598,C026,2025-07-27,50+,Female,Ballari,Sugar,Grocery,2,45,UPI,No
+T0598,C026,2025-07-27,50+,Female,Ballari,Biscuits,Snacks,2,20,UPI,No
+T0599,C063,2025-03-25,18-25,Female,Bengaluru,Onion,Vegetables,2,35,Cash,No
+T0599,C063,2025-03-25,18-25,Female,Bengaluru,Dal,Grocery,3,95,Cash,No
+T0599,C063,2025-03-25,18-25,Female,Bengaluru,Rice,Grocery,2,60,Cash,No
+T0600,C066,2025-09-02,50+,Female,Ballari,Eggs,Dairy,3,70,Cash,No
+T0600,C066,2025-09-02,50+,Female,Ballari,Sugar,Grocery,3,45,Cash,No
+T0600,C066,2025-09-02,50+,Female,Ballari,Chips,Snacks,3,25,Cash,No
+T0600,C066,2025-09-02,50+,Female,Ballari,Bread,Bakery,1,40,Cash,No
+T0600,C066,2025-09-02,50+,Female,Ballari,Potato,Vegetables,3,28,Cash,No
+T0600,C066,2025-09-02,50+,Female,Ballari,Juice,Beverages,3,85,Cash,No
+T0001,C001,2025-06-01,18-25,Male,Ballari,Bread,Bakery,1,40,UPI,No
+T0001,C001,2025-06-01,18-25,Male,Ballari,Bread,Bakery,1,40,UPI,No
+T0001,C001,2025-06-01,18-25,Male,Ballari,Bread,Bakery,1,40,UPI,No
+T0601,C005,2025-07-12,26-35,Female,Raichur,,Grocery,2,95,Cash,Yes
+T0602,C012,2025-08-19,50+,Male,Bengaluru,,Dairy,1,30,Card,No
+T0603,C022,2025-03-22,36-50,Female,Hubballi,Chips,Snacks,-5,25,UPI,No
+T0604,C031,2025-11-05,18-25,Male,Kalaburagi,Tomato,Vegetables,3,0,Cash,No
+T0605,C044,2025-01-15,26-35,Female,,Milk,Dairy,1,30,UPI,Yes

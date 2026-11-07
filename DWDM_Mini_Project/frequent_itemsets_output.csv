@@ -1,0 +1,51 @@
+support,itemsets
+0.19800332778702162,frozenset({'Biscuits'})
+0.3211314475873544,frozenset({'Bread'})
+0.19633943427620631,frozenset({'Butter'})
+0.17470881863560733,frozenset({'Chips'})
+0.1930116472545757,frozenset({'Coffee'})
+0.17304492512479203,frozenset({'Cooking Oil'})
+0.17970049916805325,frozenset({'Dal'})
+0.05490848585690516,frozenset({'Detergent'})
+0.21797004991680533,frozenset({'Eggs'})
+0.17970049916805325,frozenset({'Juice'})
+0.32945091514143093,frozenset({'Milk'})
+0.1713810316139767,frozenset({'Onion'})
+0.1896838602329451,frozenset({'Potato'})
+0.194675540765391,frozenset({'Rice'})
+0.1930116472545757,frozenset({'Shampoo'})
+0.16805324459234608,frozenset({'Soap'})
+0.3178036605657238,frozenset({'Sugar'})
+0.16638935108153077,frozenset({'Tea'})
+0.1913477537437604,frozenset({'Tomato'})
+0.17803660565723795,frozenset({'Toothpaste'})
+0.14309484193011648,"frozenset({'Sugar', 'Biscuits'})"
+0.12312811980033278,"frozenset({'Tea', 'Biscuits'})"
+0.12479201331114809,"frozenset({'Bread', 'Butter'})"
+0.051580698835274545,"frozenset({'Bread', 'Coffee'})"
+0.1497504159733777,"frozenset({'Eggs', 'Bread'})"
+0.16139767054908485,"frozenset({'Bread', 'Milk'})"
+0.06156405990016639,"frozenset({'Bread', 'Sugar'})"
+0.1447587354409318,"frozenset({'Milk', 'Butter'})"
+0.10981697171381032,"frozenset({'Juice', 'Chips'})"
+0.13477537437603992,"frozenset({'Coffee', 'Milk'})"
+0.13810316139767054,"frozenset({'Sugar', 'Coffee'})"
+0.11314475873544093,"frozenset({'Dal', 'Cooking Oil'})"
+0.11480865224625623,"frozenset({'Rice', 'Cooking Oil'})"
+0.11480865224625623,"frozenset({'Dal', 'Rice'})"
+0.05490848585690516,"frozenset({'Eggs', 'Sugar'})"
+0.15307820299500832,"frozenset({'Sugar', 'Milk'})"
+0.051580698835274545,"frozenset({'Tomato', 'Milk'})"
+0.11813643926788686,"frozenset({'Potato', 'Onion'})"
+0.11480865224625623,"frozenset({'Tomato', 'Onion'})"
+0.13311148086522462,"frozenset({'Tomato', 'Potato'})"
+0.11314475873544093,"frozenset({'Shampoo', 'Soap'})"
+0.11813643926788686,"frozenset({'Shampoo', 'Toothpaste'})"
+0.10981697171381032,"frozenset({'Soap', 'Toothpaste'})"
+0.12146422628951747,"frozenset({'Sugar', 'Tea'})"
+0.11148086522462562,"frozenset({'Sugar', 'Tea', 'Biscuits'})"
+0.11314475873544093,"frozenset({'Bread', 'Milk', 'Butter'})"
+0.11314475873544093,"frozenset({'Sugar', 'Milk', 'Coffee'})"
+0.09317803660565724,"frozenset({'Dal', 'Rice', 'Cooking Oil'})"
+0.1048252911813644,"frozenset({'Tomato', 'Onion', 'Potato'})"
+0.09151414309484193,"frozenset({'Shampoo', 'Soap', 'Toothpaste'})"
